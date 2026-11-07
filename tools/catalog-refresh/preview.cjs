@@ -1,0 +1,2 @@
+const {chromium}=require('C:/Users/ayoub/wordpress-catalog-tools/node_modules/playwright');
+(async()=>{const b=await chromium.launch({channel:'msedge',headless:true});const p=await b.newPage({viewport:{width:1440,height:1000}});await p.goto('http://localhost/wordpress/',{waitUntil:'networkidle'});await p.screenshot({path:'C:/Users/ayoub/wordpress-catalog-backup/before-home.png',fullPage:true});console.log(await p.title());await b.close()})().catch(e=>{console.error(e);process.exit(1)});

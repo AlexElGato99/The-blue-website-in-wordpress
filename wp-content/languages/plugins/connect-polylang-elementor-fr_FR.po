@@ -1,0 +1,383 @@
+# Translation of Plugins - Connect Polylang for Elementor - Stable (latest release) in French (France)
+# This file is distributed under the same license as the Plugins - Connect Polylang for Elementor - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2026-09-03 14:25:02+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/4.1.0\n"
+"Language: fr\n"
+"Project-Id-Version: Plugins - Connect Polylang for Elementor - Stable (latest release)\n"
+
+#: includes/admin-extras.php:98
+msgid "Affiliated"
+msgstr "Affilié"
+
+#: includes/admin-extras.php:97
+msgid "AI Translation"
+msgstr "Traduction par IA"
+
+#: includes/admin-extras.php:96
+msgid "AI Translation For Polylang"
+msgstr "Traduction IA pour Polylang"
+
+#. Plugin Name of the plugin
+#: connect-polylang-elementor.php
+msgid "Connect Polylang for Elementor"
+msgstr "Connect Polylang for Elementor"
+
+#: includes/connect-plugins.php:694
+msgid "Add a translation — %s"
+msgstr "Ajout d´une traduction — %s"
+
+#: includes/widgets/polylang-language-switcher.php:481
+msgid "Up"
+msgstr "En haut"
+
+#: includes/widgets/polylang-language-switcher.php:477
+msgid "Down"
+msgstr "En bas"
+
+#: includes/widgets/polylang-language-switcher.php:473
+msgid "Drop Direction"
+msgstr "Sens du déploiement"
+
+#: includes/widgets/polylang-language-switcher.php:463
+msgid "On Mouse Hover"
+msgstr "Au survol de la souris"
+
+#: includes/widgets/polylang-language-switcher.php:462
+msgid "On Click"
+msgstr "Au clic"
+
+#: includes/widgets/polylang-language-switcher.php:459
+msgid "Drop"
+msgstr "Déploiement"
+
+#: includes/connect-plugins.php:466
+msgid "None"
+msgstr "Aucun"
+
+#: includes/connect-plugins.php:838
+msgid "(from %s)"
+msgstr "(à partir de %s)"
+
+#: includes/connect-plugins.php:832
+msgid "No instances"
+msgstr "Pas d’instances"
+
+#. Description of the plugin
+#: connect-polylang-elementor.php
+msgid "Connect Polylang with Elementor. Display templates in the correct language, language switcher widget, language visibility conditions and dynamic tags."
+msgstr "Connectez Polylang avec Elementor. Affichez les modèles dans la langue demandée, le widget sélecteur de langue, les conditions d’affichage basées sur la langue et les étiquettes dynamiques."
+
+#: includes/widgets/polylang-language-switcher.php:683
+msgid "After"
+msgstr "Après"
+
+#: includes/widgets/polylang-language-switcher.php:675
+msgid "Before"
+msgstr "Avant"
+
+#: includes/widgets/polylang-language-switcher.php:650
+msgctxt "Typography Control"
+msgid "Uppercase"
+msgstr "Majuscules"
+
+#: includes/widgets/polylang-language-switcher.php:620
+#: includes/widgets/polylang-language-switcher.php:660
+msgid "Text Indent"
+msgstr "Indentation du texte"
+
+#: includes/widgets/polylang-language-switcher.php:590
+msgid "Border Radius"
+msgstr "Rayon de la bordure"
+
+#: includes/widgets/polylang-language-switcher.php:573
+msgid "Size"
+msgstr "Taille"
+
+#: includes/widgets/polylang-language-switcher.php:558
+msgid "Aspect Ratio"
+msgstr "Proportion de taille"
+
+#: includes/widgets/polylang-language-switcher.php:539
+msgid "Flag"
+msgstr "Drapeau"
+
+#: includes/widgets/polylang-language-switcher.php:517
+msgid "Icon Spacing"
+msgstr "Espacement de l’icône"
+
+#: includes/widgets/polylang-language-switcher.php:493
+msgid "Icon"
+msgstr "Icône"
+
+#: includes/widgets/polylang-language-switcher.php:309
+#: includes/widgets/polylang-language-switcher.php:350
+msgid "Background Color"
+msgstr "Couleur de l’arrière-plan"
+
+#: includes/widgets/polylang-language-switcher.php:258
+msgid "Displays language codes"
+msgstr "Affiche les codes de langue"
+
+#: includes/widgets/polylang-language-switcher.php:248
+msgid "Displays language names"
+msgstr "Affiche les noms de langue"
+
+#: includes/widgets/polylang-language-switcher.php:238
+msgid "Displays flags"
+msgstr "Afficher les drapeaux"
+
+#: includes/widgets/polylang-language-switcher.php:190
+msgid "Alignment"
+msgstr "Alignement"
+
+#: includes/widgets/polylang-language-switcher.php:179
+#: includes/widgets/polylang-language-switcher.php:450
+msgid "Dropdown"
+msgstr "Liste déroulante"
+
+#: includes/widgets/polylang-language-switcher.php:104
+msgctxt "Comma separated keywords"
+msgid "languages, switcher, polylang, multilingual, flags, countries, country"
+msgstr "Langues, sélecteur, polylang, multilingue, drapeaux, pays"
+
+#: includes/widgets/polylang-language-switcher.php:55
+msgid "Language switcher"
+msgstr "Sélecteur de langue"
+
+#: includes/language-visibility.php:108
+msgid "When language is:"
+msgstr "Quand la langue est :"
+
+#: includes/language-visibility.php:94
+msgid "Hide"
+msgstr "Masquer"
+
+#: includes/language-visibility.php:90
+msgid "Show"
+msgstr "Afficher"
+
+#: includes/language-visibility.php:86
+msgid "Visibility"
+msgstr "Visibilité"
+
+#: includes/language-visibility.php:76
+msgid "Enable"
+msgstr "Activer"
+
+#: includes/language-visibility.php:68
+msgid "Language Visibility"
+msgstr "Visibilité de la langue"
+
+#: includes/finder/polylang-category.php:82
+msgctxt "Tags in Elementor Finder"
+msgid "polylang,settings,options,modules"
+msgstr "polylang, réglages, paramètres, modules"
+
+#: includes/finder/polylang-category.php:74
+msgctxt "Tags in Elementor Finder"
+msgid "polylang,translations,translate,strings"
+msgstr "polylang, traductions, traduire, chaines"
+
+#: includes/finder/polylang-category.php:67
+msgid "All languages of your website"
+msgstr "Toutes les langues de votre site web."
+
+#: includes/finder/polylang-category.php:66
+msgctxt "Tags in Elementor Finder"
+msgid "polylang,languages,setup,flags,country,countries"
+msgstr "polylang, langues, réglages, drapeaux, pays"
+
+#: includes/connect-plugins.php:704 includes/connect-plugins.php:925
+#: includes/dynamic-tags/manager.php:40
+#: includes/finder/polylang-category.php:29
+msgid "Languages"
+msgstr "Langues"
+
+#: includes/dynamic-tags/language-flag.php:46
+#: includes/widgets/polylang-language-switcher.php:548
+msgid "Scalable Image"
+msgstr "Image évolutive"
+
+#: includes/dynamic-tags/language-flag.php:36
+#: includes/dynamic-tags/tag-trait.php:24
+msgid "Language"
+msgstr "Langue"
+
+#: includes/dynamic-tags/language-flag.php:31
+#: includes/dynamic-tags/tag-trait.php:19
+msgid "Current Language"
+msgstr "Langue actuelle"
+
+#: includes/connect-plugins.php:695 includes/connect-plugins.php:974
+msgid "Add a translation in %s"
+msgstr "Ajouter une traduction dans %s"
+
+#. Author URI of the plugin
+#: connect-polylang-elementor.php
+msgid "https://crea.me/"
+msgstr "https://crea.me/"
+
+#. Author of the plugin
+#: connect-polylang-elementor.php
+msgid "Creame"
+msgstr "Creame"
+
+#: includes/admin-extras.php:64
+msgctxt "Link title attribute for Elementor My Templates"
+msgid "Templates"
+msgstr "Modèles"
+
+#. translators: Title attribute for Elementor My Templates link
+#: includes/admin-extras.php:63
+msgid "Elementor My Templates"
+msgstr "Modèles Elementor"
+
+#: includes/admin-extras.php:51
+msgctxt "Link title attribute for Polylang settings"
+msgid "Languages"
+msgstr "Langues"
+
+#. translators: Title attribute for Polylang settings link
+#: includes/admin-extras.php:50
+msgid "Polylang Languages Setup"
+msgstr "Configuration des langues Polylang"
+
+#: includes/dynamic-tags/language-name.php:19
+msgctxt "Elementor Dynamic Tag title"
+msgid "Language Name"
+msgstr "Nom de la langue actuelle"
+
+#: includes/dynamic-tags/language-code.php:19
+msgctxt "Elementor Dynamic Tag title"
+msgid "Language Code"
+msgstr "Code de la langue actuelle "
+
+#: includes/dynamic-tags/language-flag.php:20
+msgctxt "Elementor Dynamic Tag title"
+msgid "Language Flag"
+msgstr "Drapeau de la langue actuelle"
+
+#: includes/dynamic-tags/language-url.php:19
+msgctxt "Elementor Dynamic Tag title"
+msgid "Language URL"
+msgstr "Noms des langues"
+
+#: includes/widgets/polylang-language-switcher.php:641
+msgid "Language Code"
+msgstr "Code de langue"
+
+#: includes/widgets/polylang-language-switcher.php:611
+msgid "Language Name"
+msgstr "Nom de la langue"
+
+#: includes/widgets/polylang-language-switcher.php:428
+msgid "Space Between"
+msgstr "Espace entre"
+
+#: includes/widgets/polylang-language-switcher.php:414
+msgid "Vertical Padding"
+msgstr "Marge interne verticale"
+
+#: includes/widgets/polylang-language-switcher.php:399
+msgid "Horizontal Padding"
+msgstr "Marge interne horizontale"
+
+#: includes/widgets/polylang-language-switcher.php:365
+msgid "Active"
+msgstr "Active"
+
+#: includes/widgets/polylang-language-switcher.php:323
+msgid "Hover"
+msgstr "Au survol"
+
+#: includes/widgets/polylang-language-switcher.php:295
+#: includes/widgets/polylang-language-switcher.php:338
+#: includes/widgets/polylang-language-switcher.php:385
+msgid "Text Color"
+msgstr "Couleur du texte"
+
+#: includes/widgets/polylang-language-switcher.php:280
+msgid "Normal"
+msgstr "Normale"
+
+#: includes/widgets/polylang-language-switcher.php:271
+msgid "Main Menu"
+msgstr "Menu principal"
+
+#: includes/widgets/polylang-language-switcher.php:228
+msgid "Hides languages with no translation"
+msgstr "Masquer les langues sans aucune traduction"
+
+#: includes/widgets/polylang-language-switcher.php:217
+msgid "Hides the current language"
+msgstr "Masquer la langue actuelle"
+
+#: includes/widgets/polylang-language-switcher.php:206
+msgid "Stretch"
+msgstr "Étirer"
+
+#: includes/widgets/polylang-language-switcher.php:202
+msgid "Right"
+msgstr "Droite"
+
+#: includes/widgets/polylang-language-switcher.php:198
+msgid "Center"
+msgstr "Centrer"
+
+#: includes/widgets/polylang-language-switcher.php:194
+msgid "Left"
+msgstr "A gauche"
+
+#: includes/widgets/polylang-language-switcher.php:178
+msgid "Vertical"
+msgstr "Verticale"
+
+#: includes/widgets/polylang-language-switcher.php:177
+msgid "Horizontal"
+msgstr "Horizontale"
+
+#: includes/widgets/polylang-language-switcher.php:174
+msgid "Layout"
+msgstr "Mise en page"
+
+#: includes/widgets/polylang-language-switcher.php:168
+msgid "Content"
+msgstr "Contenu"
+
+#: includes/finder/polylang-category.php:83
+msgid "Plugin's settings, enable/disable modules"
+msgstr "Réglages de l’extension, activer/désactiver les modules"
+
+#: includes/finder/polylang-category.php:79
+msgctxt "Title in Elementor Finder"
+msgid "Settings"
+msgstr "Réglages"
+
+#: includes/finder/polylang-category.php:75
+msgid "From Widgets and other website parts"
+msgstr "De widgets et d’autres parties du site"
+
+#: includes/finder/polylang-category.php:71
+msgctxt "Title in Elementor Finder"
+msgid "String Translations"
+msgstr "Traductions de chaînes"
+
+#: includes/finder/polylang-category.php:63
+msgctxt "Title in Elementor Finder"
+msgid "Setup Languages"
+msgstr "Configuration des langues"
+
+#: includes/finder/polylang-category.php:106
+msgid "View website in this language"
+msgstr "Voir le site web dans cette langue"
+
+#. Plugin URI of the plugin
+#: connect-polylang-elementor.php
+msgid "https://github.com/creame/connect-polylang-elementor"
+msgstr "https://github.com/deckerweb/connect-polylang-elementor"

@@ -1,0 +1,2 @@
+const {chromium}=require('C:/Users/ayoub/wordpress-catalog-tools/node_modules/playwright');
+(async()=>{const b=await chromium.launch({channel:'msedge',headless:true});const p=await b.newPage();await p.goto('http://localhost/wordpress/');console.log(await p.locator('header').evaluate(e=>({html:e.outerHTML.slice(0,1800),box:e.getBoundingClientRect().toJSON(),imgs:[...e.querySelectorAll('img')].map(i=>({src:i.src,w:i.width,n:i.naturalWidth})),css:[...document.querySelectorAll('link[rel=stylesheet]')].map(l=>l.href)})));await b.close()})();

@@ -1,0 +1,1632 @@
+{
+  "method": "Built-in image editing for liquid master and supporting scenes; shared photo master with native vector label typesetting for pixel-identical product geometry.",
+  "master": {
+    "prompt": "Use case: precise-object-edit. Edit the supplied product photo into a standardized catalog master. Preserve the same real glass vial shape/proportions, pharmacy-green flip-off cap, silver crimp seal, white wrap label with green band, PEPTIDE RESEARCH at the top and RESEARCH USE ONLY near the bottom. REMOVE ONLY the large product-name text GHK-Cu and leave that central name area clean blank white for precision typesetting later. Replace ALL powder with completely clear COLORLESS WATER filling approximately 80% of the vial, with an unmistakable horizontal waterline and natural transparent meniscus clearly visible in the exposed shoulder above the label, plus clear liquid visible below the label. ZERO powder, granules, white solids, sediment, cloudiness, bubbles or colored liquid. The water must look neutral and colorless like clean drinking water; no green tint or green illumination in glass or liquid. Use neutral white studio light. Green only on cap and narrow label stripe; text dark forest. Smooth neutral off-white seamless background with soft grounded shadow. Square composition: one upright bottle perfectly centered, occupying exactly 72% of image height, with balanced 14% top and bottom margins and equal side margins. Premium photorealistic commercial product photography, realistic clear glass refraction, sharp precise packaging. No additional text or objects.",
+    "path": "D:/wordpress-liquid-correction/bottle-master.png"
+  },
+  "product_dimensions": [
+    1600,
+    1600
+  ],
+  "products": [
+    {
+      "slug": "mt-1",
+      "name": "MT-1",
+      "path": "D:/wordpress-liquid-correction/mt-1.png",
+      "width": 1600,
+      "height": 1600,
+      "master": "D:/wordpress-liquid-correction/bottle-master.png",
+      "fontSize": 110,
+      "lines": [
+        "MT-1"
+      ],
+      "bottleImage": {
+        "x": 0,
+        "y": 0,
+        "width": 1600,
+        "height": 1600
+      },
+      "labelBox": {
+        "x": 545,
+        "y": 865,
+        "width": 510,
+        "height": 230
+      },
+      "website_file": "C:/xampp/htdocs/wordpress/wp-content/uploads/catalog-liquid-2026/mt-1.webp",
+      "attachment_id": 780
+    },
+    {
+      "slug": "mt-2-melanotan-2-acetate",
+      "name": "MT-2 (Melanotan 2 Acetate)",
+      "path": "D:/wordpress-liquid-correction/mt-2-melanotan-2-acetate.png",
+      "width": 1600,
+      "height": 1600,
+      "master": "D:/wordpress-liquid-correction/bottle-master.png",
+      "fontSize": 64,
+      "lines": [
+        "MT-2",
+        "(Melanotan 2",
+        "Acetate)"
+      ],
+      "bottleImage": {
+        "x": 0,
+        "y": 0,
+        "width": 1600,
+        "height": 1600
+      },
+      "labelBox": {
+        "x": 545,
+        "y": 865,
+        "width": 510,
+        "height": 230
+      },
+      "website_file": "C:/xampp/htdocs/wordpress/wp-content/uploads/catalog-liquid-2026/mt-2-melanotan-2-acetate.webp",
+      "attachment_id": 781
+    },
+    {
+      "slug": "pt-141",
+      "name": "PT-141",
+      "path": "D:/wordpress-liquid-correction/pt-141.png",
+      "width": 1600,
+      "height": 1600,
+      "master": "D:/wordpress-liquid-correction/bottle-master.png",
+      "fontSize": 110,
+      "lines": [
+        "PT-141"
+      ],
+      "bottleImage": {
+        "x": 0,
+        "y": 0,
+        "width": 1600,
+        "height": 1600
+      },
+      "labelBox": {
+        "x": 545,
+        "y": 865,
+        "width": 510,
+        "height": 230
+      },
+      "website_file": "C:/xampp/htdocs/wordpress/wp-content/uploads/catalog-liquid-2026/pt-141.webp",
+      "attachment_id": 782
+    },
+    {
+      "slug": "gonadorelin-acetate",
+      "name": "Gonadorelin Acetate",
+      "path": "D:/wordpress-liquid-correction/gonadorelin-acetate.png",
+      "width": 1600,
+      "height": 1600,
+      "master": "D:/wordpress-liquid-correction/bottle-master.png",
+      "fontSize": 82,
+      "lines": [
+        "Gonadorelin",
+        "Acetate"
+      ],
+      "bottleImage": {
+        "x": 0,
+        "y": 0,
+        "width": 1600,
+        "height": 1600
+      },
+      "labelBox": {
+        "x": 545,
+        "y": 865,
+        "width": 510,
+        "height": 230
+      },
+      "website_file": "C:/xampp/htdocs/wordpress/wp-content/uploads/catalog-liquid-2026/gonadorelin-acetate.webp",
+      "attachment_id": 783
+    },
+    {
+      "slug": "dsip",
+      "name": "DSIP",
+      "path": "D:/wordpress-liquid-correction/dsip.png",
+      "width": 1600,
+      "height": 1600,
+      "master": "D:/wordpress-liquid-correction/bottle-master.png",
+      "fontSize": 110,
+      "lines": [
+        "DSIP"
+      ],
+      "bottleImage": {
+        "x": 0,
+        "y": 0,
+        "width": 1600,
+        "height": 1600
+      },
+      "labelBox": {
+        "x": 545,
+        "y": 865,
+        "width": 510,
+        "height": 230
+      },
+      "website_file": "C:/xampp/htdocs/wordpress/wp-content/uploads/catalog-liquid-2026/dsip.webp",
+      "attachment_id": 784
+    },
+    {
+      "slug": "selank",
+      "name": "Selank",
+      "path": "D:/wordpress-liquid-correction/selank.png",
+      "width": 1600,
+      "height": 1600,
+      "master": "D:/wordpress-liquid-correction/bottle-master.png",
+      "fontSize": 110,
+      "lines": [
+        "Selank"
+      ],
+      "bottleImage": {
+        "x": 0,
+        "y": 0,
+        "width": 1600,
+        "height": 1600
+      },
+      "labelBox": {
+        "x": 545,
+        "y": 865,
+        "width": 510,
+        "height": 230
+      },
+      "website_file": "C:/xampp/htdocs/wordpress/wp-content/uploads/catalog-liquid-2026/selank.webp",
+      "attachment_id": 785
+    },
+    {
+      "slug": "oxytocin-acetate",
+      "name": "Oxytocin Acetate",
+      "path": "D:/wordpress-liquid-correction/oxytocin-acetate.png",
+      "width": 1600,
+      "height": 1600,
+      "master": "D:/wordpress-liquid-correction/bottle-master.png",
+      "fontSize": 96,
+      "lines": [
+        "Oxytocin",
+        "Acetate"
+      ],
+      "bottleImage": {
+        "x": 0,
+        "y": 0,
+        "width": 1600,
+        "height": 1600
+      },
+      "labelBox": {
+        "x": 545,
+        "y": 865,
+        "width": 510,
+        "height": 230
+      },
+      "website_file": "C:/xampp/htdocs/wordpress/wp-content/uploads/catalog-liquid-2026/oxytocin-acetate.webp",
+      "attachment_id": 786
+    },
+    {
+      "slug": "epithalon",
+      "name": "Epithalon",
+      "path": "D:/wordpress-liquid-correction/epithalon.png",
+      "width": 1600,
+      "height": 1600,
+      "master": "D:/wordpress-liquid-correction/bottle-master.png",
+      "fontSize": 106,
+      "lines": [
+        "Epithalon"
+      ],
+      "bottleImage": {
+        "x": 0,
+        "y": 0,
+        "width": 1600,
+        "height": 1600
+      },
+      "labelBox": {
+        "x": 545,
+        "y": 865,
+        "width": 510,
+        "height": 230
+      },
+      "website_file": "C:/xampp/htdocs/wordpress/wp-content/uploads/catalog-liquid-2026/epithalon.webp",
+      "attachment_id": 787
+    },
+    {
+      "slug": "bpc-157",
+      "name": "BPC-157",
+      "path": "D:/wordpress-liquid-correction/bpc-157.png",
+      "width": 1600,
+      "height": 1600,
+      "master": "D:/wordpress-liquid-correction/bottle-master.png",
+      "fontSize": 110,
+      "lines": [
+        "BPC-157"
+      ],
+      "bottleImage": {
+        "x": 0,
+        "y": 0,
+        "width": 1600,
+        "height": 1600
+      },
+      "labelBox": {
+        "x": 545,
+        "y": 865,
+        "width": 510,
+        "height": 230
+      },
+      "website_file": "C:/xampp/htdocs/wordpress/wp-content/uploads/catalog-liquid-2026/bpc-157.webp",
+      "attachment_id": 788
+    },
+    {
+      "slug": "bpc-157-tb-500",
+      "name": "BPC-157 + TB-500",
+      "path": "D:/wordpress-liquid-correction/bpc-157-tb-500.png",
+      "width": 1600,
+      "height": 1600,
+      "master": "D:/wordpress-liquid-correction/bottle-master.png",
+      "fontSize": 96,
+      "lines": [
+        "BPC-157 +",
+        "TB-500"
+      ],
+      "bottleImage": {
+        "x": 0,
+        "y": 0,
+        "width": 1600,
+        "height": 1600
+      },
+      "labelBox": {
+        "x": 545,
+        "y": 865,
+        "width": 510,
+        "height": 230
+      },
+      "website_file": "C:/xampp/htdocs/wordpress/wp-content/uploads/catalog-liquid-2026/bpc-157-tb-500.webp",
+      "attachment_id": 789
+    },
+    {
+      "slug": "aicar",
+      "name": "AICAR",
+      "path": "D:/wordpress-liquid-correction/aicar.png",
+      "width": 1600,
+      "height": 1600,
+      "master": "D:/wordpress-liquid-correction/bottle-master.png",
+      "fontSize": 110,
+      "lines": [
+        "AICAR"
+      ],
+      "bottleImage": {
+        "x": 0,
+        "y": 0,
+        "width": 1600,
+        "height": 1600
+      },
+      "labelBox": {
+        "x": 545,
+        "y": 865,
+        "width": 510,
+        "height": 230
+      },
+      "website_file": "C:/xampp/htdocs/wordpress/wp-content/uploads/catalog-liquid-2026/aicar.webp",
+      "attachment_id": 790
+    },
+    {
+      "slug": "adipotide",
+      "name": "Adipotide",
+      "path": "D:/wordpress-liquid-correction/adipotide.png",
+      "width": 1600,
+      "height": 1600,
+      "master": "D:/wordpress-liquid-correction/bottle-master.png",
+      "fontSize": 106,
+      "lines": [
+        "Adipotide"
+      ],
+      "bottleImage": {
+        "x": 0,
+        "y": 0,
+        "width": 1600,
+        "height": 1600
+      },
+      "labelBox": {
+        "x": 545,
+        "y": 865,
+        "width": 510,
+        "height": 230
+      },
+      "website_file": "C:/xampp/htdocs/wordpress/wp-content/uploads/catalog-liquid-2026/adipotide.webp",
+      "attachment_id": 791
+    },
+    {
+      "slug": "semax",
+      "name": "Semax",
+      "path": "D:/wordpress-liquid-correction/semax.png",
+      "width": 1600,
+      "height": 1600,
+      "master": "D:/wordpress-liquid-correction/bottle-master.png",
+      "fontSize": 110,
+      "lines": [
+        "Semax"
+      ],
+      "bottleImage": {
+        "x": 0,
+        "y": 0,
+        "width": 1600,
+        "height": 1600
+      },
+      "labelBox": {
+        "x": 545,
+        "y": 865,
+        "width": 510,
+        "height": 230
+      },
+      "website_file": "C:/xampp/htdocs/wordpress/wp-content/uploads/catalog-liquid-2026/semax.webp",
+      "attachment_id": 792
+    },
+    {
+      "slug": "adamax",
+      "name": "Adamax",
+      "path": "D:/wordpress-liquid-correction/adamax.png",
+      "width": 1600,
+      "height": 1600,
+      "master": "D:/wordpress-liquid-correction/bottle-master.png",
+      "fontSize": 110,
+      "lines": [
+        "Adamax"
+      ],
+      "bottleImage": {
+        "x": 0,
+        "y": 0,
+        "width": 1600,
+        "height": 1600
+      },
+      "labelBox": {
+        "x": 545,
+        "y": 865,
+        "width": 510,
+        "height": 230
+      },
+      "website_file": "C:/xampp/htdocs/wordpress/wp-content/uploads/catalog-liquid-2026/adamax.webp",
+      "attachment_id": 793
+    },
+    {
+      "slug": "semaglutide",
+      "name": "Semaglutide",
+      "path": "D:/wordpress-liquid-correction/semaglutide.png",
+      "width": 1600,
+      "height": 1600,
+      "master": "D:/wordpress-liquid-correction/bottle-master.png",
+      "fontSize": 82,
+      "lines": [
+        "Semaglutide"
+      ],
+      "bottleImage": {
+        "x": 0,
+        "y": 0,
+        "width": 1600,
+        "height": 1600
+      },
+      "labelBox": {
+        "x": 545,
+        "y": 865,
+        "width": 510,
+        "height": 230
+      },
+      "website_file": "C:/xampp/htdocs/wordpress/wp-content/uploads/catalog-liquid-2026/semaglutide.webp",
+      "attachment_id": 794
+    },
+    {
+      "slug": "ss-31",
+      "name": "SS-31",
+      "path": "D:/wordpress-liquid-correction/ss-31.png",
+      "width": 1600,
+      "height": 1600,
+      "master": "D:/wordpress-liquid-correction/bottle-master.png",
+      "fontSize": 110,
+      "lines": [
+        "SS-31"
+      ],
+      "bottleImage": {
+        "x": 0,
+        "y": 0,
+        "width": 1600,
+        "height": 1600
+      },
+      "labelBox": {
+        "x": 545,
+        "y": 865,
+        "width": 510,
+        "height": 230
+      },
+      "website_file": "C:/xampp/htdocs/wordpress/wp-content/uploads/catalog-liquid-2026/ss-31.webp",
+      "attachment_id": 795
+    },
+    {
+      "slug": "tirzepatide",
+      "name": "Tirzepatide",
+      "path": "D:/wordpress-liquid-correction/tirzepatide.png",
+      "width": 1600,
+      "height": 1600,
+      "master": "D:/wordpress-liquid-correction/bottle-master.png",
+      "fontSize": 92,
+      "lines": [
+        "Tirzepatide"
+      ],
+      "bottleImage": {
+        "x": 0,
+        "y": 0,
+        "width": 1600,
+        "height": 1600
+      },
+      "labelBox": {
+        "x": 545,
+        "y": 865,
+        "width": 510,
+        "height": 230
+      },
+      "website_file": "C:/xampp/htdocs/wordpress/wp-content/uploads/catalog-liquid-2026/tirzepatide.webp",
+      "attachment_id": 796
+    },
+    {
+      "slug": "ghrp-2-acetate",
+      "name": "GHRP-2 Acetate",
+      "path": "D:/wordpress-liquid-correction/ghrp-2-acetate.png",
+      "width": 1600,
+      "height": 1600,
+      "master": "D:/wordpress-liquid-correction/bottle-master.png",
+      "fontSize": 96,
+      "lines": [
+        "GHRP-2",
+        "Acetate"
+      ],
+      "bottleImage": {
+        "x": 0,
+        "y": 0,
+        "width": 1600,
+        "height": 1600
+      },
+      "labelBox": {
+        "x": 545,
+        "y": 865,
+        "width": 510,
+        "height": 230
+      },
+      "website_file": "C:/xampp/htdocs/wordpress/wp-content/uploads/catalog-liquid-2026/ghrp-2-acetate.webp",
+      "attachment_id": 797
+    },
+    {
+      "slug": "ghrp-6-acetate",
+      "name": "GHRP-6 Acetate",
+      "path": "D:/wordpress-liquid-correction/ghrp-6-acetate.png",
+      "width": 1600,
+      "height": 1600,
+      "master": "D:/wordpress-liquid-correction/bottle-master.png",
+      "fontSize": 96,
+      "lines": [
+        "GHRP-6",
+        "Acetate"
+      ],
+      "bottleImage": {
+        "x": 0,
+        "y": 0,
+        "width": 1600,
+        "height": 1600
+      },
+      "labelBox": {
+        "x": 545,
+        "y": 865,
+        "width": 510,
+        "height": 230
+      },
+      "website_file": "C:/xampp/htdocs/wordpress/wp-content/uploads/catalog-liquid-2026/ghrp-6-acetate.webp",
+      "attachment_id": 798
+    },
+    {
+      "slug": "cjc-1295-no-dac",
+      "name": "CJC-1295 (no DAC)",
+      "path": "D:/wordpress-liquid-correction/cjc-1295-no-dac.png",
+      "width": 1600,
+      "height": 1600,
+      "master": "D:/wordpress-liquid-correction/bottle-master.png",
+      "fontSize": 96,
+      "lines": [
+        "CJC-1295",
+        "(no DAC)"
+      ],
+      "bottleImage": {
+        "x": 0,
+        "y": 0,
+        "width": 1600,
+        "height": 1600
+      },
+      "labelBox": {
+        "x": 545,
+        "y": 865,
+        "width": 510,
+        "height": 230
+      },
+      "website_file": "C:/xampp/htdocs/wordpress/wp-content/uploads/catalog-liquid-2026/cjc-1295-no-dac.webp",
+      "attachment_id": 799
+    },
+    {
+      "slug": "cjc-1295-no-dac-ipamorelin",
+      "name": "CJC-1295 (no DAC) + Ipamorelin",
+      "path": "D:/wordpress-liquid-correction/cjc-1295-no-dac-ipamorelin.png",
+      "width": 1600,
+      "height": 1600,
+      "master": "D:/wordpress-liquid-correction/bottle-master.png",
+      "fontSize": 64,
+      "lines": [
+        "CJC-1295 (no",
+        "DAC) +",
+        "Ipamorelin"
+      ],
+      "bottleImage": {
+        "x": 0,
+        "y": 0,
+        "width": 1600,
+        "height": 1600
+      },
+      "labelBox": {
+        "x": 545,
+        "y": 865,
+        "width": 510,
+        "height": 230
+      },
+      "website_file": "C:/xampp/htdocs/wordpress/wp-content/uploads/catalog-liquid-2026/cjc-1295-no-dac-ipamorelin.webp",
+      "attachment_id": 800
+    },
+    {
+      "slug": "cjc-1295-with-dac",
+      "name": "CJC-1295 With DAC",
+      "path": "D:/wordpress-liquid-correction/cjc-1295-with-dac.png",
+      "width": 1600,
+      "height": 1600,
+      "master": "D:/wordpress-liquid-correction/bottle-master.png",
+      "fontSize": 96,
+      "lines": [
+        "CJC-1295",
+        "With DAC"
+      ],
+      "bottleImage": {
+        "x": 0,
+        "y": 0,
+        "width": 1600,
+        "height": 1600
+      },
+      "labelBox": {
+        "x": 545,
+        "y": 865,
+        "width": 510,
+        "height": 230
+      },
+      "website_file": "C:/xampp/htdocs/wordpress/wp-content/uploads/catalog-liquid-2026/cjc-1295-with-dac.webp",
+      "attachment_id": 801
+    },
+    {
+      "slug": "tb-500",
+      "name": "TB-500",
+      "path": "D:/wordpress-liquid-correction/tb-500.png",
+      "width": 1600,
+      "height": 1600,
+      "master": "D:/wordpress-liquid-correction/bottle-master.png",
+      "fontSize": 110,
+      "lines": [
+        "TB-500"
+      ],
+      "bottleImage": {
+        "x": 0,
+        "y": 0,
+        "width": 1600,
+        "height": 1600
+      },
+      "labelBox": {
+        "x": 545,
+        "y": 865,
+        "width": 510,
+        "height": 230
+      },
+      "website_file": "C:/xampp/htdocs/wordpress/wp-content/uploads/catalog-liquid-2026/tb-500.webp",
+      "attachment_id": 802
+    },
+    {
+      "slug": "mgf",
+      "name": "MGF",
+      "path": "D:/wordpress-liquid-correction/mgf.png",
+      "width": 1600,
+      "height": 1600,
+      "master": "D:/wordpress-liquid-correction/bottle-master.png",
+      "fontSize": 110,
+      "lines": [
+        "MGF"
+      ],
+      "bottleImage": {
+        "x": 0,
+        "y": 0,
+        "width": 1600,
+        "height": 1600
+      },
+      "labelBox": {
+        "x": 545,
+        "y": 865,
+        "width": 510,
+        "height": 230
+      },
+      "website_file": "C:/xampp/htdocs/wordpress/wp-content/uploads/catalog-liquid-2026/mgf.webp",
+      "attachment_id": 803
+    },
+    {
+      "slug": "peg-mgf",
+      "name": "PEG MGF",
+      "path": "D:/wordpress-liquid-correction/peg-mgf.png",
+      "width": 1600,
+      "height": 1600,
+      "master": "D:/wordpress-liquid-correction/bottle-master.png",
+      "fontSize": 106,
+      "lines": [
+        "PEG MGF"
+      ],
+      "bottleImage": {
+        "x": 0,
+        "y": 0,
+        "width": 1600,
+        "height": 1600
+      },
+      "labelBox": {
+        "x": 545,
+        "y": 865,
+        "width": 510,
+        "height": 230
+      },
+      "website_file": "C:/xampp/htdocs/wordpress/wp-content/uploads/catalog-liquid-2026/peg-mgf.webp",
+      "attachment_id": 804
+    },
+    {
+      "slug": "sermorelin-acetate",
+      "name": "Sermorelin Acetate",
+      "path": "D:/wordpress-liquid-correction/sermorelin-acetate.png",
+      "width": 1600,
+      "height": 1600,
+      "master": "D:/wordpress-liquid-correction/bottle-master.png",
+      "fontSize": 92,
+      "lines": [
+        "Sermorelin",
+        "Acetate"
+      ],
+      "bottleImage": {
+        "x": 0,
+        "y": 0,
+        "width": 1600,
+        "height": 1600
+      },
+      "labelBox": {
+        "x": 545,
+        "y": 865,
+        "width": 510,
+        "height": 230
+      },
+      "website_file": "C:/xampp/htdocs/wordpress/wp-content/uploads/catalog-liquid-2026/sermorelin-acetate.webp",
+      "attachment_id": 805
+    },
+    {
+      "slug": "hcg",
+      "name": "HCG",
+      "path": "D:/wordpress-liquid-correction/hcg.png",
+      "width": 1600,
+      "height": 1600,
+      "master": "D:/wordpress-liquid-correction/bottle-master.png",
+      "fontSize": 110,
+      "lines": [
+        "HCG"
+      ],
+      "bottleImage": {
+        "x": 0,
+        "y": 0,
+        "width": 1600,
+        "height": 1600
+      },
+      "labelBox": {
+        "x": 545,
+        "y": 865,
+        "width": 510,
+        "height": 230
+      },
+      "website_file": "C:/xampp/htdocs/wordpress/wp-content/uploads/catalog-liquid-2026/hcg.webp",
+      "attachment_id": 806
+    },
+    {
+      "slug": "aod9604",
+      "name": "AOD9604",
+      "path": "D:/wordpress-liquid-correction/aod9604.png",
+      "width": 1600,
+      "height": 1600,
+      "master": "D:/wordpress-liquid-correction/bottle-master.png",
+      "fontSize": 110,
+      "lines": [
+        "AOD9604"
+      ],
+      "bottleImage": {
+        "x": 0,
+        "y": 0,
+        "width": 1600,
+        "height": 1600
+      },
+      "labelBox": {
+        "x": 545,
+        "y": 865,
+        "width": 510,
+        "height": 230
+      },
+      "website_file": "C:/xampp/htdocs/wordpress/wp-content/uploads/catalog-liquid-2026/aod9604.webp",
+      "attachment_id": 807
+    },
+    {
+      "slug": "igf-1-lr3",
+      "name": "IGF-1 LR3",
+      "path": "D:/wordpress-liquid-correction/igf-1-lr3.png",
+      "width": 1600,
+      "height": 1600,
+      "master": "D:/wordpress-liquid-correction/bottle-master.png",
+      "fontSize": 102,
+      "lines": [
+        "IGF-1 LR3"
+      ],
+      "bottleImage": {
+        "x": 0,
+        "y": 0,
+        "width": 1600,
+        "height": 1600
+      },
+      "labelBox": {
+        "x": 545,
+        "y": 865,
+        "width": 510,
+        "height": 230
+      },
+      "website_file": "C:/xampp/htdocs/wordpress/wp-content/uploads/catalog-liquid-2026/igf-1-lr3.webp",
+      "attachment_id": 808
+    },
+    {
+      "slug": "tesamorelin",
+      "name": "Tesamorelin",
+      "path": "D:/wordpress-liquid-correction/tesamorelin.png",
+      "width": 1600,
+      "height": 1600,
+      "master": "D:/wordpress-liquid-correction/bottle-master.png",
+      "fontSize": 84,
+      "lines": [
+        "Tesamorelin"
+      ],
+      "bottleImage": {
+        "x": 0,
+        "y": 0,
+        "width": 1600,
+        "height": 1600
+      },
+      "labelBox": {
+        "x": 545,
+        "y": 865,
+        "width": 510,
+        "height": 230
+      },
+      "website_file": "C:/xampp/htdocs/wordpress/wp-content/uploads/catalog-liquid-2026/tesamorelin.webp",
+      "attachment_id": 809
+    },
+    {
+      "slug": "ipamorelin",
+      "name": "Ipamorelin",
+      "path": "D:/wordpress-liquid-correction/ipamorelin.png",
+      "width": 1600,
+      "height": 1600,
+      "master": "D:/wordpress-liquid-correction/bottle-master.png",
+      "fontSize": 96,
+      "lines": [
+        "Ipamorelin"
+      ],
+      "bottleImage": {
+        "x": 0,
+        "y": 0,
+        "width": 1600,
+        "height": 1600
+      },
+      "labelBox": {
+        "x": 545,
+        "y": 865,
+        "width": 510,
+        "height": 230
+      },
+      "website_file": "C:/xampp/htdocs/wordpress/wp-content/uploads/catalog-liquid-2026/ipamorelin.webp",
+      "attachment_id": 810
+    },
+    {
+      "slug": "hexarelin-acetate",
+      "name": "Hexarelin Acetate",
+      "path": "D:/wordpress-liquid-correction/hexarelin-acetate.png",
+      "width": 1600,
+      "height": 1600,
+      "master": "D:/wordpress-liquid-correction/bottle-master.png",
+      "fontSize": 96,
+      "lines": [
+        "Hexarelin",
+        "Acetate"
+      ],
+      "bottleImage": {
+        "x": 0,
+        "y": 0,
+        "width": 1600,
+        "height": 1600
+      },
+      "labelBox": {
+        "x": 545,
+        "y": 865,
+        "width": 510,
+        "height": 230
+      },
+      "website_file": "C:/xampp/htdocs/wordpress/wp-content/uploads/catalog-liquid-2026/hexarelin-acetate.webp",
+      "attachment_id": 811
+    },
+    {
+      "slug": "ghk-cu",
+      "name": "GHK-Cu",
+      "path": "D:/wordpress-liquid-correction/ghk-cu.png",
+      "width": 1600,
+      "height": 1600,
+      "master": "D:/wordpress-liquid-correction/bottle-master.png",
+      "fontSize": 110,
+      "lines": [
+        "GHK-Cu"
+      ],
+      "bottleImage": {
+        "x": 0,
+        "y": 0,
+        "width": 1600,
+        "height": 1600
+      },
+      "labelBox": {
+        "x": 545,
+        "y": 865,
+        "width": 510,
+        "height": 230
+      },
+      "website_file": "C:/xampp/htdocs/wordpress/wp-content/uploads/catalog-liquid-2026/ghk-cu.webp",
+      "attachment_id": 812
+    },
+    {
+      "slug": "ahk-cu",
+      "name": "AHK-Cu",
+      "path": "D:/wordpress-liquid-correction/ahk-cu.png",
+      "width": 1600,
+      "height": 1600,
+      "master": "D:/wordpress-liquid-correction/bottle-master.png",
+      "fontSize": 110,
+      "lines": [
+        "AHK-Cu"
+      ],
+      "bottleImage": {
+        "x": 0,
+        "y": 0,
+        "width": 1600,
+        "height": 1600
+      },
+      "labelBox": {
+        "x": 545,
+        "y": 865,
+        "width": 510,
+        "height": 230
+      },
+      "website_file": "C:/xampp/htdocs/wordpress/wp-content/uploads/catalog-liquid-2026/ahk-cu.webp",
+      "attachment_id": 813
+    },
+    {
+      "slug": "kisspeptin-10",
+      "name": "Kisspeptin-10",
+      "path": "D:/wordpress-liquid-correction/kisspeptin-10.png",
+      "width": 1600,
+      "height": 1600,
+      "master": "D:/wordpress-liquid-correction/bottle-master.png",
+      "fontSize": 74,
+      "lines": [
+        "Kisspeptin-10"
+      ],
+      "bottleImage": {
+        "x": 0,
+        "y": 0,
+        "width": 1600,
+        "height": 1600
+      },
+      "labelBox": {
+        "x": 545,
+        "y": 865,
+        "width": 510,
+        "height": 230
+      },
+      "website_file": "C:/xampp/htdocs/wordpress/wp-content/uploads/catalog-liquid-2026/kisspeptin-10.webp",
+      "attachment_id": 814
+    },
+    {
+      "slug": "thymalin",
+      "name": "Thymalin",
+      "path": "D:/wordpress-liquid-correction/thymalin.png",
+      "width": 1600,
+      "height": 1600,
+      "master": "D:/wordpress-liquid-correction/bottle-master.png",
+      "fontSize": 110,
+      "lines": [
+        "Thymalin"
+      ],
+      "bottleImage": {
+        "x": 0,
+        "y": 0,
+        "width": 1600,
+        "height": 1600
+      },
+      "labelBox": {
+        "x": 545,
+        "y": 865,
+        "width": 510,
+        "height": 230
+      },
+      "website_file": "C:/xampp/htdocs/wordpress/wp-content/uploads/catalog-liquid-2026/thymalin.webp",
+      "attachment_id": 815
+    },
+    {
+      "slug": "thymosin-alpha-1",
+      "name": "Thymosin Alpha-1",
+      "path": "D:/wordpress-liquid-correction/thymosin-alpha-1.png",
+      "width": 1600,
+      "height": 1600,
+      "master": "D:/wordpress-liquid-correction/bottle-master.png",
+      "fontSize": 96,
+      "lines": [
+        "Thymosin",
+        "Alpha-1"
+      ],
+      "bottleImage": {
+        "x": 0,
+        "y": 0,
+        "width": 1600,
+        "height": 1600
+      },
+      "labelBox": {
+        "x": 545,
+        "y": 865,
+        "width": 510,
+        "height": 230
+      },
+      "website_file": "C:/xampp/htdocs/wordpress/wp-content/uploads/catalog-liquid-2026/thymosin-alpha-1.webp",
+      "attachment_id": 816
+    },
+    {
+      "slug": "mots-c",
+      "name": "MOTS-c",
+      "path": "D:/wordpress-liquid-correction/mots-c.png",
+      "width": 1600,
+      "height": 1600,
+      "master": "D:/wordpress-liquid-correction/bottle-master.png",
+      "fontSize": 110,
+      "lines": [
+        "MOTS-c"
+      ],
+      "bottleImage": {
+        "x": 0,
+        "y": 0,
+        "width": 1600,
+        "height": 1600
+      },
+      "labelBox": {
+        "x": 545,
+        "y": 865,
+        "width": 510,
+        "height": 230
+      },
+      "website_file": "C:/xampp/htdocs/wordpress/wp-content/uploads/catalog-liquid-2026/mots-c.webp",
+      "attachment_id": 817
+    },
+    {
+      "slug": "foxo4",
+      "name": "FOXO4",
+      "path": "D:/wordpress-liquid-correction/foxo4.png",
+      "width": 1600,
+      "height": 1600,
+      "master": "D:/wordpress-liquid-correction/bottle-master.png",
+      "fontSize": 110,
+      "lines": [
+        "FOXO4"
+      ],
+      "bottleImage": {
+        "x": 0,
+        "y": 0,
+        "width": 1600,
+        "height": 1600
+      },
+      "labelBox": {
+        "x": 545,
+        "y": 865,
+        "width": 510,
+        "height": 230
+      },
+      "website_file": "C:/xampp/htdocs/wordpress/wp-content/uploads/catalog-liquid-2026/foxo4.webp",
+      "attachment_id": 818
+    },
+    {
+      "slug": "ll37",
+      "name": "LL37",
+      "path": "D:/wordpress-liquid-correction/ll37.png",
+      "width": 1600,
+      "height": 1600,
+      "master": "D:/wordpress-liquid-correction/bottle-master.png",
+      "fontSize": 110,
+      "lines": [
+        "LL37"
+      ],
+      "bottleImage": {
+        "x": 0,
+        "y": 0,
+        "width": 1600,
+        "height": 1600
+      },
+      "labelBox": {
+        "x": 545,
+        "y": 865,
+        "width": 510,
+        "height": 230
+      },
+      "website_file": "C:/xampp/htdocs/wordpress/wp-content/uploads/catalog-liquid-2026/ll37.webp",
+      "attachment_id": 819
+    },
+    {
+      "slug": "retatrutide",
+      "name": "Retatrutide",
+      "path": "D:/wordpress-liquid-correction/retatrutide.png",
+      "width": 1600,
+      "height": 1600,
+      "master": "D:/wordpress-liquid-correction/bottle-master.png",
+      "fontSize": 92,
+      "lines": [
+        "Retatrutide"
+      ],
+      "bottleImage": {
+        "x": 0,
+        "y": 0,
+        "width": 1600,
+        "height": 1600
+      },
+      "labelBox": {
+        "x": 545,
+        "y": 865,
+        "width": 510,
+        "height": 230
+      },
+      "website_file": "C:/xampp/htdocs/wordpress/wp-content/uploads/catalog-liquid-2026/retatrutide.webp",
+      "attachment_id": 820
+    },
+    {
+      "slug": "melatonin",
+      "name": "Melatonin",
+      "path": "D:/wordpress-liquid-correction/melatonin.png",
+      "width": 1600,
+      "height": 1600,
+      "master": "D:/wordpress-liquid-correction/bottle-master.png",
+      "fontSize": 104,
+      "lines": [
+        "Melatonin"
+      ],
+      "bottleImage": {
+        "x": 0,
+        "y": 0,
+        "width": 1600,
+        "height": 1600
+      },
+      "labelBox": {
+        "x": 545,
+        "y": 865,
+        "width": 510,
+        "height": 230
+      },
+      "website_file": "C:/xampp/htdocs/wordpress/wp-content/uploads/catalog-liquid-2026/melatonin.webp",
+      "attachment_id": 821
+    },
+    {
+      "slug": "glutathione",
+      "name": "Glutathione",
+      "path": "D:/wordpress-liquid-correction/glutathione.png",
+      "width": 1600,
+      "height": 1600,
+      "master": "D:/wordpress-liquid-correction/bottle-master.png",
+      "fontSize": 88,
+      "lines": [
+        "Glutathione"
+      ],
+      "bottleImage": {
+        "x": 0,
+        "y": 0,
+        "width": 1600,
+        "height": 1600
+      },
+      "labelBox": {
+        "x": 545,
+        "y": 865,
+        "width": 510,
+        "height": 230
+      },
+      "website_file": "C:/xampp/htdocs/wordpress/wp-content/uploads/catalog-liquid-2026/glutathione.webp",
+      "attachment_id": 822
+    },
+    {
+      "slug": "5-amino-1mq",
+      "name": "5-amino-1mq",
+      "path": "D:/wordpress-liquid-correction/5-amino-1mq.png",
+      "width": 1600,
+      "height": 1600,
+      "master": "D:/wordpress-liquid-correction/bottle-master.png",
+      "fontSize": 78,
+      "lines": [
+        "5-amino-1mq"
+      ],
+      "bottleImage": {
+        "x": 0,
+        "y": 0,
+        "width": 1600,
+        "height": 1600
+      },
+      "labelBox": {
+        "x": 545,
+        "y": 865,
+        "width": 510,
+        "height": 230
+      },
+      "website_file": "C:/xampp/htdocs/wordpress/wp-content/uploads/catalog-liquid-2026/5-amino-1mq.webp",
+      "attachment_id": 823
+    },
+    {
+      "slug": "hmg",
+      "name": "HMG",
+      "path": "D:/wordpress-liquid-correction/hmg.png",
+      "width": 1600,
+      "height": 1600,
+      "master": "D:/wordpress-liquid-correction/bottle-master.png",
+      "fontSize": 110,
+      "lines": [
+        "HMG"
+      ],
+      "bottleImage": {
+        "x": 0,
+        "y": 0,
+        "width": 1600,
+        "height": 1600
+      },
+      "labelBox": {
+        "x": 545,
+        "y": 865,
+        "width": 510,
+        "height": 230
+      },
+      "website_file": "C:/xampp/htdocs/wordpress/wp-content/uploads/catalog-liquid-2026/hmg.webp",
+      "attachment_id": 824
+    },
+    {
+      "slug": "snap-8",
+      "name": "SNAP-8",
+      "path": "D:/wordpress-liquid-correction/snap-8.png",
+      "width": 1600,
+      "height": 1600,
+      "master": "D:/wordpress-liquid-correction/bottle-master.png",
+      "fontSize": 110,
+      "lines": [
+        "SNAP-8"
+      ],
+      "bottleImage": {
+        "x": 0,
+        "y": 0,
+        "width": 1600,
+        "height": 1600
+      },
+      "labelBox": {
+        "x": 545,
+        "y": 865,
+        "width": 510,
+        "height": 230
+      },
+      "website_file": "C:/xampp/htdocs/wordpress/wp-content/uploads/catalog-liquid-2026/snap-8.webp",
+      "attachment_id": 825
+    },
+    {
+      "slug": "nad-plus",
+      "name": "NAD+",
+      "path": "D:/wordpress-liquid-correction/nad-plus.png",
+      "width": 1600,
+      "height": 1600,
+      "master": "D:/wordpress-liquid-correction/bottle-master.png",
+      "fontSize": 110,
+      "lines": [
+        "NAD+"
+      ],
+      "bottleImage": {
+        "x": 0,
+        "y": 0,
+        "width": 1600,
+        "height": 1600
+      },
+      "labelBox": {
+        "x": 545,
+        "y": 865,
+        "width": 510,
+        "height": 230
+      },
+      "website_file": "C:/xampp/htdocs/wordpress/wp-content/uploads/catalog-liquid-2026/nad-plus.webp",
+      "attachment_id": 826
+    },
+    {
+      "slug": "survodutide",
+      "name": "Survodutide",
+      "path": "D:/wordpress-liquid-correction/survodutide.png",
+      "width": 1600,
+      "height": 1600,
+      "master": "D:/wordpress-liquid-correction/bottle-master.png",
+      "fontSize": 82,
+      "lines": [
+        "Survodutide"
+      ],
+      "bottleImage": {
+        "x": 0,
+        "y": 0,
+        "width": 1600,
+        "height": 1600
+      },
+      "labelBox": {
+        "x": 545,
+        "y": 865,
+        "width": 510,
+        "height": 230
+      },
+      "website_file": "C:/xampp/htdocs/wordpress/wp-content/uploads/catalog-liquid-2026/survodutide.webp",
+      "attachment_id": 827
+    },
+    {
+      "slug": "cagrilintide",
+      "name": "Cagrilintide",
+      "path": "D:/wordpress-liquid-correction/cagrilintide.png",
+      "width": 1600,
+      "height": 1600,
+      "master": "D:/wordpress-liquid-correction/bottle-master.png",
+      "fontSize": 88,
+      "lines": [
+        "Cagrilintide"
+      ],
+      "bottleImage": {
+        "x": 0,
+        "y": 0,
+        "width": 1600,
+        "height": 1600
+      },
+      "labelBox": {
+        "x": 545,
+        "y": 865,
+        "width": 510,
+        "height": 230
+      },
+      "website_file": "C:/xampp/htdocs/wordpress/wp-content/uploads/catalog-liquid-2026/cagrilintide.webp",
+      "attachment_id": 828
+    },
+    {
+      "slug": "tb-500-bpc-157-ghk-cu",
+      "name": "TB-500 + BPC-157 + GHK-Cu",
+      "path": "D:/wordpress-liquid-correction/tb-500-bpc-157-ghk-cu.png",
+      "width": 1600,
+      "height": 1600,
+      "master": "D:/wordpress-liquid-correction/bottle-master.png",
+      "fontSize": 64,
+      "lines": [
+        "TB-500 +",
+        "BPC-157 +",
+        "GHK-Cu"
+      ],
+      "bottleImage": {
+        "x": 0,
+        "y": 0,
+        "width": 1600,
+        "height": 1600
+      },
+      "labelBox": {
+        "x": 545,
+        "y": 865,
+        "width": 510,
+        "height": 230
+      },
+      "website_file": "C:/xampp/htdocs/wordpress/wp-content/uploads/catalog-liquid-2026/tb-500-bpc-157-ghk-cu.webp",
+      "attachment_id": 829
+    },
+    {
+      "slug": "bt10-bp10-cu50-kp10",
+      "name": "BT10 + BP10 + CU50 + KP10",
+      "path": "D:/wordpress-liquid-correction/bt10-bp10-cu50-kp10.png",
+      "width": 1600,
+      "height": 1600,
+      "master": "D:/wordpress-liquid-correction/bottle-master.png",
+      "fontSize": 70,
+      "lines": [
+        "BT10 + BP10 +",
+        "CU50 + KP10"
+      ],
+      "bottleImage": {
+        "x": 0,
+        "y": 0,
+        "width": 1600,
+        "height": 1600
+      },
+      "labelBox": {
+        "x": 545,
+        "y": 865,
+        "width": 510,
+        "height": 230
+      },
+      "website_file": "C:/xampp/htdocs/wordpress/wp-content/uploads/catalog-liquid-2026/bt10-bp10-cu50-kp10.webp",
+      "attachment_id": 830
+    },
+    {
+      "slug": "cagrilintide-semaglutide",
+      "name": "Cagrilintide + Semaglutide",
+      "path": "D:/wordpress-liquid-correction/cagrilintide-semaglutide.png",
+      "width": 1600,
+      "height": 1600,
+      "master": "D:/wordpress-liquid-correction/bottle-master.png",
+      "fontSize": 76,
+      "lines": [
+        "Cagrilintide +",
+        "Semaglutide"
+      ],
+      "bottleImage": {
+        "x": 0,
+        "y": 0,
+        "width": 1600,
+        "height": 1600
+      },
+      "labelBox": {
+        "x": 545,
+        "y": 865,
+        "width": 510,
+        "height": 230
+      },
+      "website_file": "C:/xampp/htdocs/wordpress/wp-content/uploads/catalog-liquid-2026/cagrilintide-semaglutide.webp",
+      "attachment_id": 831
+    },
+    {
+      "slug": "kpv",
+      "name": "KPV",
+      "path": "D:/wordpress-liquid-correction/kpv.png",
+      "width": 1600,
+      "height": 1600,
+      "master": "D:/wordpress-liquid-correction/bottle-master.png",
+      "fontSize": 110,
+      "lines": [
+        "KPV"
+      ],
+      "bottleImage": {
+        "x": 0,
+        "y": 0,
+        "width": 1600,
+        "height": 1600
+      },
+      "labelBox": {
+        "x": 545,
+        "y": 865,
+        "width": 510,
+        "height": 230
+      },
+      "website_file": "C:/xampp/htdocs/wordpress/wp-content/uploads/catalog-liquid-2026/kpv.webp",
+      "attachment_id": 832
+    },
+    {
+      "slug": "vip",
+      "name": "VIP",
+      "path": "D:/wordpress-liquid-correction/vip.png",
+      "width": 1600,
+      "height": 1600,
+      "master": "D:/wordpress-liquid-correction/bottle-master.png",
+      "fontSize": 110,
+      "lines": [
+        "VIP"
+      ],
+      "bottleImage": {
+        "x": 0,
+        "y": 0,
+        "width": 1600,
+        "height": 1600
+      },
+      "labelBox": {
+        "x": 545,
+        "y": 865,
+        "width": 510,
+        "height": 230
+      },
+      "website_file": "C:/xampp/htdocs/wordpress/wp-content/uploads/catalog-liquid-2026/vip.webp",
+      "attachment_id": 833
+    },
+    {
+      "slug": "dihexa",
+      "name": "Dihexa",
+      "path": "D:/wordpress-liquid-correction/dihexa.png",
+      "width": 1600,
+      "height": 1600,
+      "master": "D:/wordpress-liquid-correction/bottle-master.png",
+      "fontSize": 110,
+      "lines": [
+        "Dihexa"
+      ],
+      "bottleImage": {
+        "x": 0,
+        "y": 0,
+        "width": 1600,
+        "height": 1600
+      },
+      "labelBox": {
+        "x": 545,
+        "y": 865,
+        "width": 510,
+        "height": 230
+      },
+      "website_file": "C:/xampp/htdocs/wordpress/wp-content/uploads/catalog-liquid-2026/dihexa.webp",
+      "attachment_id": 834
+    },
+    {
+      "slug": "sterile-water",
+      "name": "Sterile Water",
+      "path": "D:/wordpress-liquid-correction/sterile-water.png",
+      "width": 1600,
+      "height": 1600,
+      "master": "D:/wordpress-liquid-correction/bottle-master.png",
+      "fontSize": 96,
+      "lines": [
+        "Sterile",
+        "Water"
+      ],
+      "bottleImage": {
+        "x": 0,
+        "y": 0,
+        "width": 1600,
+        "height": 1600
+      },
+      "labelBox": {
+        "x": 545,
+        "y": 865,
+        "width": 510,
+        "height": 230
+      },
+      "website_file": "C:/xampp/htdocs/wordpress/wp-content/uploads/catalog-liquid-2026/sterile-water.webp",
+      "attachment_id": 835
+    },
+    {
+      "slug": "benzyl-alcohol-0-9",
+      "name": "Benzyl Alcohol 0.9%",
+      "path": "D:/wordpress-liquid-correction/benzyl-alcohol-0-9.png",
+      "width": 1600,
+      "height": 1600,
+      "master": "D:/wordpress-liquid-correction/bottle-master.png",
+      "fontSize": 78,
+      "lines": [
+        "Benzyl",
+        "Alcohol 0.9%"
+      ],
+      "bottleImage": {
+        "x": 0,
+        "y": 0,
+        "width": 1600,
+        "height": 1600
+      },
+      "labelBox": {
+        "x": 545,
+        "y": 865,
+        "width": 510,
+        "height": 230
+      },
+      "website_file": "C:/xampp/htdocs/wordpress/wp-content/uploads/catalog-liquid-2026/benzyl-alcohol-0-9.webp",
+      "attachment_id": 836
+    },
+    {
+      "slug": "acetic-acid-0-6",
+      "name": "Acetic Acid 0.6%",
+      "path": "D:/wordpress-liquid-correction/acetic-acid-0-6.png",
+      "width": 1600,
+      "height": 1600,
+      "master": "D:/wordpress-liquid-correction/bottle-master.png",
+      "fontSize": 96,
+      "lines": [
+        "Acetic",
+        "Acid 0.6%"
+      ],
+      "bottleImage": {
+        "x": 0,
+        "y": 0,
+        "width": 1600,
+        "height": 1600
+      },
+      "labelBox": {
+        "x": 545,
+        "y": 865,
+        "width": 510,
+        "height": 230
+      },
+      "website_file": "C:/xampp/htdocs/wordpress/wp-content/uploads/catalog-liquid-2026/acetic-acid-0-6.webp",
+      "attachment_id": 837
+    }
+  ],
+  "scenes": [
+    {
+      "slug": "scene-caps-grid",
+      "path": "D:\\wordpress-liquid-correction\\scenes\\scene-caps-grid.png",
+      "prompt": "Use case: precise-object-edit. Correct the reference laboratory photograph: EVERY vial or bottle must clearly be filled with completely transparent COLORLESS WATER, never powder and never green or colored liquid. Remove all powder, cakes, sediment, opaque material or cloudy content. Give visible liquid levels and realistic water menisci with neutral white highlights. Remove all green tint and green light spill from the water and glass; water must be optically clear and neutral like clean drinking water. Keep green caps, label bands, gloves and green branding; retain dark-green backgrounds where present but light the glass/liquid with neutral white light. Preserve scene composition, all original labels/text, bottle shapes, counts and positions, equipment, camera angle, crop and aspect ratio. Photorealistic premium laboratory photography. Change only bottle contents and the lighting needed to keep their water entirely colorless. Asset scene-caps-grid.",
+      "source": "D:/wordpress-green-generated-20261104/scene-caps-grid.png",
+      "website_file": "C:/xampp/htdocs/wordpress/wp-content/uploads/catalog-liquid-2026/scene-caps-grid.webp",
+      "attachment_id": 838
+    },
+    {
+      "slug": "scene-hero-lab",
+      "path": "D:\\wordpress-liquid-correction\\scenes\\scene-hero-lab.png",
+      "prompt": "Use case: precise-object-edit. Correct the reference laboratory photograph: EVERY vial or bottle must clearly be filled with completely transparent COLORLESS WATER, never powder and never green or colored liquid. Remove all powder, cakes, sediment, opaque material or cloudy content. Give visible liquid levels and realistic water menisci with neutral white highlights. Remove all green tint and green light spill from the water and glass; water must be optically clear and neutral like clean drinking water. Keep green caps, label bands, gloves and green branding; retain dark-green backgrounds where present but light the glass/liquid with neutral white light. Preserve scene composition, all original labels/text, bottle shapes, counts and positions, equipment, camera angle, crop and aspect ratio. Photorealistic premium laboratory photography. Change only bottle contents and the lighting needed to keep their water entirely colorless. Asset scene-hero-lab.",
+      "source": "D:/wordpress-green-generated-20261104/scene-hero-lab.png",
+      "website_file": "C:/xampp/htdocs/wordpress/wp-content/uploads/catalog-liquid-2026/scene-hero-lab.webp",
+      "attachment_id": 839
+    },
+    {
+      "slug": "scene-lab-dark-bg",
+      "path": "D:\\wordpress-liquid-correction\\scenes\\scene-lab-dark-bg.png",
+      "prompt": "Use case: precise-object-edit. Correct the reference laboratory photograph: EVERY vial or bottle must clearly be filled with completely transparent COLORLESS WATER, never powder and never green or colored liquid. Remove all powder, cakes, sediment, opaque material or cloudy content. Give visible liquid levels and realistic water menisci with neutral white highlights. Remove all green tint and green light spill from the water and glass; water must be optically clear and neutral like clean drinking water. Keep green caps, label bands, gloves and green branding; retain dark-green backgrounds where present but light the glass/liquid with neutral white light. Preserve scene composition, all original labels/text, bottle shapes, counts and positions, equipment, camera angle, crop and aspect ratio. Photorealistic premium laboratory photography. Change only bottle contents and the lighting needed to keep their water entirely colorless. Asset scene-lab-dark-bg.",
+      "source": "D:/wordpress-green-generated-20261104/scene-lab-dark-bg.png",
+      "website_file": "C:/xampp/htdocs/wordpress/wp-content/uploads/catalog-liquid-2026/scene-lab-dark-bg.webp",
+      "attachment_id": 840
+    },
+    {
+      "slug": "scene-newsletter",
+      "path": "D:\\wordpress-liquid-correction\\scenes\\scene-newsletter.png",
+      "prompt": "Use case: precise-object-edit. Correct the reference laboratory photograph: EVERY vial or bottle must clearly be filled with completely transparent COLORLESS WATER, never powder and never green or colored liquid. Remove all powder, cakes, sediment, opaque material or cloudy content. Give visible liquid levels and realistic water menisci with neutral white highlights. Remove all green tint and green light spill from the water and glass; water must be optically clear and neutral like clean drinking water. Keep green caps, label bands, gloves and green branding; retain dark-green backgrounds where present but light the glass/liquid with neutral white light. Preserve scene composition, all original labels/text, bottle shapes, counts and positions, equipment, camera angle, crop and aspect ratio. Photorealistic premium laboratory photography. Change only bottle contents and the lighting needed to keep their water entirely colorless. Asset scene-newsletter.",
+      "source": "D:/wordpress-green-generated-20261104/scene-newsletter.png",
+      "website_file": "C:/xampp/htdocs/wordpress/wp-content/uploads/catalog-liquid-2026/scene-newsletter.webp",
+      "attachment_id": 841
+    },
+    {
+      "slug": "scene-storage-case",
+      "path": "D:\\wordpress-liquid-correction\\scenes\\scene-storage-case.png",
+      "prompt": "Use case: precise-object-edit. Correct the reference laboratory photograph: EVERY vial or bottle must clearly be filled with completely transparent COLORLESS WATER, never powder and never green or colored liquid. Remove all powder, cakes, sediment, opaque material or cloudy content. Give visible liquid levels and realistic water menisci with neutral white highlights. Remove all green tint and green light spill from the water and glass; water must be optically clear and neutral like clean drinking water. Keep green caps, label bands, gloves and green branding; retain dark-green backgrounds where present but light the glass/liquid with neutral white light. Preserve scene composition, all original labels/text, bottle shapes, counts and positions, equipment, camera angle, crop and aspect ratio. Photorealistic premium laboratory photography. Change only bottle contents and the lighting needed to keep their water entirely colorless. Asset scene-storage-case.",
+      "source": "D:/wordpress-green-generated-20261104/scene-storage-case.png",
+      "website_file": "C:/xampp/htdocs/wordpress/wp-content/uploads/catalog-liquid-2026/scene-storage-case.webp",
+      "attachment_id": 842
+    },
+    {
+      "slug": "scene-story-batch-documentation",
+      "path": "D:\\wordpress-liquid-correction\\scenes\\scene-story-batch-documentation.png",
+      "prompt": "Use case: precise-object-edit. Correct the reference laboratory photograph: EVERY vial or bottle must clearly be filled with completely transparent COLORLESS WATER, never powder and never green or colored liquid. Remove all powder, cakes, sediment, opaque material or cloudy content. Give visible liquid levels and realistic water menisci with neutral white highlights. Remove all green tint and green light spill from the water and glass; water must be optically clear and neutral like clean drinking water. Keep green caps, label bands, gloves and green branding; retain dark-green backgrounds where present but light the glass/liquid with neutral white light. Preserve scene composition, all original labels/text, bottle shapes, counts and positions, equipment, camera angle, crop and aspect ratio. Photorealistic premium laboratory photography. Change only bottle contents and the lighting needed to keep their water entirely colorless. Asset scene-story-batch-documentation.",
+      "source": "D:/wordpress-green-generated-20261104/scene-story-batch-documentation.png",
+      "website_file": "C:/xampp/htdocs/wordpress/wp-content/uploads/catalog-liquid-2026/scene-story-batch-documentation.webp",
+      "attachment_id": 843
+    },
+    {
+      "slug": "scene-story-certificate-of-analysis",
+      "path": "D:\\wordpress-liquid-correction\\scenes\\scene-story-certificate-of-analysis.png",
+      "prompt": "Use case: precise-object-edit. Correct the reference laboratory photograph: EVERY vial or bottle must clearly be filled with completely transparent COLORLESS WATER, never powder and never green or colored liquid. Remove all powder, cakes, sediment, opaque material or cloudy content. Give visible liquid levels and realistic water menisci with neutral white highlights. Remove all green tint and green light spill from the water and glass; water must be optically clear and neutral like clean drinking water. Keep green caps, label bands, gloves and green branding; retain dark-green backgrounds where present but light the glass/liquid with neutral white light. Preserve scene composition, all original labels/text, bottle shapes, counts and positions, equipment, camera angle, crop and aspect ratio. Photorealistic premium laboratory photography. Change only bottle contents and the lighting needed to keep their water entirely colorless. Asset scene-story-certificate-of-analysis.",
+      "source": "D:/wordpress-green-generated-20261104/scene-story-certificate-of-analysis.png",
+      "website_file": "C:/xampp/htdocs/wordpress/wp-content/uploads/catalog-liquid-2026/scene-story-certificate-of-analysis.webp",
+      "attachment_id": 844
+    },
+    {
+      "slug": "scene-story-hplc",
+      "path": "D:\\wordpress-liquid-correction\\scenes\\scene-story-hplc.png",
+      "prompt": "Use case: precise-object-edit. Correct the reference laboratory photograph: EVERY vial or bottle must clearly be filled with completely transparent COLORLESS WATER, never powder and never green or colored liquid. Remove all powder, cakes, sediment, opaque material or cloudy content. Give visible liquid levels and realistic water menisci with neutral white highlights. Remove all green tint and green light spill from the water and glass; water must be optically clear and neutral like clean drinking water. Keep green caps, label bands, gloves and green branding; retain dark-green backgrounds where present but light the glass/liquid with neutral white light. Preserve scene composition, all original labels/text, bottle shapes, counts and positions, equipment, camera angle, crop and aspect ratio. Photorealistic premium laboratory photography. Change only bottle contents and the lighting needed to keep their water entirely colorless. Asset scene-story-hplc.",
+      "source": "D:/wordpress-green-generated-20261104/scene-story-hplc.png",
+      "website_file": "C:/xampp/htdocs/wordpress/wp-content/uploads/catalog-liquid-2026/scene-story-hplc.webp",
+      "attachment_id": 845
+    },
+    {
+      "slug": "scene-story-storage",
+      "path": "D:\\wordpress-liquid-correction\\scenes\\scene-story-storage.png",
+      "prompt": "Use case: precise-object-edit. Correct the reference laboratory photograph: EVERY vial or bottle must clearly be filled with completely transparent COLORLESS WATER, never powder and never green or colored liquid. Remove all powder, cakes, sediment, opaque material or cloudy content. Give visible liquid levels and realistic water menisci with neutral white highlights. Remove all green tint and green light spill from the water and glass; water must be optically clear and neutral like clean drinking water. Keep green caps, label bands, gloves and green branding; retain dark-green backgrounds where present but light the glass/liquid with neutral white light. Preserve scene composition, all original labels/text, bottle shapes, counts and positions, equipment, camera angle, crop and aspect ratio. Photorealistic premium laboratory photography. Change only bottle contents and the lighting needed to keep their water entirely colorless. Asset scene-story-storage.",
+      "source": "D:/wordpress-green-generated-20261104/scene-story-storage.png",
+      "website_file": "C:/xampp/htdocs/wordpress/wp-content/uploads/catalog-liquid-2026/scene-story-storage.webp",
+      "attachment_id": 846
+    },
+    {
+      "slug": "scene-vial-lineup-light",
+      "path": "D:\\wordpress-liquid-correction\\scenes\\scene-vial-lineup-light.png",
+      "prompt": "Use case: precise-object-edit. Correct the reference laboratory photograph: EVERY vial or bottle must clearly be filled with completely transparent COLORLESS WATER, never powder and never green or colored liquid. Remove all powder, cakes, sediment, opaque material or cloudy content. Give visible liquid levels and realistic water menisci with neutral white highlights. Remove all green tint and green light spill from the water and glass; water must be optically clear and neutral like clean drinking water. Keep green caps, label bands, gloves and green branding; retain dark-green backgrounds where present but light the glass/liquid with neutral white light. Preserve scene composition, all original labels/text, bottle shapes, counts and positions, equipment, camera angle, crop and aspect ratio. Photorealistic premium laboratory photography. Change only bottle contents and the lighting needed to keep their water entirely colorless. Asset scene-vial-lineup-light.",
+      "source": "D:/wordpress-green-generated-20261104/scene-vial-lineup-light.png",
+      "website_file": "C:/xampp/htdocs/wordpress/wp-content/uploads/catalog-liquid-2026/scene-vial-lineup-light.webp",
+      "attachment_id": 847
+    },
+    {
+      "slug": "scene-vial-lineup-tall",
+      "path": "D:\\wordpress-liquid-correction\\scenes\\scene-vial-lineup-tall.png",
+      "prompt": "Use case: precise-object-edit. Correct the reference laboratory photograph: EVERY vial or bottle must clearly be filled with completely transparent COLORLESS WATER, never powder and never green or colored liquid. Remove all powder, cakes, sediment, opaque material or cloudy content. Give visible liquid levels and realistic water menisci with neutral white highlights. Remove all green tint and green light spill from the water and glass; water must be optically clear and neutral like clean drinking water. Keep green caps, label bands, gloves and green branding; retain dark-green backgrounds where present but light the glass/liquid with neutral white light. Preserve scene composition, all original labels/text, bottle shapes, counts and positions, equipment, camera angle, crop and aspect ratio. Photorealistic premium laboratory photography. Change only bottle contents and the lighting needed to keep their water entirely colorless. Asset scene-vial-lineup-tall.",
+      "source": "D:/wordpress-green-generated-20261104/scene-vial-lineup-tall.png",
+      "website_file": "C:/xampp/htdocs/wordpress/wp-content/uploads/catalog-liquid-2026/scene-vial-lineup-tall.webp",
+      "attachment_id": 848
+    }
+  ]
+}

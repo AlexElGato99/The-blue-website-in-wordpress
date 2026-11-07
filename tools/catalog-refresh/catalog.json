@@ -1,0 +1,1052 @@
+[
+  {
+    "name": "MT-1",
+    "slug": "mt-1",
+    "variants": [
+      {
+        "sku": "MT1",
+        "specification": "10mg*10vials",
+        "pack_price": 48.0,
+        "page": 1
+      }
+    ]
+  },
+  {
+    "name": "MT-2 (Melanotan 2 Acetate)",
+    "slug": "mt-2-melanotan-2-acetate",
+    "variants": [
+      {
+        "sku": "ML10",
+        "specification": "10mg*10vials",
+        "pack_price": 48.0,
+        "page": 1
+      }
+    ]
+  },
+  {
+    "name": "PT-141",
+    "slug": "pt-141",
+    "variants": [
+      {
+        "sku": "P41",
+        "specification": "10mg*10vials",
+        "pack_price": 56.0,
+        "page": 1
+      }
+    ]
+  },
+  {
+    "name": "Gonadorelin Acetate",
+    "slug": "gonadorelin-acetate",
+    "variants": [
+      {
+        "sku": "GND2",
+        "specification": "2mg*10vials",
+        "pack_price": 30.0,
+        "page": 1
+      }
+    ]
+  },
+  {
+    "name": "DSIP",
+    "slug": "dsip",
+    "variants": [
+      {
+        "sku": "DS5",
+        "specification": "5mg*10vials",
+        "pack_price": 41.0,
+        "page": 1
+      },
+      {
+        "sku": "DS10",
+        "specification": "10mg*10vials",
+        "pack_price": 74.0,
+        "page": 1
+      }
+    ]
+  },
+  {
+    "name": "Selank",
+    "slug": "selank",
+    "variants": [
+      {
+        "sku": "SK5",
+        "specification": "5mg*10vials",
+        "pack_price": 43.0,
+        "page": 1
+      },
+      {
+        "sku": "SK10",
+        "specification": "10mg*10vials",
+        "pack_price": 63.0,
+        "page": 1
+      }
+    ]
+  },
+  {
+    "name": "Oxytocin Acetate",
+    "slug": "oxytocin-acetate",
+    "variants": [
+      {
+        "sku": "OT2",
+        "specification": "2mg*10vials",
+        "pack_price": 25.0,
+        "page": 1
+      },
+      {
+        "sku": "OT5",
+        "specification": "5mg*10vials",
+        "pack_price": 46.0,
+        "page": 1
+      }
+    ]
+  },
+  {
+    "name": "Epithalon",
+    "slug": "epithalon",
+    "variants": [
+      {
+        "sku": "ET10",
+        "specification": "10mg*10vials",
+        "pack_price": 38.0,
+        "page": 1
+      },
+      {
+        "sku": "ET50",
+        "specification": "50mg*10vials",
+        "pack_price": 152.0,
+        "page": 1
+      }
+    ]
+  },
+  {
+    "name": "BPC-157",
+    "slug": "bpc-157",
+    "variants": [
+      {
+        "sku": "BC5",
+        "specification": "5mg*10vials",
+        "pack_price": 36.0,
+        "page": 1
+      },
+      {
+        "sku": "BC10",
+        "specification": "10mg*10vials",
+        "pack_price": 58.0,
+        "page": 1
+      }
+    ]
+  },
+  {
+    "name": "BPC-157 + TB-500",
+    "slug": "bpc-157-tb-500",
+    "variants": [
+      {
+        "sku": "BB10",
+        "specification": "10mg*10vials",
+        "pack_price": 89.0,
+        "page": 1
+      },
+      {
+        "sku": "BB20",
+        "specification": "20mg*10vials",
+        "pack_price": 152.0,
+        "page": 1
+      }
+    ]
+  },
+  {
+    "name": "AICAR",
+    "slug": "aicar",
+    "variants": [
+      {
+        "sku": "AR50",
+        "specification": "50mg*10vials",
+        "pack_price": 66.0,
+        "page": 1
+      }
+    ]
+  },
+  {
+    "name": "Adipotide",
+    "slug": "adipotide",
+    "variants": [
+      {
+        "sku": "AP5",
+        "specification": "5mg*10vials",
+        "pack_price": 165.0,
+        "page": 1
+      }
+    ]
+  },
+  {
+    "name": "Semax",
+    "slug": "semax",
+    "variants": [
+      {
+        "sku": "XA5",
+        "specification": "5mg*10vials",
+        "pack_price": 43.0,
+        "page": 1
+      },
+      {
+        "sku": "XA10",
+        "specification": "10mg*10vials",
+        "pack_price": 63.0,
+        "page": 1
+      }
+    ]
+  },
+  {
+    "name": "Adamax",
+    "slug": "adamax",
+    "variants": [
+      {
+        "sku": "AX10",
+        "specification": "10mg*10vials",
+        "pack_price": 101.0,
+        "page": 1
+      }
+    ]
+  },
+  {
+    "name": "Semaglutide",
+    "slug": "semaglutide",
+    "variants": [
+      {
+        "sku": "SM5",
+        "specification": "5mg*10vials",
+        "pack_price": 30.0,
+        "page": 1
+      },
+      {
+        "sku": "SM10",
+        "specification": "10mg*10vials",
+        "pack_price": 43.0,
+        "page": 1
+      },
+      {
+        "sku": "SM15",
+        "specification": "15mg*10vials",
+        "pack_price": 56.0,
+        "page": 1
+      },
+      {
+        "sku": "SM20",
+        "specification": "20mg*10vials",
+        "pack_price": 69.0,
+        "page": 1
+      },
+      {
+        "sku": "SM30",
+        "specification": "30mg*10vials",
+        "pack_price": 89.0,
+        "page": 1
+      }
+    ]
+  },
+  {
+    "name": "SS-31",
+    "slug": "ss-31",
+    "variants": [
+      {
+        "sku": "2S10",
+        "specification": "10mg*10vials",
+        "pack_price": 84.0,
+        "page": 1
+      },
+      {
+        "sku": "2S50",
+        "specification": "50mg*10vials",
+        "pack_price": 330.0,
+        "page": 2
+      }
+    ]
+  },
+  {
+    "name": "Tirzepatide",
+    "slug": "tirzepatide",
+    "variants": [
+      {
+        "sku": "TR5",
+        "specification": "5mg*10vials",
+        "pack_price": 25.0,
+        "page": 2
+      },
+      {
+        "sku": "TR10",
+        "specification": "10mg*10vials",
+        "pack_price": 38.0,
+        "page": 2
+      },
+      {
+        "sku": "TR15",
+        "specification": "15mg*10vials",
+        "pack_price": 51.0,
+        "page": 2
+      },
+      {
+        "sku": "TR20",
+        "specification": "20mg*10vials",
+        "pack_price": 61.0,
+        "page": 2
+      },
+      {
+        "sku": "TR30",
+        "specification": "30mg*10vials",
+        "pack_price": 84.0,
+        "page": 2
+      },
+      {
+        "sku": "TR40",
+        "specification": "40mg*10vials",
+        "pack_price": 107.0,
+        "page": 2
+      },
+      {
+        "sku": "TR50",
+        "specification": "50mg*10vials",
+        "pack_price": 129.0,
+        "page": 2
+      },
+      {
+        "sku": "TR60",
+        "specification": "60mg*10vials",
+        "pack_price": 152.0,
+        "page": 2
+      },
+      {
+        "sku": "TR70",
+        "specification": "70mg*10vials",
+        "pack_price": 178.0,
+        "page": 2
+      },
+      {
+        "sku": "TR100",
+        "specification": "100mg*10vials",
+        "pack_price": 233.0,
+        "page": 2
+      },
+      {
+        "sku": "TR120",
+        "specification": "120mg*10vials",
+        "pack_price": 266.0,
+        "page": 2
+      }
+    ]
+  },
+  {
+    "name": "GHRP-2 Acetate",
+    "slug": "ghrp-2-acetate",
+    "variants": [
+      {
+        "sku": "G25",
+        "specification": "5mg*10vials",
+        "pack_price": 25.0,
+        "page": 2
+      },
+      {
+        "sku": "G210",
+        "specification": "10mg*10vials",
+        "pack_price": 46.0,
+        "page": 2
+      },
+      {
+        "sku": "G215",
+        "specification": "15mg*10vials",
+        "pack_price": 66.0,
+        "page": 2
+      }
+    ]
+  },
+  {
+    "name": "GHRP-6 Acetate",
+    "slug": "ghrp-6-acetate",
+    "variants": [
+      {
+        "sku": "G65",
+        "specification": "5mg*10vials",
+        "pack_price": 25.0,
+        "page": 2
+      },
+      {
+        "sku": "G610",
+        "specification": "10mg*10vials",
+        "pack_price": 46.0,
+        "page": 2
+      }
+    ]
+  },
+  {
+    "name": "CJC-1295 (no DAC)",
+    "slug": "cjc-1295-no-dac",
+    "variants": [
+      {
+        "sku": "CND2",
+        "specification": "2mg*10vials",
+        "pack_price": 38.0,
+        "page": 2
+      },
+      {
+        "sku": "CND5",
+        "specification": "5mg*10vials",
+        "pack_price": 76.0,
+        "page": 2
+      },
+      {
+        "sku": "CND10",
+        "specification": "10mg*10vials",
+        "pack_price": 140.0,
+        "page": 2
+      }
+    ]
+  },
+  {
+    "name": "CJC-1295 (no DAC) + Ipamorelin",
+    "slug": "cjc-1295-no-dac-ipamorelin",
+    "variants": [
+      {
+        "sku": "CP10",
+        "specification": "10mg*10vials",
+        "pack_price": 101.0,
+        "page": 2
+      }
+    ]
+  },
+  {
+    "name": "CJC-1295 With DAC",
+    "slug": "cjc-1295-with-dac",
+    "variants": [
+      {
+        "sku": "CD2",
+        "specification": "2mg*10vials",
+        "pack_price": 76.0,
+        "page": 2
+      },
+      {
+        "sku": "CD5",
+        "specification": "5mg*10vials",
+        "pack_price": 157.0,
+        "page": 2
+      }
+    ]
+  },
+  {
+    "name": "TB-500",
+    "slug": "tb-500",
+    "variants": [
+      {
+        "sku": "BT2",
+        "specification": "2mg*10vials",
+        "pack_price": 41.0,
+        "page": 2
+      },
+      {
+        "sku": "BT5",
+        "specification": "5mg*10vials",
+        "pack_price": 76.0,
+        "page": 2
+      },
+      {
+        "sku": "BT10",
+        "specification": "10mg*10vials",
+        "pack_price": 132.0,
+        "page": 2
+      }
+    ]
+  },
+  {
+    "name": "MGF",
+    "slug": "mgf",
+    "variants": [
+      {
+        "sku": "FM2",
+        "specification": "2mg*10vials",
+        "pack_price": 36.0,
+        "page": 2
+      }
+    ]
+  },
+  {
+    "name": "PEG MGF",
+    "slug": "peg-mgf",
+    "variants": [
+      {
+        "sku": "FMP2",
+        "specification": "2mg*10vials",
+        "pack_price": 81.0,
+        "page": 2
+      }
+    ]
+  },
+  {
+    "name": "Sermorelin Acetate",
+    "slug": "sermorelin-acetate",
+    "variants": [
+      {
+        "sku": "SMO5",
+        "specification": "5mg*10vials",
+        "pack_price": 66.0,
+        "page": 2
+      },
+      {
+        "sku": "SMO10",
+        "specification": "10mg*10vials",
+        "pack_price": 119.0,
+        "page": 3
+      }
+    ]
+  },
+  {
+    "name": "HCG",
+    "slug": "hcg",
+    "variants": [
+      {
+        "sku": "G5K",
+        "specification": "5000IU*10vials",
+        "pack_price": 84.0,
+        "page": 3
+      },
+      {
+        "sku": "G10K",
+        "specification": "10000IU*10vials",
+        "pack_price": 152.0,
+        "page": 3
+      }
+    ]
+  },
+  {
+    "name": "AOD9604",
+    "slug": "aod9604",
+    "variants": [
+      {
+        "sku": "2AD",
+        "specification": "2mg*10vials",
+        "pack_price": 51.0,
+        "page": 3
+      },
+      {
+        "sku": "5AD",
+        "specification": "5mg*10vials",
+        "pack_price": 86.0,
+        "page": 3
+      }
+    ]
+  },
+  {
+    "name": "IGF-1 LR3",
+    "slug": "igf-1-lr3",
+    "variants": [
+      {
+        "sku": "IG01",
+        "specification": "0.1mg*10vials",
+        "pack_price": 41.0,
+        "page": 3
+      },
+      {
+        "sku": "IG1",
+        "specification": "1mg*10vials",
+        "pack_price": 180.0,
+        "page": 3
+      }
+    ]
+  },
+  {
+    "name": "Tesamorelin",
+    "slug": "tesamorelin",
+    "variants": [
+      {
+        "sku": "TSM2",
+        "specification": "2mg*10vials",
+        "pack_price": 51.0,
+        "page": 3
+      },
+      {
+        "sku": "TSM5",
+        "specification": "5mg*10vials",
+        "pack_price": 94.0,
+        "page": 3
+      },
+      {
+        "sku": "TSM10",
+        "specification": "10mg*10vials",
+        "pack_price": 165.0,
+        "page": 3
+      },
+      {
+        "sku": "TSM20",
+        "specification": "20mg*10vials",
+        "pack_price": 304.0,
+        "page": 3
+      }
+    ]
+  },
+  {
+    "name": "Ipamorelin",
+    "slug": "ipamorelin",
+    "variants": [
+      {
+        "sku": "IP5",
+        "specification": "5mg*10vials",
+        "pack_price": 38.0,
+        "page": 3
+      },
+      {
+        "sku": "IP10",
+        "specification": "10mg*10vials",
+        "pack_price": 66.0,
+        "page": 3
+      }
+    ]
+  },
+  {
+    "name": "Hexarelin Acetate",
+    "slug": "hexarelin-acetate",
+    "variants": [
+      {
+        "sku": "HX5",
+        "specification": "5mg*10vials",
+        "pack_price": 81.0,
+        "page": 3
+      }
+    ]
+  },
+  {
+    "name": "GHK-Cu",
+    "slug": "ghk-cu",
+    "variants": [
+      {
+        "sku": "CU50",
+        "specification": "50mg*10vials",
+        "pack_price": 25.0,
+        "page": 3
+      },
+      {
+        "sku": "CU100",
+        "specification": "100mg*10vials",
+        "pack_price": 43.0,
+        "page": 3
+      }
+    ]
+  },
+  {
+    "name": "AHK-Cu",
+    "slug": "ahk-cu",
+    "variants": [
+      {
+        "sku": "AK100",
+        "specification": "100mg*10vials",
+        "pack_price": 63.0,
+        "page": 3
+      }
+    ]
+  },
+  {
+    "name": "Kisspeptin-10",
+    "slug": "kisspeptin-10",
+    "variants": [
+      {
+        "sku": "KS5",
+        "specification": "5mg*10vials",
+        "pack_price": 56.0,
+        "page": 3
+      },
+      {
+        "sku": "KS10",
+        "specification": "10mg*10vials",
+        "pack_price": 94.0,
+        "page": 3
+      }
+    ]
+  },
+  {
+    "name": "Thymalin",
+    "slug": "thymalin",
+    "variants": [
+      {
+        "sku": "TY10",
+        "specification": "10mg*10vials",
+        "pack_price": 63.0,
+        "page": 3
+      }
+    ]
+  },
+  {
+    "name": "Thymosin Alpha-1",
+    "slug": "thymosin-alpha-1",
+    "variants": [
+      {
+        "sku": "TA5",
+        "specification": "5mg*10vials",
+        "pack_price": 86.0,
+        "page": 3
+      },
+      {
+        "sku": "TA10",
+        "specification": "10mg*10vials",
+        "pack_price": 157.0,
+        "page": 3
+      }
+    ]
+  },
+  {
+    "name": "MOTS-c",
+    "slug": "mots-c",
+    "variants": [
+      {
+        "sku": "MS10",
+        "specification": "10mg*10vials",
+        "pack_price": 58.0,
+        "page": 3
+      },
+      {
+        "sku": "MS20",
+        "specification": "20mg*10vials",
+        "pack_price": 104.0,
+        "page": 3
+      },
+      {
+        "sku": "MS40",
+        "specification": "40mg*10vials",
+        "pack_price": 188.0,
+        "page": 3
+      }
+    ]
+  },
+  {
+    "name": "FOXO4",
+    "slug": "foxo4",
+    "variants": [
+      {
+        "sku": "F410",
+        "specification": "10mg*10vials",
+        "pack_price": 355.0,
+        "page": 3
+      }
+    ]
+  },
+  {
+    "name": "LL37",
+    "slug": "ll37",
+    "variants": [
+      {
+        "sku": "375",
+        "specification": "5mg*10vials",
+        "pack_price": 86.0,
+        "page": 3
+      }
+    ]
+  },
+  {
+    "name": "Retatrutide",
+    "slug": "retatrutide",
+    "variants": [
+      {
+        "sku": "RT5",
+        "specification": "5mg*10vials",
+        "pack_price": 46.0,
+        "page": 3
+      },
+      {
+        "sku": "RT10",
+        "specification": "10mg*10vials",
+        "pack_price": 58.0,
+        "page": 3
+      },
+      {
+        "sku": "RT15",
+        "specification": "15mg*10vials",
+        "pack_price": 76.0,
+        "page": 4
+      },
+      {
+        "sku": "RT20",
+        "specification": "20mg*10vials",
+        "pack_price": 101.0,
+        "page": 4
+      },
+      {
+        "sku": "RT30",
+        "specification": "30mg*10vials",
+        "pack_price": 140.0,
+        "page": 4
+      },
+      {
+        "sku": "RT40",
+        "specification": "40mg*10vials",
+        "pack_price": 170.0,
+        "page": 4
+      },
+      {
+        "sku": "RT50",
+        "specification": "50mg*10vials",
+        "pack_price": 200.0,
+        "page": 4
+      },
+      {
+        "sku": "RT60",
+        "specification": "60mg*10vials",
+        "pack_price": 231.0,
+        "page": 4
+      },
+      {
+        "sku": "RT100",
+        "specification": "100mg*10vials",
+        "pack_price": 343.0,
+        "page": 4
+      }
+    ]
+  },
+  {
+    "name": "Melatonin",
+    "slug": "melatonin",
+    "variants": [
+      {
+        "sku": "MT10",
+        "specification": "10mg*10vials",
+        "pack_price": 63.0,
+        "page": 4
+      }
+    ]
+  },
+  {
+    "name": "Glutathione",
+    "slug": "glutathione",
+    "variants": [
+      {
+        "sku": "GTT600",
+        "specification": "600mg*10vials",
+        "pack_price": 38.0,
+        "page": 4
+      },
+      {
+        "sku": "GTT1500",
+        "specification": "1500mg*10vials",
+        "pack_price": 76.0,
+        "page": 4
+      }
+    ]
+  },
+  {
+    "name": "5-amino-1mq",
+    "slug": "5-amino-1mq",
+    "variants": [
+      {
+        "sku": "5AM",
+        "specification": "5mg*10vials",
+        "pack_price": 43.0,
+        "page": 4
+      },
+      {
+        "sku": "50AM",
+        "specification": "50mg*10vials",
+        "pack_price": 94.0,
+        "page": 4
+      }
+    ]
+  },
+  {
+    "name": "HMG",
+    "slug": "hmg",
+    "variants": [
+      {
+        "sku": "G75",
+        "specification": "75IU*10vials",
+        "pack_price": 58.0,
+        "page": 4
+      }
+    ]
+  },
+  {
+    "name": "SNAP-8",
+    "slug": "snap-8",
+    "variants": [
+      {
+        "sku": "NP810",
+        "specification": "10mg*10vials",
+        "pack_price": 41.0,
+        "page": 4
+      }
+    ]
+  },
+  {
+    "name": "NAD+",
+    "slug": "nad-plus",
+    "variants": [
+      {
+        "sku": "NJ100",
+        "specification": "100mg*10vials",
+        "pack_price": 36.0,
+        "page": 4
+      },
+      {
+        "sku": "NJ500",
+        "specification": "500mg*10vials",
+        "pack_price": 56.0,
+        "page": 4
+      },
+      {
+        "sku": "NJ1000",
+        "specification": "1000mg*10vials",
+        "pack_price": 101.0,
+        "page": 4
+      }
+    ]
+  },
+  {
+    "name": "Survodutide",
+    "slug": "survodutide",
+    "variants": [
+      {
+        "sku": "SUR10",
+        "specification": "10mg*10vials",
+        "pack_price": 304.0,
+        "page": 4
+      }
+    ]
+  },
+  {
+    "name": "Cagrilintide",
+    "slug": "cagrilintide",
+    "variants": [
+      {
+        "sku": "CGL5",
+        "specification": "5mg*10vials",
+        "pack_price": 101.0,
+        "page": 4
+      },
+      {
+        "sku": "CGL10",
+        "specification": "10mg*10vials",
+        "pack_price": 183.0,
+        "page": 4
+      }
+    ]
+  },
+  {
+    "name": "TB-500 + BPC-157 + GHK-Cu",
+    "slug": "tb-500-bpc-157-ghk-cu",
+    "variants": [
+      {
+        "sku": "BBG70",
+        "specification": "70mg*10Vials",
+        "pack_price": 165.0,
+        "page": 4
+      }
+    ]
+  },
+  {
+    "name": "BT10 + BP10 + CU50 + KP10",
+    "slug": "bt10-bp10-cu50-kp10",
+    "variants": [
+      {
+        "sku": "Klow80",
+        "specification": "80mg*10Vials",
+        "pack_price": 190.0,
+        "page": 4
+      }
+    ]
+  },
+  {
+    "name": "Cagrilintide + Semaglutide",
+    "slug": "cagrilintide-semaglutide",
+    "variants": [
+      {
+        "sku": "CS10",
+        "specification": "10mg*10vials",
+        "pack_price": 152.0,
+        "page": 4
+      }
+    ]
+  },
+  {
+    "name": "KPV",
+    "slug": "kpv",
+    "variants": [
+      {
+        "sku": "KP10",
+        "specification": "10mg*10vials",
+        "pack_price": 61.0,
+        "page": 4
+      }
+    ]
+  },
+  {
+    "name": "VIP",
+    "slug": "vip",
+    "variants": [
+      {
+        "sku": "VP10",
+        "specification": "10mg*10vials",
+        "pack_price": 157.0,
+        "page": 4
+      }
+    ]
+  },
+  {
+    "name": "Dihexa",
+    "slug": "dihexa",
+    "variants": [
+      {
+        "sku": "DI10",
+        "specification": "10mg*10vials",
+        "pack_price": 56.0,
+        "page": 4
+      }
+    ]
+  },
+  {
+    "name": "Sterile Water",
+    "slug": "sterile-water",
+    "variants": [
+      {
+        "sku": "WA10",
+        "specification": "10ml/10vials",
+        "pack_price": 9.0,
+        "page": 4
+      },
+      {
+        "sku": "WA3",
+        "specification": "3ml/10vials",
+        "pack_price": 7.0,
+        "page": 4
+      }
+    ]
+  },
+  {
+    "name": "Benzyl Alcohol 0.9%",
+    "slug": "benzyl-alcohol-0-9",
+    "variants": [
+      {
+        "sku": "BA10",
+        "specification": "10ml/10vials",
+        "pack_price": 9.0,
+        "page": 4
+      },
+      {
+        "sku": "BA3",
+        "specification": "3ml/10vials",
+        "pack_price": 7.0,
+        "page": 5
+      }
+    ]
+  },
+  {
+    "name": "Acetic Acid 0.6%",
+    "slug": "acetic-acid-0-6",
+    "variants": [
+      {
+        "sku": "AA10",
+        "specification": "10ml/10vials",
+        "pack_price": 9.0,
+        "page": 5
+      },
+      {
+        "sku": "AA3",
+        "specification": "3ml/10vials",
+        "pack_price": 7.0,
+        "page": 5
+      }
+    ]
+  }
+]

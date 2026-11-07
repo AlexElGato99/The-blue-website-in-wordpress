@@ -1,0 +1,3 @@
+const {chromium}=require('C:/Users/ayoub/wordpress-catalog-tools/node_modules/playwright');const fs=require('fs');
+(async()=>{const b=await chromium.launch({channel:'msedge',headless:true});const p=await b.newPage();await p.goto('http://localhost/wordpress/shop/',{waitUntil:'networkidle'});await p.locator('.e-filter-item').filter({hasText:'Lab Supplies'}).click();await p.waitForTimeout(8000);console.log({filteredCards:await p.locator('.elementor-loop-container .e-loop-item').count(),titles:await p.locator('.elementor-loop-container h3').allTextContents()});await b.close()})().catch(e=>{console.error(e);process.exit(1)});
+

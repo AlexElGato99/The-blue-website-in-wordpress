@@ -1,0 +1,408 @@
+[
+    {
+        "name": "MT-1",
+        "url": "http:\/\/localhost\/wordpress\/mt-1\/",
+        "image": "http:\/\/localhost\/wordpress\/wp-content\/uploads\/catalog-liquid-2026\/mt-1.webp",
+        "image_path": "C:\\xampp\\htdocs\\wordpress\/wp-content\/uploads\/catalog-liquid-2026\/mt-1.webp",
+        "variants": 1
+    },
+    {
+        "name": "MT-2 (Melanotan 2 Acetate)",
+        "url": "http:\/\/localhost\/wordpress\/mt-2-melanotan-2-acetate\/",
+        "image": "http:\/\/localhost\/wordpress\/wp-content\/uploads\/catalog-liquid-2026\/mt-2-melanotan-2-acetate.webp",
+        "image_path": "C:\\xampp\\htdocs\\wordpress\/wp-content\/uploads\/catalog-liquid-2026\/mt-2-melanotan-2-acetate.webp",
+        "variants": 1
+    },
+    {
+        "name": "PT-141",
+        "url": "http:\/\/localhost\/wordpress\/pt-141\/",
+        "image": "http:\/\/localhost\/wordpress\/wp-content\/uploads\/catalog-liquid-2026\/pt-141.webp",
+        "image_path": "C:\\xampp\\htdocs\\wordpress\/wp-content\/uploads\/catalog-liquid-2026\/pt-141.webp",
+        "variants": 1
+    },
+    {
+        "name": "Gonadorelin Acetate",
+        "url": "http:\/\/localhost\/wordpress\/gonadorelin-acetate\/",
+        "image": "http:\/\/localhost\/wordpress\/wp-content\/uploads\/catalog-liquid-2026\/gonadorelin-acetate.webp",
+        "image_path": "C:\\xampp\\htdocs\\wordpress\/wp-content\/uploads\/catalog-liquid-2026\/gonadorelin-acetate.webp",
+        "variants": 1
+    },
+    {
+        "name": "DSIP",
+        "url": "http:\/\/localhost\/wordpress\/dsip\/",
+        "image": "http:\/\/localhost\/wordpress\/wp-content\/uploads\/catalog-liquid-2026\/dsip.webp",
+        "image_path": "C:\\xampp\\htdocs\\wordpress\/wp-content\/uploads\/catalog-liquid-2026\/dsip.webp",
+        "variants": 2
+    },
+    {
+        "name": "Selank",
+        "url": "http:\/\/localhost\/wordpress\/selank\/",
+        "image": "http:\/\/localhost\/wordpress\/wp-content\/uploads\/catalog-liquid-2026\/selank.webp",
+        "image_path": "C:\\xampp\\htdocs\\wordpress\/wp-content\/uploads\/catalog-liquid-2026\/selank.webp",
+        "variants": 2
+    },
+    {
+        "name": "Oxytocin Acetate",
+        "url": "http:\/\/localhost\/wordpress\/oxytocin-acetate\/",
+        "image": "http:\/\/localhost\/wordpress\/wp-content\/uploads\/catalog-liquid-2026\/oxytocin-acetate.webp",
+        "image_path": "C:\\xampp\\htdocs\\wordpress\/wp-content\/uploads\/catalog-liquid-2026\/oxytocin-acetate.webp",
+        "variants": 2
+    },
+    {
+        "name": "Epithalon",
+        "url": "http:\/\/localhost\/wordpress\/epitalon\/",
+        "image": "http:\/\/localhost\/wordpress\/wp-content\/uploads\/catalog-liquid-2026\/epithalon.webp",
+        "image_path": "C:\\xampp\\htdocs\\wordpress\/wp-content\/uploads\/catalog-liquid-2026\/epithalon.webp",
+        "variants": 2
+    },
+    {
+        "name": "BPC-157",
+        "url": "http:\/\/localhost\/wordpress\/bpc-157\/",
+        "image": "http:\/\/localhost\/wordpress\/wp-content\/uploads\/catalog-liquid-2026\/bpc-157.webp",
+        "image_path": "C:\\xampp\\htdocs\\wordpress\/wp-content\/uploads\/catalog-liquid-2026\/bpc-157.webp",
+        "variants": 2
+    },
+    {
+        "name": "BPC-157 + TB-500",
+        "url": "http:\/\/localhost\/wordpress\/bpc-157-tb-500\/",
+        "image": "http:\/\/localhost\/wordpress\/wp-content\/uploads\/catalog-liquid-2026\/bpc-157-tb-500.webp",
+        "image_path": "C:\\xampp\\htdocs\\wordpress\/wp-content\/uploads\/catalog-liquid-2026\/bpc-157-tb-500.webp",
+        "variants": 2
+    },
+    {
+        "name": "AICAR",
+        "url": "http:\/\/localhost\/wordpress\/aicar\/",
+        "image": "http:\/\/localhost\/wordpress\/wp-content\/uploads\/catalog-liquid-2026\/aicar.webp",
+        "image_path": "C:\\xampp\\htdocs\\wordpress\/wp-content\/uploads\/catalog-liquid-2026\/aicar.webp",
+        "variants": 1
+    },
+    {
+        "name": "Adipotide",
+        "url": "http:\/\/localhost\/wordpress\/adipotide\/",
+        "image": "http:\/\/localhost\/wordpress\/wp-content\/uploads\/catalog-liquid-2026\/adipotide.webp",
+        "image_path": "C:\\xampp\\htdocs\\wordpress\/wp-content\/uploads\/catalog-liquid-2026\/adipotide.webp",
+        "variants": 1
+    },
+    {
+        "name": "Semax",
+        "url": "http:\/\/localhost\/wordpress\/semax\/",
+        "image": "http:\/\/localhost\/wordpress\/wp-content\/uploads\/catalog-liquid-2026\/semax.webp",
+        "image_path": "C:\\xampp\\htdocs\\wordpress\/wp-content\/uploads\/catalog-liquid-2026\/semax.webp",
+        "variants": 2
+    },
+    {
+        "name": "Adamax",
+        "url": "http:\/\/localhost\/wordpress\/adamax\/",
+        "image": "http:\/\/localhost\/wordpress\/wp-content\/uploads\/catalog-liquid-2026\/adamax.webp",
+        "image_path": "C:\\xampp\\htdocs\\wordpress\/wp-content\/uploads\/catalog-liquid-2026\/adamax.webp",
+        "variants": 1
+    },
+    {
+        "name": "Semaglutide",
+        "url": "http:\/\/localhost\/wordpress\/semaglutide\/",
+        "image": "http:\/\/localhost\/wordpress\/wp-content\/uploads\/catalog-liquid-2026\/semaglutide.webp",
+        "image_path": "C:\\xampp\\htdocs\\wordpress\/wp-content\/uploads\/catalog-liquid-2026\/semaglutide.webp",
+        "variants": 5
+    },
+    {
+        "name": "SS-31",
+        "url": "http:\/\/localhost\/wordpress\/ss-31\/",
+        "image": "http:\/\/localhost\/wordpress\/wp-content\/uploads\/catalog-liquid-2026\/ss-31.webp",
+        "image_path": "C:\\xampp\\htdocs\\wordpress\/wp-content\/uploads\/catalog-liquid-2026\/ss-31.webp",
+        "variants": 2
+    },
+    {
+        "name": "Tirzepatide",
+        "url": "http:\/\/localhost\/wordpress\/tirzepatide\/",
+        "image": "http:\/\/localhost\/wordpress\/wp-content\/uploads\/catalog-liquid-2026\/tirzepatide.webp",
+        "image_path": "C:\\xampp\\htdocs\\wordpress\/wp-content\/uploads\/catalog-liquid-2026\/tirzepatide.webp",
+        "variants": 11
+    },
+    {
+        "name": "GHRP-2 Acetate",
+        "url": "http:\/\/localhost\/wordpress\/ghrp-2-acetate\/",
+        "image": "http:\/\/localhost\/wordpress\/wp-content\/uploads\/catalog-liquid-2026\/ghrp-2-acetate.webp",
+        "image_path": "C:\\xampp\\htdocs\\wordpress\/wp-content\/uploads\/catalog-liquid-2026\/ghrp-2-acetate.webp",
+        "variants": 3
+    },
+    {
+        "name": "GHRP-6 Acetate",
+        "url": "http:\/\/localhost\/wordpress\/ghrp-6-acetate\/",
+        "image": "http:\/\/localhost\/wordpress\/wp-content\/uploads\/catalog-liquid-2026\/ghrp-6-acetate.webp",
+        "image_path": "C:\\xampp\\htdocs\\wordpress\/wp-content\/uploads\/catalog-liquid-2026\/ghrp-6-acetate.webp",
+        "variants": 2
+    },
+    {
+        "name": "CJC-1295 (no DAC)",
+        "url": "http:\/\/localhost\/wordpress\/cjc-1295-no-dac\/",
+        "image": "http:\/\/localhost\/wordpress\/wp-content\/uploads\/catalog-liquid-2026\/cjc-1295-no-dac.webp",
+        "image_path": "C:\\xampp\\htdocs\\wordpress\/wp-content\/uploads\/catalog-liquid-2026\/cjc-1295-no-dac.webp",
+        "variants": 3
+    },
+    {
+        "name": "CJC-1295 (no DAC) + Ipamorelin",
+        "url": "http:\/\/localhost\/wordpress\/cjc-1295-no-dac-ipamorelin\/",
+        "image": "http:\/\/localhost\/wordpress\/wp-content\/uploads\/catalog-liquid-2026\/cjc-1295-no-dac-ipamorelin.webp",
+        "image_path": "C:\\xampp\\htdocs\\wordpress\/wp-content\/uploads\/catalog-liquid-2026\/cjc-1295-no-dac-ipamorelin.webp",
+        "variants": 1
+    },
+    {
+        "name": "CJC-1295 With DAC",
+        "url": "http:\/\/localhost\/wordpress\/cjc-1295-with-dac\/",
+        "image": "http:\/\/localhost\/wordpress\/wp-content\/uploads\/catalog-liquid-2026\/cjc-1295-with-dac.webp",
+        "image_path": "C:\\xampp\\htdocs\\wordpress\/wp-content\/uploads\/catalog-liquid-2026\/cjc-1295-with-dac.webp",
+        "variants": 2
+    },
+    {
+        "name": "TB-500",
+        "url": "http:\/\/localhost\/wordpress\/tb-500\/",
+        "image": "http:\/\/localhost\/wordpress\/wp-content\/uploads\/catalog-liquid-2026\/tb-500.webp",
+        "image_path": "C:\\xampp\\htdocs\\wordpress\/wp-content\/uploads\/catalog-liquid-2026\/tb-500.webp",
+        "variants": 3
+    },
+    {
+        "name": "MGF",
+        "url": "http:\/\/localhost\/wordpress\/mgf\/",
+        "image": "http:\/\/localhost\/wordpress\/wp-content\/uploads\/catalog-liquid-2026\/mgf.webp",
+        "image_path": "C:\\xampp\\htdocs\\wordpress\/wp-content\/uploads\/catalog-liquid-2026\/mgf.webp",
+        "variants": 1
+    },
+    {
+        "name": "PEG MGF",
+        "url": "http:\/\/localhost\/wordpress\/peg-mgf\/",
+        "image": "http:\/\/localhost\/wordpress\/wp-content\/uploads\/catalog-liquid-2026\/peg-mgf.webp",
+        "image_path": "C:\\xampp\\htdocs\\wordpress\/wp-content\/uploads\/catalog-liquid-2026\/peg-mgf.webp",
+        "variants": 1
+    },
+    {
+        "name": "Sermorelin Acetate",
+        "url": "http:\/\/localhost\/wordpress\/sermorelin-acetate\/",
+        "image": "http:\/\/localhost\/wordpress\/wp-content\/uploads\/catalog-liquid-2026\/sermorelin-acetate.webp",
+        "image_path": "C:\\xampp\\htdocs\\wordpress\/wp-content\/uploads\/catalog-liquid-2026\/sermorelin-acetate.webp",
+        "variants": 2
+    },
+    {
+        "name": "HCG",
+        "url": "http:\/\/localhost\/wordpress\/hcg\/",
+        "image": "http:\/\/localhost\/wordpress\/wp-content\/uploads\/catalog-liquid-2026\/hcg.webp",
+        "image_path": "C:\\xampp\\htdocs\\wordpress\/wp-content\/uploads\/catalog-liquid-2026\/hcg.webp",
+        "variants": 2
+    },
+    {
+        "name": "AOD9604",
+        "url": "http:\/\/localhost\/wordpress\/aod9604\/",
+        "image": "http:\/\/localhost\/wordpress\/wp-content\/uploads\/catalog-liquid-2026\/aod9604.webp",
+        "image_path": "C:\\xampp\\htdocs\\wordpress\/wp-content\/uploads\/catalog-liquid-2026\/aod9604.webp",
+        "variants": 2
+    },
+    {
+        "name": "IGF-1 LR3",
+        "url": "http:\/\/localhost\/wordpress\/igf-1-lr3\/",
+        "image": "http:\/\/localhost\/wordpress\/wp-content\/uploads\/catalog-liquid-2026\/igf-1-lr3.webp",
+        "image_path": "C:\\xampp\\htdocs\\wordpress\/wp-content\/uploads\/catalog-liquid-2026\/igf-1-lr3.webp",
+        "variants": 2
+    },
+    {
+        "name": "Tesamorelin",
+        "url": "http:\/\/localhost\/wordpress\/tesamorelin\/",
+        "image": "http:\/\/localhost\/wordpress\/wp-content\/uploads\/catalog-liquid-2026\/tesamorelin.webp",
+        "image_path": "C:\\xampp\\htdocs\\wordpress\/wp-content\/uploads\/catalog-liquid-2026\/tesamorelin.webp",
+        "variants": 4
+    },
+    {
+        "name": "Ipamorelin",
+        "url": "http:\/\/localhost\/wordpress\/ipamorelin\/",
+        "image": "http:\/\/localhost\/wordpress\/wp-content\/uploads\/catalog-liquid-2026\/ipamorelin.webp",
+        "image_path": "C:\\xampp\\htdocs\\wordpress\/wp-content\/uploads\/catalog-liquid-2026\/ipamorelin.webp",
+        "variants": 2
+    },
+    {
+        "name": "Hexarelin Acetate",
+        "url": "http:\/\/localhost\/wordpress\/hexarelin-acetate\/",
+        "image": "http:\/\/localhost\/wordpress\/wp-content\/uploads\/catalog-liquid-2026\/hexarelin-acetate.webp",
+        "image_path": "C:\\xampp\\htdocs\\wordpress\/wp-content\/uploads\/catalog-liquid-2026\/hexarelin-acetate.webp",
+        "variants": 1
+    },
+    {
+        "name": "GHK-Cu",
+        "url": "http:\/\/localhost\/wordpress\/ghk-cu\/",
+        "image": "http:\/\/localhost\/wordpress\/wp-content\/uploads\/catalog-liquid-2026\/ghk-cu.webp",
+        "image_path": "C:\\xampp\\htdocs\\wordpress\/wp-content\/uploads\/catalog-liquid-2026\/ghk-cu.webp",
+        "variants": 2
+    },
+    {
+        "name": "AHK-Cu",
+        "url": "http:\/\/localhost\/wordpress\/ahk-cu\/",
+        "image": "http:\/\/localhost\/wordpress\/wp-content\/uploads\/catalog-liquid-2026\/ahk-cu.webp",
+        "image_path": "C:\\xampp\\htdocs\\wordpress\/wp-content\/uploads\/catalog-liquid-2026\/ahk-cu.webp",
+        "variants": 1
+    },
+    {
+        "name": "Kisspeptin-10",
+        "url": "http:\/\/localhost\/wordpress\/kisspeptin-10\/",
+        "image": "http:\/\/localhost\/wordpress\/wp-content\/uploads\/catalog-liquid-2026\/kisspeptin-10.webp",
+        "image_path": "C:\\xampp\\htdocs\\wordpress\/wp-content\/uploads\/catalog-liquid-2026\/kisspeptin-10.webp",
+        "variants": 2
+    },
+    {
+        "name": "Thymalin",
+        "url": "http:\/\/localhost\/wordpress\/thymalin\/",
+        "image": "http:\/\/localhost\/wordpress\/wp-content\/uploads\/catalog-liquid-2026\/thymalin.webp",
+        "image_path": "C:\\xampp\\htdocs\\wordpress\/wp-content\/uploads\/catalog-liquid-2026\/thymalin.webp",
+        "variants": 1
+    },
+    {
+        "name": "Thymosin Alpha-1",
+        "url": "http:\/\/localhost\/wordpress\/thymosin-alpha-1\/",
+        "image": "http:\/\/localhost\/wordpress\/wp-content\/uploads\/catalog-liquid-2026\/thymosin-alpha-1.webp",
+        "image_path": "C:\\xampp\\htdocs\\wordpress\/wp-content\/uploads\/catalog-liquid-2026\/thymosin-alpha-1.webp",
+        "variants": 2
+    },
+    {
+        "name": "MOTS-c",
+        "url": "http:\/\/localhost\/wordpress\/mots-c\/",
+        "image": "http:\/\/localhost\/wordpress\/wp-content\/uploads\/catalog-liquid-2026\/mots-c.webp",
+        "image_path": "C:\\xampp\\htdocs\\wordpress\/wp-content\/uploads\/catalog-liquid-2026\/mots-c.webp",
+        "variants": 3
+    },
+    {
+        "name": "FOXO4",
+        "url": "http:\/\/localhost\/wordpress\/foxo4\/",
+        "image": "http:\/\/localhost\/wordpress\/wp-content\/uploads\/catalog-liquid-2026\/foxo4.webp",
+        "image_path": "C:\\xampp\\htdocs\\wordpress\/wp-content\/uploads\/catalog-liquid-2026\/foxo4.webp",
+        "variants": 1
+    },
+    {
+        "name": "LL37",
+        "url": "http:\/\/localhost\/wordpress\/ll37\/",
+        "image": "http:\/\/localhost\/wordpress\/wp-content\/uploads\/catalog-liquid-2026\/ll37.webp",
+        "image_path": "C:\\xampp\\htdocs\\wordpress\/wp-content\/uploads\/catalog-liquid-2026\/ll37.webp",
+        "variants": 1
+    },
+    {
+        "name": "Retatrutide",
+        "url": "http:\/\/localhost\/wordpress\/retatrutide\/",
+        "image": "http:\/\/localhost\/wordpress\/wp-content\/uploads\/catalog-liquid-2026\/retatrutide.webp",
+        "image_path": "C:\\xampp\\htdocs\\wordpress\/wp-content\/uploads\/catalog-liquid-2026\/retatrutide.webp",
+        "variants": 9
+    },
+    {
+        "name": "Melatonin",
+        "url": "http:\/\/localhost\/wordpress\/melatonin\/",
+        "image": "http:\/\/localhost\/wordpress\/wp-content\/uploads\/catalog-liquid-2026\/melatonin.webp",
+        "image_path": "C:\\xampp\\htdocs\\wordpress\/wp-content\/uploads\/catalog-liquid-2026\/melatonin.webp",
+        "variants": 1
+    },
+    {
+        "name": "Glutathione",
+        "url": "http:\/\/localhost\/wordpress\/glutathione\/",
+        "image": "http:\/\/localhost\/wordpress\/wp-content\/uploads\/catalog-liquid-2026\/glutathione.webp",
+        "image_path": "C:\\xampp\\htdocs\\wordpress\/wp-content\/uploads\/catalog-liquid-2026\/glutathione.webp",
+        "variants": 2
+    },
+    {
+        "name": "5-amino-1mq",
+        "url": "http:\/\/localhost\/wordpress\/5-amino-1mq\/",
+        "image": "http:\/\/localhost\/wordpress\/wp-content\/uploads\/catalog-liquid-2026\/5-amino-1mq.webp",
+        "image_path": "C:\\xampp\\htdocs\\wordpress\/wp-content\/uploads\/catalog-liquid-2026\/5-amino-1mq.webp",
+        "variants": 2
+    },
+    {
+        "name": "HMG",
+        "url": "http:\/\/localhost\/wordpress\/hmg\/",
+        "image": "http:\/\/localhost\/wordpress\/wp-content\/uploads\/catalog-liquid-2026\/hmg.webp",
+        "image_path": "C:\\xampp\\htdocs\\wordpress\/wp-content\/uploads\/catalog-liquid-2026\/hmg.webp",
+        "variants": 1
+    },
+    {
+        "name": "SNAP-8",
+        "url": "http:\/\/localhost\/wordpress\/snap-8\/",
+        "image": "http:\/\/localhost\/wordpress\/wp-content\/uploads\/catalog-liquid-2026\/snap-8.webp",
+        "image_path": "C:\\xampp\\htdocs\\wordpress\/wp-content\/uploads\/catalog-liquid-2026\/snap-8.webp",
+        "variants": 1
+    },
+    {
+        "name": "NAD+",
+        "url": "http:\/\/localhost\/wordpress\/nad-plus\/",
+        "image": "http:\/\/localhost\/wordpress\/wp-content\/uploads\/catalog-liquid-2026\/nad-plus.webp",
+        "image_path": "C:\\xampp\\htdocs\\wordpress\/wp-content\/uploads\/catalog-liquid-2026\/nad-plus.webp",
+        "variants": 3
+    },
+    {
+        "name": "Survodutide",
+        "url": "http:\/\/localhost\/wordpress\/survodutide\/",
+        "image": "http:\/\/localhost\/wordpress\/wp-content\/uploads\/catalog-liquid-2026\/survodutide.webp",
+        "image_path": "C:\\xampp\\htdocs\\wordpress\/wp-content\/uploads\/catalog-liquid-2026\/survodutide.webp",
+        "variants": 1
+    },
+    {
+        "name": "Cagrilintide",
+        "url": "http:\/\/localhost\/wordpress\/cagrilintide\/",
+        "image": "http:\/\/localhost\/wordpress\/wp-content\/uploads\/catalog-liquid-2026\/cagrilintide.webp",
+        "image_path": "C:\\xampp\\htdocs\\wordpress\/wp-content\/uploads\/catalog-liquid-2026\/cagrilintide.webp",
+        "variants": 2
+    },
+    {
+        "name": "TB-500 + BPC-157 + GHK-Cu",
+        "url": "http:\/\/localhost\/wordpress\/tb-500-bpc-157-ghk-cu\/",
+        "image": "http:\/\/localhost\/wordpress\/wp-content\/uploads\/catalog-liquid-2026\/tb-500-bpc-157-ghk-cu.webp",
+        "image_path": "C:\\xampp\\htdocs\\wordpress\/wp-content\/uploads\/catalog-liquid-2026\/tb-500-bpc-157-ghk-cu.webp",
+        "variants": 1
+    },
+    {
+        "name": "BT10 + BP10 + CU50 + KP10",
+        "url": "http:\/\/localhost\/wordpress\/bt10-bp10-cu50-kp10\/",
+        "image": "http:\/\/localhost\/wordpress\/wp-content\/uploads\/catalog-liquid-2026\/bt10-bp10-cu50-kp10.webp",
+        "image_path": "C:\\xampp\\htdocs\\wordpress\/wp-content\/uploads\/catalog-liquid-2026\/bt10-bp10-cu50-kp10.webp",
+        "variants": 1
+    },
+    {
+        "name": "Cagrilintide + Semaglutide",
+        "url": "http:\/\/localhost\/wordpress\/cagrilintide-semaglutide\/",
+        "image": "http:\/\/localhost\/wordpress\/wp-content\/uploads\/catalog-liquid-2026\/cagrilintide-semaglutide.webp",
+        "image_path": "C:\\xampp\\htdocs\\wordpress\/wp-content\/uploads\/catalog-liquid-2026\/cagrilintide-semaglutide.webp",
+        "variants": 1
+    },
+    {
+        "name": "KPV",
+        "url": "http:\/\/localhost\/wordpress\/kpv\/",
+        "image": "http:\/\/localhost\/wordpress\/wp-content\/uploads\/catalog-liquid-2026\/kpv.webp",
+        "image_path": "C:\\xampp\\htdocs\\wordpress\/wp-content\/uploads\/catalog-liquid-2026\/kpv.webp",
+        "variants": 1
+    },
+    {
+        "name": "VIP",
+        "url": "http:\/\/localhost\/wordpress\/vip\/",
+        "image": "http:\/\/localhost\/wordpress\/wp-content\/uploads\/catalog-liquid-2026\/vip.webp",
+        "image_path": "C:\\xampp\\htdocs\\wordpress\/wp-content\/uploads\/catalog-liquid-2026\/vip.webp",
+        "variants": 1
+    },
+    {
+        "name": "Dihexa",
+        "url": "http:\/\/localhost\/wordpress\/dihexa\/",
+        "image": "http:\/\/localhost\/wordpress\/wp-content\/uploads\/catalog-liquid-2026\/dihexa.webp",
+        "image_path": "C:\\xampp\\htdocs\\wordpress\/wp-content\/uploads\/catalog-liquid-2026\/dihexa.webp",
+        "variants": 1
+    },
+    {
+        "name": "Sterile Water",
+        "url": "http:\/\/localhost\/wordpress\/research-water\/",
+        "image": "http:\/\/localhost\/wordpress\/wp-content\/uploads\/catalog-liquid-2026\/sterile-water.webp",
+        "image_path": "C:\\xampp\\htdocs\\wordpress\/wp-content\/uploads\/catalog-liquid-2026\/sterile-water.webp",
+        "variants": 2
+    },
+    {
+        "name": "Benzyl Alcohol 0.9%",
+        "url": "http:\/\/localhost\/wordpress\/benzyl-alcohol-0-9\/",
+        "image": "http:\/\/localhost\/wordpress\/wp-content\/uploads\/catalog-liquid-2026\/benzyl-alcohol-0-9.webp",
+        "image_path": "C:\\xampp\\htdocs\\wordpress\/wp-content\/uploads\/catalog-liquid-2026\/benzyl-alcohol-0-9.webp",
+        "variants": 2
+    },
+    {
+        "name": "Acetic Acid 0.6%",
+        "url": "http:\/\/localhost\/wordpress\/acetic-acid-0-6\/",
+        "image": "http:\/\/localhost\/wordpress\/wp-content\/uploads\/catalog-liquid-2026\/acetic-acid-0-6.webp",
+        "image_path": "C:\\xampp\\htdocs\\wordpress\/wp-content\/uploads\/catalog-liquid-2026\/acetic-acid-0-6.webp",
+        "variants": 2
+    }
+]

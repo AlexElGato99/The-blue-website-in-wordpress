@@ -1,0 +1,350 @@
+[
+    {
+        "slug": "mt-1",
+        "url": "http:\/\/localhost\/wordpress\/mt-1\/",
+        "id": 458,
+        "variants": 1
+    },
+    {
+        "slug": "mt-2-melanotan-2-acetate",
+        "url": "http:\/\/localhost\/wordpress\/mt-2-melanotan-2-acetate\/",
+        "id": 459,
+        "variants": 1
+    },
+    {
+        "slug": "pt-141",
+        "url": "http:\/\/localhost\/wordpress\/pt-141\/",
+        "id": 460,
+        "variants": 1
+    },
+    {
+        "slug": "gonadorelin-acetate",
+        "url": "http:\/\/localhost\/wordpress\/gonadorelin-acetate\/",
+        "id": 461,
+        "variants": 1
+    },
+    {
+        "slug": "dsip",
+        "url": "http:\/\/localhost\/wordpress\/dsip\/",
+        "id": 38,
+        "variants": 2
+    },
+    {
+        "slug": "selank",
+        "url": "http:\/\/localhost\/wordpress\/selank\/",
+        "id": 463,
+        "variants": 2
+    },
+    {
+        "slug": "oxytocin-acetate",
+        "url": "http:\/\/localhost\/wordpress\/oxytocin-acetate\/",
+        "id": 464,
+        "variants": 2
+    },
+    {
+        "slug": "epithalon",
+        "url": "http:\/\/localhost\/wordpress\/epitalon\/",
+        "id": 34,
+        "variants": 2
+    },
+    {
+        "slug": "bpc-157",
+        "url": "http:\/\/localhost\/wordpress\/bpc-157\/",
+        "id": 31,
+        "variants": 2
+    },
+    {
+        "slug": "bpc-157-tb-500",
+        "url": "http:\/\/localhost\/wordpress\/bpc-157-tb-500\/",
+        "id": 467,
+        "variants": 2
+    },
+    {
+        "slug": "aicar",
+        "url": "http:\/\/localhost\/wordpress\/aicar\/",
+        "id": 468,
+        "variants": 1
+    },
+    {
+        "slug": "adipotide",
+        "url": "http:\/\/localhost\/wordpress\/adipotide\/",
+        "id": 469,
+        "variants": 1
+    },
+    {
+        "slug": "semax",
+        "url": "http:\/\/localhost\/wordpress\/semax\/",
+        "id": 37,
+        "variants": 2
+    },
+    {
+        "slug": "adamax",
+        "url": "http:\/\/localhost\/wordpress\/adamax\/",
+        "id": 471,
+        "variants": 1
+    },
+    {
+        "slug": "semaglutide",
+        "url": "http:\/\/localhost\/wordpress\/semaglutide\/",
+        "id": 472,
+        "variants": 5
+    },
+    {
+        "slug": "ss-31",
+        "url": "http:\/\/localhost\/wordpress\/ss-31\/",
+        "id": 473,
+        "variants": 2
+    },
+    {
+        "slug": "tirzepatide",
+        "url": "http:\/\/localhost\/wordpress\/tirzepatide\/",
+        "id": 474,
+        "variants": 11
+    },
+    {
+        "slug": "ghrp-2-acetate",
+        "url": "http:\/\/localhost\/wordpress\/ghrp-2-acetate\/",
+        "id": 475,
+        "variants": 3
+    },
+    {
+        "slug": "ghrp-6-acetate",
+        "url": "http:\/\/localhost\/wordpress\/ghrp-6-acetate\/",
+        "id": 476,
+        "variants": 2
+    },
+    {
+        "slug": "cjc-1295-no-dac",
+        "url": "http:\/\/localhost\/wordpress\/cjc-1295-no-dac\/",
+        "id": 36,
+        "variants": 3
+    },
+    {
+        "slug": "cjc-1295-no-dac-ipamorelin",
+        "url": "http:\/\/localhost\/wordpress\/cjc-1295-no-dac-ipamorelin\/",
+        "id": 478,
+        "variants": 1
+    },
+    {
+        "slug": "cjc-1295-with-dac",
+        "url": "http:\/\/localhost\/wordpress\/cjc-1295-with-dac\/",
+        "id": 479,
+        "variants": 2
+    },
+    {
+        "slug": "tb-500",
+        "url": "http:\/\/localhost\/wordpress\/tb-500\/",
+        "id": 32,
+        "variants": 3
+    },
+    {
+        "slug": "mgf",
+        "url": "http:\/\/localhost\/wordpress\/mgf\/",
+        "id": 481,
+        "variants": 1
+    },
+    {
+        "slug": "peg-mgf",
+        "url": "http:\/\/localhost\/wordpress\/peg-mgf\/",
+        "id": 482,
+        "variants": 1
+    },
+    {
+        "slug": "sermorelin-acetate",
+        "url": "http:\/\/localhost\/wordpress\/sermorelin-acetate\/",
+        "id": 483,
+        "variants": 2
+    },
+    {
+        "slug": "hcg",
+        "url": "http:\/\/localhost\/wordpress\/hcg\/",
+        "id": 484,
+        "variants": 2
+    },
+    {
+        "slug": "aod9604",
+        "url": "http:\/\/localhost\/wordpress\/aod9604\/",
+        "id": 485,
+        "variants": 2
+    },
+    {
+        "slug": "igf-1-lr3",
+        "url": "http:\/\/localhost\/wordpress\/igf-1-lr3\/",
+        "id": 486,
+        "variants": 2
+    },
+    {
+        "slug": "tesamorelin",
+        "url": "http:\/\/localhost\/wordpress\/tesamorelin\/",
+        "id": 487,
+        "variants": 4
+    },
+    {
+        "slug": "ipamorelin",
+        "url": "http:\/\/localhost\/wordpress\/ipamorelin\/",
+        "id": 35,
+        "variants": 2
+    },
+    {
+        "slug": "hexarelin-acetate",
+        "url": "http:\/\/localhost\/wordpress\/hexarelin-acetate\/",
+        "id": 489,
+        "variants": 1
+    },
+    {
+        "slug": "ghk-cu",
+        "url": "http:\/\/localhost\/wordpress\/ghk-cu\/",
+        "id": 30,
+        "variants": 2
+    },
+    {
+        "slug": "ahk-cu",
+        "url": "http:\/\/localhost\/wordpress\/ahk-cu\/",
+        "id": 491,
+        "variants": 1
+    },
+    {
+        "slug": "kisspeptin-10",
+        "url": "http:\/\/localhost\/wordpress\/kisspeptin-10\/",
+        "id": 492,
+        "variants": 2
+    },
+    {
+        "slug": "thymalin",
+        "url": "http:\/\/localhost\/wordpress\/thymalin\/",
+        "id": 493,
+        "variants": 1
+    },
+    {
+        "slug": "thymosin-alpha-1",
+        "url": "http:\/\/localhost\/wordpress\/thymosin-alpha-1\/",
+        "id": 40,
+        "variants": 2
+    },
+    {
+        "slug": "mots-c",
+        "url": "http:\/\/localhost\/wordpress\/mots-c\/",
+        "id": 33,
+        "variants": 3
+    },
+    {
+        "slug": "foxo4",
+        "url": "http:\/\/localhost\/wordpress\/foxo4\/",
+        "id": 496,
+        "variants": 1
+    },
+    {
+        "slug": "ll37",
+        "url": "http:\/\/localhost\/wordpress\/ll37\/",
+        "id": 497,
+        "variants": 1
+    },
+    {
+        "slug": "retatrutide",
+        "url": "http:\/\/localhost\/wordpress\/retatrutide\/",
+        "id": 498,
+        "variants": 9
+    },
+    {
+        "slug": "melatonin",
+        "url": "http:\/\/localhost\/wordpress\/melatonin\/",
+        "id": 499,
+        "variants": 1
+    },
+    {
+        "slug": "glutathione",
+        "url": "http:\/\/localhost\/wordpress\/glutathione\/",
+        "id": 500,
+        "variants": 2
+    },
+    {
+        "slug": "5-amino-1mq",
+        "url": "http:\/\/localhost\/wordpress\/5-amino-1mq\/",
+        "id": 501,
+        "variants": 2
+    },
+    {
+        "slug": "hmg",
+        "url": "http:\/\/localhost\/wordpress\/hmg\/",
+        "id": 502,
+        "variants": 1
+    },
+    {
+        "slug": "snap-8",
+        "url": "http:\/\/localhost\/wordpress\/snap-8\/",
+        "id": 503,
+        "variants": 1
+    },
+    {
+        "slug": "nad-plus",
+        "url": "http:\/\/localhost\/wordpress\/nad-plus\/",
+        "id": 39,
+        "variants": 3
+    },
+    {
+        "slug": "survodutide",
+        "url": "http:\/\/localhost\/wordpress\/survodutide\/",
+        "id": 505,
+        "variants": 1
+    },
+    {
+        "slug": "cagrilintide",
+        "url": "http:\/\/localhost\/wordpress\/cagrilintide\/",
+        "id": 506,
+        "variants": 2
+    },
+    {
+        "slug": "tb-500-bpc-157-ghk-cu",
+        "url": "http:\/\/localhost\/wordpress\/tb-500-bpc-157-ghk-cu\/",
+        "id": 507,
+        "variants": 1
+    },
+    {
+        "slug": "bt10-bp10-cu50-kp10",
+        "url": "http:\/\/localhost\/wordpress\/bt10-bp10-cu50-kp10\/",
+        "id": 508,
+        "variants": 1
+    },
+    {
+        "slug": "cagrilintide-semaglutide",
+        "url": "http:\/\/localhost\/wordpress\/cagrilintide-semaglutide\/",
+        "id": 509,
+        "variants": 1
+    },
+    {
+        "slug": "kpv",
+        "url": "http:\/\/localhost\/wordpress\/kpv\/",
+        "id": 510,
+        "variants": 1
+    },
+    {
+        "slug": "vip",
+        "url": "http:\/\/localhost\/wordpress\/vip\/",
+        "id": 511,
+        "variants": 1
+    },
+    {
+        "slug": "dihexa",
+        "url": "http:\/\/localhost\/wordpress\/dihexa\/",
+        "id": 512,
+        "variants": 1
+    },
+    {
+        "slug": "sterile-water",
+        "url": "http:\/\/localhost\/wordpress\/research-water\/",
+        "id": 41,
+        "variants": 2
+    },
+    {
+        "slug": "benzyl-alcohol-0-9",
+        "url": "http:\/\/localhost\/wordpress\/benzyl-alcohol-0-9\/",
+        "id": 514,
+        "variants": 2
+    },
+    {
+        "slug": "acetic-acid-0-6",
+        "url": "http:\/\/localhost\/wordpress\/acetic-acid-0-6\/",
+        "id": 515,
+        "variants": 2
+    }
+]

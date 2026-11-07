@@ -1,0 +1,1415 @@
+[
+  {
+    "slug": "mt-1",
+    "name": "MT-1",
+    "path": "D:/wordpress-liquid-correction/mt-1.png",
+    "width": 1600,
+    "height": 1600,
+    "master": "D:/wordpress-liquid-correction/bottle-master.png",
+    "fontSize": 110,
+    "lines": [
+      "MT-1"
+    ],
+    "bottleImage": {
+      "x": 0,
+      "y": 0,
+      "width": 1600,
+      "height": 1600
+    },
+    "labelBox": {
+      "x": 545,
+      "y": 865,
+      "width": 510,
+      "height": 230
+    }
+  },
+  {
+    "slug": "mt-2-melanotan-2-acetate",
+    "name": "MT-2 (Melanotan 2 Acetate)",
+    "path": "D:/wordpress-liquid-correction/mt-2-melanotan-2-acetate.png",
+    "width": 1600,
+    "height": 1600,
+    "master": "D:/wordpress-liquid-correction/bottle-master.png",
+    "fontSize": 64,
+    "lines": [
+      "MT-2",
+      "(Melanotan 2",
+      "Acetate)"
+    ],
+    "bottleImage": {
+      "x": 0,
+      "y": 0,
+      "width": 1600,
+      "height": 1600
+    },
+    "labelBox": {
+      "x": 545,
+      "y": 865,
+      "width": 510,
+      "height": 230
+    }
+  },
+  {
+    "slug": "pt-141",
+    "name": "PT-141",
+    "path": "D:/wordpress-liquid-correction/pt-141.png",
+    "width": 1600,
+    "height": 1600,
+    "master": "D:/wordpress-liquid-correction/bottle-master.png",
+    "fontSize": 110,
+    "lines": [
+      "PT-141"
+    ],
+    "bottleImage": {
+      "x": 0,
+      "y": 0,
+      "width": 1600,
+      "height": 1600
+    },
+    "labelBox": {
+      "x": 545,
+      "y": 865,
+      "width": 510,
+      "height": 230
+    }
+  },
+  {
+    "slug": "gonadorelin-acetate",
+    "name": "Gonadorelin Acetate",
+    "path": "D:/wordpress-liquid-correction/gonadorelin-acetate.png",
+    "width": 1600,
+    "height": 1600,
+    "master": "D:/wordpress-liquid-correction/bottle-master.png",
+    "fontSize": 82,
+    "lines": [
+      "Gonadorelin",
+      "Acetate"
+    ],
+    "bottleImage": {
+      "x": 0,
+      "y": 0,
+      "width": 1600,
+      "height": 1600
+    },
+    "labelBox": {
+      "x": 545,
+      "y": 865,
+      "width": 510,
+      "height": 230
+    }
+  },
+  {
+    "slug": "dsip",
+    "name": "DSIP",
+    "path": "D:/wordpress-liquid-correction/dsip.png",
+    "width": 1600,
+    "height": 1600,
+    "master": "D:/wordpress-liquid-correction/bottle-master.png",
+    "fontSize": 110,
+    "lines": [
+      "DSIP"
+    ],
+    "bottleImage": {
+      "x": 0,
+      "y": 0,
+      "width": 1600,
+      "height": 1600
+    },
+    "labelBox": {
+      "x": 545,
+      "y": 865,
+      "width": 510,
+      "height": 230
+    }
+  },
+  {
+    "slug": "selank",
+    "name": "Selank",
+    "path": "D:/wordpress-liquid-correction/selank.png",
+    "width": 1600,
+    "height": 1600,
+    "master": "D:/wordpress-liquid-correction/bottle-master.png",
+    "fontSize": 110,
+    "lines": [
+      "Selank"
+    ],
+    "bottleImage": {
+      "x": 0,
+      "y": 0,
+      "width": 1600,
+      "height": 1600
+    },
+    "labelBox": {
+      "x": 545,
+      "y": 865,
+      "width": 510,
+      "height": 230
+    }
+  },
+  {
+    "slug": "oxytocin-acetate",
+    "name": "Oxytocin Acetate",
+    "path": "D:/wordpress-liquid-correction/oxytocin-acetate.png",
+    "width": 1600,
+    "height": 1600,
+    "master": "D:/wordpress-liquid-correction/bottle-master.png",
+    "fontSize": 96,
+    "lines": [
+      "Oxytocin",
+      "Acetate"
+    ],
+    "bottleImage": {
+      "x": 0,
+      "y": 0,
+      "width": 1600,
+      "height": 1600
+    },
+    "labelBox": {
+      "x": 545,
+      "y": 865,
+      "width": 510,
+      "height": 230
+    }
+  },
+  {
+    "slug": "epithalon",
+    "name": "Epithalon",
+    "path": "D:/wordpress-liquid-correction/epithalon.png",
+    "width": 1600,
+    "height": 1600,
+    "master": "D:/wordpress-liquid-correction/bottle-master.png",
+    "fontSize": 106,
+    "lines": [
+      "Epithalon"
+    ],
+    "bottleImage": {
+      "x": 0,
+      "y": 0,
+      "width": 1600,
+      "height": 1600
+    },
+    "labelBox": {
+      "x": 545,
+      "y": 865,
+      "width": 510,
+      "height": 230
+    }
+  },
+  {
+    "slug": "bpc-157",
+    "name": "BPC-157",
+    "path": "D:/wordpress-liquid-correction/bpc-157.png",
+    "width": 1600,
+    "height": 1600,
+    "master": "D:/wordpress-liquid-correction/bottle-master.png",
+    "fontSize": 110,
+    "lines": [
+      "BPC-157"
+    ],
+    "bottleImage": {
+      "x": 0,
+      "y": 0,
+      "width": 1600,
+      "height": 1600
+    },
+    "labelBox": {
+      "x": 545,
+      "y": 865,
+      "width": 510,
+      "height": 230
+    }
+  },
+  {
+    "slug": "bpc-157-tb-500",
+    "name": "BPC-157 + TB-500",
+    "path": "D:/wordpress-liquid-correction/bpc-157-tb-500.png",
+    "width": 1600,
+    "height": 1600,
+    "master": "D:/wordpress-liquid-correction/bottle-master.png",
+    "fontSize": 96,
+    "lines": [
+      "BPC-157 +",
+      "TB-500"
+    ],
+    "bottleImage": {
+      "x": 0,
+      "y": 0,
+      "width": 1600,
+      "height": 1600
+    },
+    "labelBox": {
+      "x": 545,
+      "y": 865,
+      "width": 510,
+      "height": 230
+    }
+  },
+  {
+    "slug": "aicar",
+    "name": "AICAR",
+    "path": "D:/wordpress-liquid-correction/aicar.png",
+    "width": 1600,
+    "height": 1600,
+    "master": "D:/wordpress-liquid-correction/bottle-master.png",
+    "fontSize": 110,
+    "lines": [
+      "AICAR"
+    ],
+    "bottleImage": {
+      "x": 0,
+      "y": 0,
+      "width": 1600,
+      "height": 1600
+    },
+    "labelBox": {
+      "x": 545,
+      "y": 865,
+      "width": 510,
+      "height": 230
+    }
+  },
+  {
+    "slug": "adipotide",
+    "name": "Adipotide",
+    "path": "D:/wordpress-liquid-correction/adipotide.png",
+    "width": 1600,
+    "height": 1600,
+    "master": "D:/wordpress-liquid-correction/bottle-master.png",
+    "fontSize": 106,
+    "lines": [
+      "Adipotide"
+    ],
+    "bottleImage": {
+      "x": 0,
+      "y": 0,
+      "width": 1600,
+      "height": 1600
+    },
+    "labelBox": {
+      "x": 545,
+      "y": 865,
+      "width": 510,
+      "height": 230
+    }
+  },
+  {
+    "slug": "semax",
+    "name": "Semax",
+    "path": "D:/wordpress-liquid-correction/semax.png",
+    "width": 1600,
+    "height": 1600,
+    "master": "D:/wordpress-liquid-correction/bottle-master.png",
+    "fontSize": 110,
+    "lines": [
+      "Semax"
+    ],
+    "bottleImage": {
+      "x": 0,
+      "y": 0,
+      "width": 1600,
+      "height": 1600
+    },
+    "labelBox": {
+      "x": 545,
+      "y": 865,
+      "width": 510,
+      "height": 230
+    }
+  },
+  {
+    "slug": "adamax",
+    "name": "Adamax",
+    "path": "D:/wordpress-liquid-correction/adamax.png",
+    "width": 1600,
+    "height": 1600,
+    "master": "D:/wordpress-liquid-correction/bottle-master.png",
+    "fontSize": 110,
+    "lines": [
+      "Adamax"
+    ],
+    "bottleImage": {
+      "x": 0,
+      "y": 0,
+      "width": 1600,
+      "height": 1600
+    },
+    "labelBox": {
+      "x": 545,
+      "y": 865,
+      "width": 510,
+      "height": 230
+    }
+  },
+  {
+    "slug": "semaglutide",
+    "name": "Semaglutide",
+    "path": "D:/wordpress-liquid-correction/semaglutide.png",
+    "width": 1600,
+    "height": 1600,
+    "master": "D:/wordpress-liquid-correction/bottle-master.png",
+    "fontSize": 82,
+    "lines": [
+      "Semaglutide"
+    ],
+    "bottleImage": {
+      "x": 0,
+      "y": 0,
+      "width": 1600,
+      "height": 1600
+    },
+    "labelBox": {
+      "x": 545,
+      "y": 865,
+      "width": 510,
+      "height": 230
+    }
+  },
+  {
+    "slug": "ss-31",
+    "name": "SS-31",
+    "path": "D:/wordpress-liquid-correction/ss-31.png",
+    "width": 1600,
+    "height": 1600,
+    "master": "D:/wordpress-liquid-correction/bottle-master.png",
+    "fontSize": 110,
+    "lines": [
+      "SS-31"
+    ],
+    "bottleImage": {
+      "x": 0,
+      "y": 0,
+      "width": 1600,
+      "height": 1600
+    },
+    "labelBox": {
+      "x": 545,
+      "y": 865,
+      "width": 510,
+      "height": 230
+    }
+  },
+  {
+    "slug": "tirzepatide",
+    "name": "Tirzepatide",
+    "path": "D:/wordpress-liquid-correction/tirzepatide.png",
+    "width": 1600,
+    "height": 1600,
+    "master": "D:/wordpress-liquid-correction/bottle-master.png",
+    "fontSize": 92,
+    "lines": [
+      "Tirzepatide"
+    ],
+    "bottleImage": {
+      "x": 0,
+      "y": 0,
+      "width": 1600,
+      "height": 1600
+    },
+    "labelBox": {
+      "x": 545,
+      "y": 865,
+      "width": 510,
+      "height": 230
+    }
+  },
+  {
+    "slug": "ghrp-2-acetate",
+    "name": "GHRP-2 Acetate",
+    "path": "D:/wordpress-liquid-correction/ghrp-2-acetate.png",
+    "width": 1600,
+    "height": 1600,
+    "master": "D:/wordpress-liquid-correction/bottle-master.png",
+    "fontSize": 96,
+    "lines": [
+      "GHRP-2",
+      "Acetate"
+    ],
+    "bottleImage": {
+      "x": 0,
+      "y": 0,
+      "width": 1600,
+      "height": 1600
+    },
+    "labelBox": {
+      "x": 545,
+      "y": 865,
+      "width": 510,
+      "height": 230
+    }
+  },
+  {
+    "slug": "ghrp-6-acetate",
+    "name": "GHRP-6 Acetate",
+    "path": "D:/wordpress-liquid-correction/ghrp-6-acetate.png",
+    "width": 1600,
+    "height": 1600,
+    "master": "D:/wordpress-liquid-correction/bottle-master.png",
+    "fontSize": 96,
+    "lines": [
+      "GHRP-6",
+      "Acetate"
+    ],
+    "bottleImage": {
+      "x": 0,
+      "y": 0,
+      "width": 1600,
+      "height": 1600
+    },
+    "labelBox": {
+      "x": 545,
+      "y": 865,
+      "width": 510,
+      "height": 230
+    }
+  },
+  {
+    "slug": "cjc-1295-no-dac",
+    "name": "CJC-1295 (no DAC)",
+    "path": "D:/wordpress-liquid-correction/cjc-1295-no-dac.png",
+    "width": 1600,
+    "height": 1600,
+    "master": "D:/wordpress-liquid-correction/bottle-master.png",
+    "fontSize": 96,
+    "lines": [
+      "CJC-1295",
+      "(no DAC)"
+    ],
+    "bottleImage": {
+      "x": 0,
+      "y": 0,
+      "width": 1600,
+      "height": 1600
+    },
+    "labelBox": {
+      "x": 545,
+      "y": 865,
+      "width": 510,
+      "height": 230
+    }
+  },
+  {
+    "slug": "cjc-1295-no-dac-ipamorelin",
+    "name": "CJC-1295 (no DAC) + Ipamorelin",
+    "path": "D:/wordpress-liquid-correction/cjc-1295-no-dac-ipamorelin.png",
+    "width": 1600,
+    "height": 1600,
+    "master": "D:/wordpress-liquid-correction/bottle-master.png",
+    "fontSize": 64,
+    "lines": [
+      "CJC-1295 (no",
+      "DAC) +",
+      "Ipamorelin"
+    ],
+    "bottleImage": {
+      "x": 0,
+      "y": 0,
+      "width": 1600,
+      "height": 1600
+    },
+    "labelBox": {
+      "x": 545,
+      "y": 865,
+      "width": 510,
+      "height": 230
+    }
+  },
+  {
+    "slug": "cjc-1295-with-dac",
+    "name": "CJC-1295 With DAC",
+    "path": "D:/wordpress-liquid-correction/cjc-1295-with-dac.png",
+    "width": 1600,
+    "height": 1600,
+    "master": "D:/wordpress-liquid-correction/bottle-master.png",
+    "fontSize": 96,
+    "lines": [
+      "CJC-1295",
+      "With DAC"
+    ],
+    "bottleImage": {
+      "x": 0,
+      "y": 0,
+      "width": 1600,
+      "height": 1600
+    },
+    "labelBox": {
+      "x": 545,
+      "y": 865,
+      "width": 510,
+      "height": 230
+    }
+  },
+  {
+    "slug": "tb-500",
+    "name": "TB-500",
+    "path": "D:/wordpress-liquid-correction/tb-500.png",
+    "width": 1600,
+    "height": 1600,
+    "master": "D:/wordpress-liquid-correction/bottle-master.png",
+    "fontSize": 110,
+    "lines": [
+      "TB-500"
+    ],
+    "bottleImage": {
+      "x": 0,
+      "y": 0,
+      "width": 1600,
+      "height": 1600
+    },
+    "labelBox": {
+      "x": 545,
+      "y": 865,
+      "width": 510,
+      "height": 230
+    }
+  },
+  {
+    "slug": "mgf",
+    "name": "MGF",
+    "path": "D:/wordpress-liquid-correction/mgf.png",
+    "width": 1600,
+    "height": 1600,
+    "master": "D:/wordpress-liquid-correction/bottle-master.png",
+    "fontSize": 110,
+    "lines": [
+      "MGF"
+    ],
+    "bottleImage": {
+      "x": 0,
+      "y": 0,
+      "width": 1600,
+      "height": 1600
+    },
+    "labelBox": {
+      "x": 545,
+      "y": 865,
+      "width": 510,
+      "height": 230
+    }
+  },
+  {
+    "slug": "peg-mgf",
+    "name": "PEG MGF",
+    "path": "D:/wordpress-liquid-correction/peg-mgf.png",
+    "width": 1600,
+    "height": 1600,
+    "master": "D:/wordpress-liquid-correction/bottle-master.png",
+    "fontSize": 106,
+    "lines": [
+      "PEG MGF"
+    ],
+    "bottleImage": {
+      "x": 0,
+      "y": 0,
+      "width": 1600,
+      "height": 1600
+    },
+    "labelBox": {
+      "x": 545,
+      "y": 865,
+      "width": 510,
+      "height": 230
+    }
+  },
+  {
+    "slug": "sermorelin-acetate",
+    "name": "Sermorelin Acetate",
+    "path": "D:/wordpress-liquid-correction/sermorelin-acetate.png",
+    "width": 1600,
+    "height": 1600,
+    "master": "D:/wordpress-liquid-correction/bottle-master.png",
+    "fontSize": 92,
+    "lines": [
+      "Sermorelin",
+      "Acetate"
+    ],
+    "bottleImage": {
+      "x": 0,
+      "y": 0,
+      "width": 1600,
+      "height": 1600
+    },
+    "labelBox": {
+      "x": 545,
+      "y": 865,
+      "width": 510,
+      "height": 230
+    }
+  },
+  {
+    "slug": "hcg",
+    "name": "HCG",
+    "path": "D:/wordpress-liquid-correction/hcg.png",
+    "width": 1600,
+    "height": 1600,
+    "master": "D:/wordpress-liquid-correction/bottle-master.png",
+    "fontSize": 110,
+    "lines": [
+      "HCG"
+    ],
+    "bottleImage": {
+      "x": 0,
+      "y": 0,
+      "width": 1600,
+      "height": 1600
+    },
+    "labelBox": {
+      "x": 545,
+      "y": 865,
+      "width": 510,
+      "height": 230
+    }
+  },
+  {
+    "slug": "aod9604",
+    "name": "AOD9604",
+    "path": "D:/wordpress-liquid-correction/aod9604.png",
+    "width": 1600,
+    "height": 1600,
+    "master": "D:/wordpress-liquid-correction/bottle-master.png",
+    "fontSize": 110,
+    "lines": [
+      "AOD9604"
+    ],
+    "bottleImage": {
+      "x": 0,
+      "y": 0,
+      "width": 1600,
+      "height": 1600
+    },
+    "labelBox": {
+      "x": 545,
+      "y": 865,
+      "width": 510,
+      "height": 230
+    }
+  },
+  {
+    "slug": "igf-1-lr3",
+    "name": "IGF-1 LR3",
+    "path": "D:/wordpress-liquid-correction/igf-1-lr3.png",
+    "width": 1600,
+    "height": 1600,
+    "master": "D:/wordpress-liquid-correction/bottle-master.png",
+    "fontSize": 102,
+    "lines": [
+      "IGF-1 LR3"
+    ],
+    "bottleImage": {
+      "x": 0,
+      "y": 0,
+      "width": 1600,
+      "height": 1600
+    },
+    "labelBox": {
+      "x": 545,
+      "y": 865,
+      "width": 510,
+      "height": 230
+    }
+  },
+  {
+    "slug": "tesamorelin",
+    "name": "Tesamorelin",
+    "path": "D:/wordpress-liquid-correction/tesamorelin.png",
+    "width": 1600,
+    "height": 1600,
+    "master": "D:/wordpress-liquid-correction/bottle-master.png",
+    "fontSize": 84,
+    "lines": [
+      "Tesamorelin"
+    ],
+    "bottleImage": {
+      "x": 0,
+      "y": 0,
+      "width": 1600,
+      "height": 1600
+    },
+    "labelBox": {
+      "x": 545,
+      "y": 865,
+      "width": 510,
+      "height": 230
+    }
+  },
+  {
+    "slug": "ipamorelin",
+    "name": "Ipamorelin",
+    "path": "D:/wordpress-liquid-correction/ipamorelin.png",
+    "width": 1600,
+    "height": 1600,
+    "master": "D:/wordpress-liquid-correction/bottle-master.png",
+    "fontSize": 96,
+    "lines": [
+      "Ipamorelin"
+    ],
+    "bottleImage": {
+      "x": 0,
+      "y": 0,
+      "width": 1600,
+      "height": 1600
+    },
+    "labelBox": {
+      "x": 545,
+      "y": 865,
+      "width": 510,
+      "height": 230
+    }
+  },
+  {
+    "slug": "hexarelin-acetate",
+    "name": "Hexarelin Acetate",
+    "path": "D:/wordpress-liquid-correction/hexarelin-acetate.png",
+    "width": 1600,
+    "height": 1600,
+    "master": "D:/wordpress-liquid-correction/bottle-master.png",
+    "fontSize": 96,
+    "lines": [
+      "Hexarelin",
+      "Acetate"
+    ],
+    "bottleImage": {
+      "x": 0,
+      "y": 0,
+      "width": 1600,
+      "height": 1600
+    },
+    "labelBox": {
+      "x": 545,
+      "y": 865,
+      "width": 510,
+      "height": 230
+    }
+  },
+  {
+    "slug": "ghk-cu",
+    "name": "GHK-Cu",
+    "path": "D:/wordpress-liquid-correction/ghk-cu.png",
+    "width": 1600,
+    "height": 1600,
+    "master": "D:/wordpress-liquid-correction/bottle-master.png",
+    "fontSize": 110,
+    "lines": [
+      "GHK-Cu"
+    ],
+    "bottleImage": {
+      "x": 0,
+      "y": 0,
+      "width": 1600,
+      "height": 1600
+    },
+    "labelBox": {
+      "x": 545,
+      "y": 865,
+      "width": 510,
+      "height": 230
+    }
+  },
+  {
+    "slug": "ahk-cu",
+    "name": "AHK-Cu",
+    "path": "D:/wordpress-liquid-correction/ahk-cu.png",
+    "width": 1600,
+    "height": 1600,
+    "master": "D:/wordpress-liquid-correction/bottle-master.png",
+    "fontSize": 110,
+    "lines": [
+      "AHK-Cu"
+    ],
+    "bottleImage": {
+      "x": 0,
+      "y": 0,
+      "width": 1600,
+      "height": 1600
+    },
+    "labelBox": {
+      "x": 545,
+      "y": 865,
+      "width": 510,
+      "height": 230
+    }
+  },
+  {
+    "slug": "kisspeptin-10",
+    "name": "Kisspeptin-10",
+    "path": "D:/wordpress-liquid-correction/kisspeptin-10.png",
+    "width": 1600,
+    "height": 1600,
+    "master": "D:/wordpress-liquid-correction/bottle-master.png",
+    "fontSize": 74,
+    "lines": [
+      "Kisspeptin-10"
+    ],
+    "bottleImage": {
+      "x": 0,
+      "y": 0,
+      "width": 1600,
+      "height": 1600
+    },
+    "labelBox": {
+      "x": 545,
+      "y": 865,
+      "width": 510,
+      "height": 230
+    }
+  },
+  {
+    "slug": "thymalin",
+    "name": "Thymalin",
+    "path": "D:/wordpress-liquid-correction/thymalin.png",
+    "width": 1600,
+    "height": 1600,
+    "master": "D:/wordpress-liquid-correction/bottle-master.png",
+    "fontSize": 110,
+    "lines": [
+      "Thymalin"
+    ],
+    "bottleImage": {
+      "x": 0,
+      "y": 0,
+      "width": 1600,
+      "height": 1600
+    },
+    "labelBox": {
+      "x": 545,
+      "y": 865,
+      "width": 510,
+      "height": 230
+    }
+  },
+  {
+    "slug": "thymosin-alpha-1",
+    "name": "Thymosin Alpha-1",
+    "path": "D:/wordpress-liquid-correction/thymosin-alpha-1.png",
+    "width": 1600,
+    "height": 1600,
+    "master": "D:/wordpress-liquid-correction/bottle-master.png",
+    "fontSize": 96,
+    "lines": [
+      "Thymosin",
+      "Alpha-1"
+    ],
+    "bottleImage": {
+      "x": 0,
+      "y": 0,
+      "width": 1600,
+      "height": 1600
+    },
+    "labelBox": {
+      "x": 545,
+      "y": 865,
+      "width": 510,
+      "height": 230
+    }
+  },
+  {
+    "slug": "mots-c",
+    "name": "MOTS-c",
+    "path": "D:/wordpress-liquid-correction/mots-c.png",
+    "width": 1600,
+    "height": 1600,
+    "master": "D:/wordpress-liquid-correction/bottle-master.png",
+    "fontSize": 110,
+    "lines": [
+      "MOTS-c"
+    ],
+    "bottleImage": {
+      "x": 0,
+      "y": 0,
+      "width": 1600,
+      "height": 1600
+    },
+    "labelBox": {
+      "x": 545,
+      "y": 865,
+      "width": 510,
+      "height": 230
+    }
+  },
+  {
+    "slug": "foxo4",
+    "name": "FOXO4",
+    "path": "D:/wordpress-liquid-correction/foxo4.png",
+    "width": 1600,
+    "height": 1600,
+    "master": "D:/wordpress-liquid-correction/bottle-master.png",
+    "fontSize": 110,
+    "lines": [
+      "FOXO4"
+    ],
+    "bottleImage": {
+      "x": 0,
+      "y": 0,
+      "width": 1600,
+      "height": 1600
+    },
+    "labelBox": {
+      "x": 545,
+      "y": 865,
+      "width": 510,
+      "height": 230
+    }
+  },
+  {
+    "slug": "ll37",
+    "name": "LL37",
+    "path": "D:/wordpress-liquid-correction/ll37.png",
+    "width": 1600,
+    "height": 1600,
+    "master": "D:/wordpress-liquid-correction/bottle-master.png",
+    "fontSize": 110,
+    "lines": [
+      "LL37"
+    ],
+    "bottleImage": {
+      "x": 0,
+      "y": 0,
+      "width": 1600,
+      "height": 1600
+    },
+    "labelBox": {
+      "x": 545,
+      "y": 865,
+      "width": 510,
+      "height": 230
+    }
+  },
+  {
+    "slug": "retatrutide",
+    "name": "Retatrutide",
+    "path": "D:/wordpress-liquid-correction/retatrutide.png",
+    "width": 1600,
+    "height": 1600,
+    "master": "D:/wordpress-liquid-correction/bottle-master.png",
+    "fontSize": 92,
+    "lines": [
+      "Retatrutide"
+    ],
+    "bottleImage": {
+      "x": 0,
+      "y": 0,
+      "width": 1600,
+      "height": 1600
+    },
+    "labelBox": {
+      "x": 545,
+      "y": 865,
+      "width": 510,
+      "height": 230
+    }
+  },
+  {
+    "slug": "melatonin",
+    "name": "Melatonin",
+    "path": "D:/wordpress-liquid-correction/melatonin.png",
+    "width": 1600,
+    "height": 1600,
+    "master": "D:/wordpress-liquid-correction/bottle-master.png",
+    "fontSize": 104,
+    "lines": [
+      "Melatonin"
+    ],
+    "bottleImage": {
+      "x": 0,
+      "y": 0,
+      "width": 1600,
+      "height": 1600
+    },
+    "labelBox": {
+      "x": 545,
+      "y": 865,
+      "width": 510,
+      "height": 230
+    }
+  },
+  {
+    "slug": "glutathione",
+    "name": "Glutathione",
+    "path": "D:/wordpress-liquid-correction/glutathione.png",
+    "width": 1600,
+    "height": 1600,
+    "master": "D:/wordpress-liquid-correction/bottle-master.png",
+    "fontSize": 88,
+    "lines": [
+      "Glutathione"
+    ],
+    "bottleImage": {
+      "x": 0,
+      "y": 0,
+      "width": 1600,
+      "height": 1600
+    },
+    "labelBox": {
+      "x": 545,
+      "y": 865,
+      "width": 510,
+      "height": 230
+    }
+  },
+  {
+    "slug": "5-amino-1mq",
+    "name": "5-amino-1mq",
+    "path": "D:/wordpress-liquid-correction/5-amino-1mq.png",
+    "width": 1600,
+    "height": 1600,
+    "master": "D:/wordpress-liquid-correction/bottle-master.png",
+    "fontSize": 78,
+    "lines": [
+      "5-amino-1mq"
+    ],
+    "bottleImage": {
+      "x": 0,
+      "y": 0,
+      "width": 1600,
+      "height": 1600
+    },
+    "labelBox": {
+      "x": 545,
+      "y": 865,
+      "width": 510,
+      "height": 230
+    }
+  },
+  {
+    "slug": "hmg",
+    "name": "HMG",
+    "path": "D:/wordpress-liquid-correction/hmg.png",
+    "width": 1600,
+    "height": 1600,
+    "master": "D:/wordpress-liquid-correction/bottle-master.png",
+    "fontSize": 110,
+    "lines": [
+      "HMG"
+    ],
+    "bottleImage": {
+      "x": 0,
+      "y": 0,
+      "width": 1600,
+      "height": 1600
+    },
+    "labelBox": {
+      "x": 545,
+      "y": 865,
+      "width": 510,
+      "height": 230
+    }
+  },
+  {
+    "slug": "snap-8",
+    "name": "SNAP-8",
+    "path": "D:/wordpress-liquid-correction/snap-8.png",
+    "width": 1600,
+    "height": 1600,
+    "master": "D:/wordpress-liquid-correction/bottle-master.png",
+    "fontSize": 110,
+    "lines": [
+      "SNAP-8"
+    ],
+    "bottleImage": {
+      "x": 0,
+      "y": 0,
+      "width": 1600,
+      "height": 1600
+    },
+    "labelBox": {
+      "x": 545,
+      "y": 865,
+      "width": 510,
+      "height": 230
+    }
+  },
+  {
+    "slug": "nad-plus",
+    "name": "NAD+",
+    "path": "D:/wordpress-liquid-correction/nad-plus.png",
+    "width": 1600,
+    "height": 1600,
+    "master": "D:/wordpress-liquid-correction/bottle-master.png",
+    "fontSize": 110,
+    "lines": [
+      "NAD+"
+    ],
+    "bottleImage": {
+      "x": 0,
+      "y": 0,
+      "width": 1600,
+      "height": 1600
+    },
+    "labelBox": {
+      "x": 545,
+      "y": 865,
+      "width": 510,
+      "height": 230
+    }
+  },
+  {
+    "slug": "survodutide",
+    "name": "Survodutide",
+    "path": "D:/wordpress-liquid-correction/survodutide.png",
+    "width": 1600,
+    "height": 1600,
+    "master": "D:/wordpress-liquid-correction/bottle-master.png",
+    "fontSize": 82,
+    "lines": [
+      "Survodutide"
+    ],
+    "bottleImage": {
+      "x": 0,
+      "y": 0,
+      "width": 1600,
+      "height": 1600
+    },
+    "labelBox": {
+      "x": 545,
+      "y": 865,
+      "width": 510,
+      "height": 230
+    }
+  },
+  {
+    "slug": "cagrilintide",
+    "name": "Cagrilintide",
+    "path": "D:/wordpress-liquid-correction/cagrilintide.png",
+    "width": 1600,
+    "height": 1600,
+    "master": "D:/wordpress-liquid-correction/bottle-master.png",
+    "fontSize": 88,
+    "lines": [
+      "Cagrilintide"
+    ],
+    "bottleImage": {
+      "x": 0,
+      "y": 0,
+      "width": 1600,
+      "height": 1600
+    },
+    "labelBox": {
+      "x": 545,
+      "y": 865,
+      "width": 510,
+      "height": 230
+    }
+  },
+  {
+    "slug": "tb-500-bpc-157-ghk-cu",
+    "name": "TB-500 + BPC-157 + GHK-Cu",
+    "path": "D:/wordpress-liquid-correction/tb-500-bpc-157-ghk-cu.png",
+    "width": 1600,
+    "height": 1600,
+    "master": "D:/wordpress-liquid-correction/bottle-master.png",
+    "fontSize": 64,
+    "lines": [
+      "TB-500 +",
+      "BPC-157 +",
+      "GHK-Cu"
+    ],
+    "bottleImage": {
+      "x": 0,
+      "y": 0,
+      "width": 1600,
+      "height": 1600
+    },
+    "labelBox": {
+      "x": 545,
+      "y": 865,
+      "width": 510,
+      "height": 230
+    }
+  },
+  {
+    "slug": "bt10-bp10-cu50-kp10",
+    "name": "BT10 + BP10 + CU50 + KP10",
+    "path": "D:/wordpress-liquid-correction/bt10-bp10-cu50-kp10.png",
+    "width": 1600,
+    "height": 1600,
+    "master": "D:/wordpress-liquid-correction/bottle-master.png",
+    "fontSize": 70,
+    "lines": [
+      "BT10 + BP10 +",
+      "CU50 + KP10"
+    ],
+    "bottleImage": {
+      "x": 0,
+      "y": 0,
+      "width": 1600,
+      "height": 1600
+    },
+    "labelBox": {
+      "x": 545,
+      "y": 865,
+      "width": 510,
+      "height": 230
+    }
+  },
+  {
+    "slug": "cagrilintide-semaglutide",
+    "name": "Cagrilintide + Semaglutide",
+    "path": "D:/wordpress-liquid-correction/cagrilintide-semaglutide.png",
+    "width": 1600,
+    "height": 1600,
+    "master": "D:/wordpress-liquid-correction/bottle-master.png",
+    "fontSize": 76,
+    "lines": [
+      "Cagrilintide +",
+      "Semaglutide"
+    ],
+    "bottleImage": {
+      "x": 0,
+      "y": 0,
+      "width": 1600,
+      "height": 1600
+    },
+    "labelBox": {
+      "x": 545,
+      "y": 865,
+      "width": 510,
+      "height": 230
+    }
+  },
+  {
+    "slug": "kpv",
+    "name": "KPV",
+    "path": "D:/wordpress-liquid-correction/kpv.png",
+    "width": 1600,
+    "height": 1600,
+    "master": "D:/wordpress-liquid-correction/bottle-master.png",
+    "fontSize": 110,
+    "lines": [
+      "KPV"
+    ],
+    "bottleImage": {
+      "x": 0,
+      "y": 0,
+      "width": 1600,
+      "height": 1600
+    },
+    "labelBox": {
+      "x": 545,
+      "y": 865,
+      "width": 510,
+      "height": 230
+    }
+  },
+  {
+    "slug": "vip",
+    "name": "VIP",
+    "path": "D:/wordpress-liquid-correction/vip.png",
+    "width": 1600,
+    "height": 1600,
+    "master": "D:/wordpress-liquid-correction/bottle-master.png",
+    "fontSize": 110,
+    "lines": [
+      "VIP"
+    ],
+    "bottleImage": {
+      "x": 0,
+      "y": 0,
+      "width": 1600,
+      "height": 1600
+    },
+    "labelBox": {
+      "x": 545,
+      "y": 865,
+      "width": 510,
+      "height": 230
+    }
+  },
+  {
+    "slug": "dihexa",
+    "name": "Dihexa",
+    "path": "D:/wordpress-liquid-correction/dihexa.png",
+    "width": 1600,
+    "height": 1600,
+    "master": "D:/wordpress-liquid-correction/bottle-master.png",
+    "fontSize": 110,
+    "lines": [
+      "Dihexa"
+    ],
+    "bottleImage": {
+      "x": 0,
+      "y": 0,
+      "width": 1600,
+      "height": 1600
+    },
+    "labelBox": {
+      "x": 545,
+      "y": 865,
+      "width": 510,
+      "height": 230
+    }
+  },
+  {
+    "slug": "sterile-water",
+    "name": "Sterile Water",
+    "path": "D:/wordpress-liquid-correction/sterile-water.png",
+    "width": 1600,
+    "height": 1600,
+    "master": "D:/wordpress-liquid-correction/bottle-master.png",
+    "fontSize": 96,
+    "lines": [
+      "Sterile",
+      "Water"
+    ],
+    "bottleImage": {
+      "x": 0,
+      "y": 0,
+      "width": 1600,
+      "height": 1600
+    },
+    "labelBox": {
+      "x": 545,
+      "y": 865,
+      "width": 510,
+      "height": 230
+    }
+  },
+  {
+    "slug": "benzyl-alcohol-0-9",
+    "name": "Benzyl Alcohol 0.9%",
+    "path": "D:/wordpress-liquid-correction/benzyl-alcohol-0-9.png",
+    "width": 1600,
+    "height": 1600,
+    "master": "D:/wordpress-liquid-correction/bottle-master.png",
+    "fontSize": 78,
+    "lines": [
+      "Benzyl",
+      "Alcohol 0.9%"
+    ],
+    "bottleImage": {
+      "x": 0,
+      "y": 0,
+      "width": 1600,
+      "height": 1600
+    },
+    "labelBox": {
+      "x": 545,
+      "y": 865,
+      "width": 510,
+      "height": 230
+    }
+  },
+  {
+    "slug": "acetic-acid-0-6",
+    "name": "Acetic Acid 0.6%",
+    "path": "D:/wordpress-liquid-correction/acetic-acid-0-6.png",
+    "width": 1600,
+    "height": 1600,
+    "master": "D:/wordpress-liquid-correction/bottle-master.png",
+    "fontSize": 96,
+    "lines": [
+      "Acetic",
+      "Acid 0.6%"
+    ],
+    "bottleImage": {
+      "x": 0,
+      "y": 0,
+      "width": 1600,
+      "height": 1600
+    },
+    "labelBox": {
+      "x": 545,
+      "y": 865,
+      "width": 510,
+      "height": 230
+    }
+  }
+]

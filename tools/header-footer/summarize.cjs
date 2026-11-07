@@ -1,0 +1,1 @@
+const fs=require('fs');for(const id of [184,186,188]){const o=JSON.parse(fs.readFileSync(__dirname+'/template-'+id+'.json'));const d=JSON.parse(o.data);function walk(a,n=0){for(const e of a){console.log(' '.repeat(n),e.id,e.widgetType||'container',JSON.stringify(e.settings));walk(e.elements||[],n+1)}}console.log('TEMPLATE',id);walk(d)}

@@ -1,0 +1,3 @@
+const {chromium}=require('C:/Users/ayoub/wordpress-catalog-tools/node_modules/playwright');
+const fs=require('fs');
+(async()=>{const b=await chromium.launch({channel:'msedge',headless:true});for(const [name,url] of [['reference','https://taramide.com/'],['local','http://localhost/wordpress/']]){const p=await b.newPage({viewport:{width:1440,height:1000}});await p.goto(url,{waitUntil:'networkidle'});await p.screenshot({path:__dirname+'/'+name+'-header.png'});await p.locator('footer').last().screenshot({path:__dirname+'/'+name+'-footer.png'}).catch(()=>{});fs.writeFileSync(__dirname+'/'+name+'.html',await p.content());console.log(name,await p.locator('header').allTextContents());}await b.close()})()
