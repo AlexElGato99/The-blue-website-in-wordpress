@@ -36,7 +36,7 @@ add_action( 'template_redirect', function () {
 function tm_finish_page( $html ) {
 	if ( 200 !== http_response_code() || false === stripos( $html, '</html>' ) || defined( 'DONOTCACHEPAGE' ) ) return $html;
 	foreach ( headers_list() as $h ) if ( 0 === stripos( $h, 'content-type:' ) && false === stripos( $h, 'text/html' ) ) return $html;
-	try { $html = tm_delay_js( tm_optimize_css( $html ) ); } catch ( \Throwable $e ) { return $html; }
+	try { $html = tm_delay_js( tm_optimize_css( tm_html_tweaks( $html ) ) ); } catch ( \Throwable $e ) { return $html; }
 	// safety net: if Elementor was regenerating its CSS files during this render, the page has (almost) no CSS — don't keep it
 	if ( ! preg_match( '#<style id="tm-css">(.{20000,}?)</style>#s', $html ) ) return $html;
 	if ( ! is_dir( TM_CACHE_DIR ) ) wp_mkdir_p( TM_CACHE_DIR );
@@ -80,7 +80,8 @@ function tm_split_selectors( $sel ) {
 	return $out;
 }
 // classes/ids that JavaScript adds after load, or that depend on device/state: always keep
-const TM_SAFE = '/^(swiper|elementor-sticky|elementor-motion|animated|elementor-invisible|e-lazyloaded|e-n-|e-con|elementor-active|active|e--|is-|has-|cpel-|elementor-menu-toggle|elementor-nav-menu|e-off-canvas|dialog|elementor-loading|sm-|highlighted|elementor-item|elementor-sub-item|menu-|e-transform|elementor-form|elementor-field|elementor-message|elementor-error|elementor-help|e-form|loaded|open|show|visible|fade|elementor-lightbox|elementor-slideshow|rtl|ltr|elementor-device|elementor-editor|elementor-edit|e-loop|elementor-pagination|page-numbers|current|elementor-counter|elementor-image-carousel|elementor-swiper|skip-link|screen-reader|elementor-hidden|elementor-screen-only|e-contact|elementor-background|elementor-widget-empty|elementor-element-overlay|elementor-ken-burns|elementor-animation|elementor-align|e-off-canvas|elementor-location|elementor-popup|elementor-toc|elementor-tab|elementor-grid|elementor-button|elementor-icon|tm-)/';
+const TM_SAFE = '/^(swiper|elementor-sticky|elementor-motion|animated|elementor-invisible|e-lazyloaded|e-n-|e-con|elementor-active|active|e--|is-|has-|cpel-|elementor-menu-toggle|elementor-nav-menu|e-off-canvas|dialog|elementor-loading|sm-|highlighted|elementor-item|elementor-sub-item|menu-|e-transform|elementor-form|elementor-field|elementor-message|elementor-error|elementor-help|e-form|loaded|open|show|visible|fade|elementor-lightbox|elementor-slideshow|rtl|ltr|elementor-device|elementor-editor|elementor-edit|e-loop|elementor-pagination|page-numbers|current|elementor-counter|elementor-image-carousel|elementor-swiper|skip-link|screen-reader|elementor-hidden|elementor-screen-only|e-contact|elementor-background|elementor-widget-empty|elementor-element-overlay|elementor-ken-burns|elementor-animation|elementor-align|e-off-canvas|elementor-location|elementor-popup|elementor-toc|elementor-tab|elementor-grid|elementor-button|elementor-icon|tm-|reverse|no-animation|none$|infinite|e-element-before)/';
+// (reverse / no-animation / none: off-canvas open-close states — without .animated.reverse the menu re-faded IN when closing)
 function tm_sel_used( $s, $cls, $ids ) {
 	if ( ! empty( $GLOBALS['tm_strict'] ) ) return tm_sel_used_strict( $s, $cls, $ids );
 	if ( false !== strpos( $s, '\\' ) ) return true;
@@ -159,12 +160,14 @@ function tm_optimize_css( $html ) {
 		return array( $cls, $ids );
 	};
 	$swap = function ( $c ) { return preg_replace_callback( '/@font-face\{[^}]*\}/i', function ( $f ) {
+		// Inter italic: only a few small labels use it; the browser slants the regular file instead (-51 KB per page)
+		if ( preg_match( '/font-family:\s*[\'"]?Inter[\'"]?\s*;/i', $f[0] ) && preg_match( '/font-style:\s*italic/i', $f[0] ) ) return '';
 		$r = preg_replace( '/font-display:\s*(auto|block)/i', 'font-display:swap', $f[0] );
 		return false === stripos( $r, 'font-display' ) ? substr( $r, 0, -1 ) . ';font-display:swap}' : $r;
 	}, $c ); };
 	$css = tm_minify_css( preg_replace( '#/\*.*?\*/#s', '', $css ) );
 	list( $cls, $ids ) = $tokens( $html );
-	$full = $swap( tm_purge_block( $css, $cls, $ids ) );
+	$full = tm_fraunces_fallback( $swap( tm_purge_block( $css, $cls, $ids ) ) );
 
 	// Critical part: rules used by everything up to the end of the first 3 top-level sections of the main content
 	// (header, wrappers and those sections). It is inlined; the full stylesheet loads without blocking rendering.
@@ -184,6 +187,10 @@ function tm_optimize_css( $html ) {
 				. '<link rel="stylesheet" id="tm-css-full" href="' . $href . '" media="print" onload="this.media=\'all\'"><noscript><link rel="stylesheet" href="' . $href . '"></noscript>';
 		}
 	}
+	// Off-screen sections: let the browser skip their style/layout/paint until they scroll near (no visual change).
+	// From the 3rd top-level section of a page/single template on; the footer is excluded (its fixed WhatsApp button
+	// would be clipped by the containment). 'auto' remembers each section's real height once rendered (keeps anchors right).
+	$full .= '[data-elementor-type="wp-page"]>.e-parent:nth-child(n+3),[data-elementor-type="single-post"]>.e-parent:nth-child(n+3),[data-elementor-type="archive"]>.e-parent:nth-child(n+3){content-visibility:auto;contain-intrinsic-size:auto 1100px}';
 	if ( empty( $out_tag ) ) $out_tag = '<style id="tm-css">' . str_replace( '</style', '<\/style', $full ) . '</style>';
 	for ( $k = count( $remove ) - 1; $k >= 0; $k-- ) {
 		list( $o, $l ) = $remove[ $k ];
@@ -191,12 +198,47 @@ function tm_optimize_css( $html ) {
 	}
 	return $head . $rest;
 }
+/**
+ * Headline font fallback matched to Fraunces' metrics (measured 2026-11-08: Georgia must be scaled to 85.9%, Times/Liberation
+ * Serif to 94.5%; Fraunces ascent .98em, descent .26em). Until Fraunces arrives, titles render in a same-size serif, so the
+ * swap barely moves anything (low CLS) and the brand headline never shows in a generic sans-serif.
+ */
+function tm_fraunces_fallback( $css ) {
+	$faces = "@font-face{font-family:'Fraunces FB G';src:local('Georgia');size-adjust:85.9%;ascent-override:114.1%;descent-override:30.3%;line-gap-override:0%}"
+		. "@font-face{font-family:'Fraunces FB L';src:local('Liberation Serif'),local('Times New Roman'),local('Tinos');size-adjust:94.5%;ascent-override:103.7%;descent-override:27.5%;line-gap-override:0%}";
+	$stack = '"Fraunces","Fraunces FB G","Fraunces FB L",serif';
+	// replace the family name in font-family values / CSS variables, but never inside @font-face rules
+	$css = preg_replace_callback( '/@font-face\{[^}]*\}|(["\'])Fraunces\1(?:\s*,\s*(?:sans-serif|serif))?/i', function ( $m ) use ( $stack ) {
+		return 0 === stripos( $m[0], '@font-face' ) ? $m[0] : $stack;
+	}, $css );
+	return $faces . $css;
+}
 /** HTML from the top of the page to the end of the 3rd top-level section of the main Elementor document (or '' if not found). */
 function tm_above_fold_html( $html ) {
 	if ( ! preg_match( '/data-elementor-type="(wp-page|single-post|single-page|single|archive|wp-post|loop-item)"/', $html, $m, PREG_OFFSET_CAPTURE ) ) return '';
 	$start = $m[0][1];
 	if ( ! preg_match_all( '/<div\b[^>]*class="[^"]*\be-parent\b[^"]*"/', $html, $p, PREG_OFFSET_CAPTURE, $start ) ) return '';
 	return count( $p[0] ) > 3 ? substr( $html, 0, $p[0][3][1] ) : '';
+}
+
+/* ---------------------------------------------------------------- HTML: image loading hints */
+function tm_html_tweaks( $html ) {
+	// SVG logos have no intrinsic size until loaded -> reserve their box (217.8 x 61.5 viewBox, shown 177px wide)
+	$html = preg_replace_callback( '#<img\b[^>]*src="[^"]*/taramide-logo(?:-white)?\.svg"[^>]*>#i', function ( $m ) {
+		return false === stripos( $m[0], ' width=' ) ? preg_replace( '#^<img\b#i', '<img width="177" height="50"', $m[0] ) : $m[0];
+	}, $html );
+	// flags inside the closed language lists: only fetch them when a list opens
+	$html = preg_replace_callback( '#<ul class="cpel-switcher__list">.*?</ul>#s', function ( $m ) {
+		return preg_replace( '#<img\b(?![^>]*\bloading=)#i', '<img loading="lazy"', $m[0] );
+	}, $html );
+	// content images below the first section of the main document: lazy (the hero / first section keeps eager loading)
+	if ( preg_match( '/data-elementor-type="(wp-page|single-post|archive)"/', $html, $dm, PREG_OFFSET_CAPTURE )
+		&& preg_match_all( '/<div\b[^>]*class="[^"]*\be-parent\b[^"]*"/', $html, $p, PREG_OFFSET_CAPTURE, $dm[0][1] ) && count( $p[0] ) > 1 ) {
+		$cut = $p[0][1][1];
+		$tail = preg_replace( '#<img\b(?![^>]*\b(?:loading|fetchpriority)=)#i', '<img loading="lazy" decoding="async"', substr( $html, $cut ) );
+		$html = substr( $html, 0, $cut ) . $tail;
+	}
+	return $html;
 }
 
 /* ---------------------------------------------------------------- JS: run page scripts on the first interaction */
@@ -230,9 +272,30 @@ JS;
 
 /* ---------------------------------------------------------------- fonts: preload the heading font (hero text is the LCP) */
 add_action( 'wp_head', function () {
-	$f = content_url( 'uploads/taramide-fonts/fraunces-latin.woff2' );
-	if ( is_file( WP_CONTENT_DIR . '/uploads/taramide-fonts/fraunces-latin.woff2' ) ) echo '<link rel="preload" href="' . esc_url( $f ) . '" as="font" type="font/woff2" crossorigin>' . "\n";
+	$base = WP_CONTENT_DIR . '/uploads/taramide-fonts/';
+	$pre = array( 'fraunces-latin.woff2' );
+	if ( function_exists( 'pll_current_language' ) && 'ar' === pll_current_language() ) $pre = array( 'arabic/tajawal-arabic-400.woff2' ); // Arabic page: body text is the LCP
+	foreach ( $pre as $f ) if ( is_file( $base . $f ) ) echo '<link rel="preload" href="' . esc_url( content_url( 'uploads/taramide-fonts/' . $f ) ) . '" as="font" type="font/woff2" crossorigin>' . "\n";
 }, 1 );
+
+/* ---------------------------------------------------------------- fonts: Arabic letters, like the live site (Tajawal text, Amiri headings)
+ * Inter and Fraunces have no Arabic glyphs. Extra faces under the SAME family names, limited to the Arabic unicode-range,
+ * make every "Inter" text draw Arabic with Tajawal and every "Fraunces" heading with Amiri — no selector changes, Latin text
+ * untouched, and only pages that contain Arabic download the files (browsers fetch a face only when its range is used). */
+add_action( 'wp_head', function () {
+	// Arabic pages only: elsewhere the single word "العربية" in the language menu would download a font and force a full re-layout
+	if ( ! function_exists( 'pll_current_language' ) || 'ar' !== pll_current_language() ) return;
+	$u = content_url( 'uploads/taramide-fonts/arabic/' );
+	$range = 'U+0600-06FF,U+0750-077F,U+0870-0891,U+0897-08E1,U+08E3-08FF,U+200C-200E,U+2010-2011,U+204F,U+2E41,U+FB50-FDFF,U+FE70-FE74,U+FE76-FEFC';
+	$faces = array(
+		array( 'Inter', 300, 'tajawal-arabic-400' ), array( 'Inter', 400, 'tajawal-arabic-400' ), array( 'Inter', 500, 'tajawal-arabic-500' ),
+		array( 'Inter', 600, 'tajawal-arabic-700' ), array( 'Inter', 700, 'tajawal-arabic-700' ),
+		array( 'Fraunces', 400, 'amiri-arabic-400' ), array( 'Fraunces', 500, 'amiri-arabic-400' ), array( 'Fraunces', 600, 'amiri-arabic-700' ), array( 'Fraunces', 700, 'amiri-arabic-700' ),
+	);
+	$css = '';
+	foreach ( $faces as list( $fam, $w, $file ) ) $css .= "@font-face{font-family:'$fam';font-style:normal;font-weight:$w;font-display:swap;src:url('" . esc_url( $u . $file . '.woff2' ) . "') format('woff2');unicode-range:$range}";
+	echo '<style id="tm-arabic-fonts">' . $css . "</style>\n";
+}, 2 );
 
 /* ---------------------------------------------------------------- scripts: jQuery to the footer, no jQuery Migrate */
 add_action( 'wp_default_scripts', function ( $scripts ) {
