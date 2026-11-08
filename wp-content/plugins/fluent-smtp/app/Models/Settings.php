@@ -1,0 +1,358 @@
+<?php
+
+namespace FluentMail\App\Models;
+
+use FluentMail\Includes\Support\Arr;
+use FluentMail\App\Services\ConnectionHealth;
+use FluentMail\App\Services\Mailer\Manager;
+use FluentMail\App\Models\Traits\SendTestEmailTrait;
+
+class Settings
+{
+    use SendTestEmailTrait;
+
+    protected $optionName = FLUENTMAIL . '-settings';
+
+    public function get()
+    {
+        return fluentMailGetSettings();
+    }
+
+    public function getSettings()
+    {
+        return $this->get();
+    }
+
+    public function store($inputs)
+    {
+        $settings = $this->getSettings();
+        $mappings = $this->getMappings($settings);
+        $connections = $this->getConnections($settings);
+        $email = Arr::get($inputs, 'connection.sender_email');
+
+        $key = $inputs['connection_key'];
+
+        if (isset($connections[$key])) {
+            $mappings = array_filter($mappings, function ($mappingKey) use ($key) {
+                return $mappingKey != $key;
+            });
+            unset($connections[$key]);
+        }
+
+        $primaryEmails = [];
+        foreach ($connections as $connection) {
+            $primaryEmails[] = $connection['provider_settings']['sender_email'];
+        }
+
+        $uniqueKey = $this->generateUniqueKey($email);
+
+        $extraMappings = $inputs['valid_senders'];
+
+        // Addresses match ignoring case (see findMappingKey()), so an additional
+        // sender that is another connection's primary in different case is
+        // dropped too; two mappings differing only in case would route by
+        // whichever came first.
+        $primaryEmailsLower = array_map('strtolower', array_map('strval', $primaryEmails));
+        foreach ($extraMappings as $emailIndex => $extraEmail) {
+            if (in_array(strtolower((string)$extraEmail), $primaryEmailsLower, true)) {
+                unset($extraMappings[$emailIndex]);
+            }
+        }
+
+        $extraMappings[] = $email;
+
+        // Keep the first spelling of each address.
+        $uniqueSenders = [];
+        foreach ($extraMappings as $extraEmail) {
+            $lower = strtolower((string)$extraEmail);
+            if (!isset($uniqueSenders[$lower])) {
+                $uniqueSenders[$lower] = $extraEmail;
+            }
+        }
+        $extraMappings = array_fill_keys(array_values($uniqueSenders), $uniqueKey);
+
+        $mappings = array_merge($mappings, $extraMappings);
+
+        $providers = fluentMail(Manager::class)->getConfig('providers');
+
+        $title = $providers[$inputs['connection']['provider']]['title'];
+
+        $connections[$uniqueKey] = [
+            'title'             => $title,
+            'provider_settings' => $inputs['connection']
+        ];
+
+        $settings['mappings'] = $mappings;
+
+        $settings['connections'] = $connections;
+
+        if ($settings['mappings'] && $settings['connections']) {
+            $validMappings = array_keys(Arr::get($settings, 'connections', []));
+
+            $settings['mappings'] = array_filter($settings['mappings'], function ($key) use ($validMappings) {
+                return in_array($key, $validMappings);
+            });
+        }
+
+        $misc = $this->getMisc();
+
+        if (empty($misc['default_connection']) || $misc['default_connection'] == $key) {
+            $misc['default_connection'] = $uniqueKey;
+            $settings['misc'] = $misc;
+        }
+
+        fluentMailSetSettings($settings);
+
+        /*
+         * The connection was validated just before this save, so the last daily
+         * result says nothing about it any more. Leaving an old error in place
+         * keeps the badge red until the next run. The key changes with the
+         * sender email, so the row under the old key goes too.
+         */
+        $health = new ConnectionHealth();
+        $health->forget($key);
+
+        if ($uniqueKey !== $key) {
+            $health->forget($uniqueKey);
+        }
+
+        return $settings;
+    }
+
+    public function generateUniqueKey($email)
+    {
+        return md5($email);
+    }
+
+    public function saveGlobalSettings($data)
+    {
+        return fluentMailSetSettings($data);
+    }
+
+    public function delete($key)
+    {
+        $settings = $this->getSettings();
+
+
+        $mappings = $settings['mappings'];
+        $connections = $settings['connections'];
+
+        unset($connections[$key]);
+
+        foreach ($mappings as $mapKey => $mapValue) {
+            if ($mapValue == $key) {
+                unset($mappings[$mapKey]);
+            }
+        }
+
+        $settings['mappings'] = $mappings;
+        $settings['connections'] = $connections;
+
+        if (Arr::get($settings, 'misc.default_connection') == $key) {
+            $default = Arr::get($settings, 'mappings', []);
+            $default = reset($default);
+            Arr::set($settings, 'misc.default_connection', $default ?: '');
+        }
+
+        if (Arr::get($settings, 'misc.fallback_connection') == $key) {
+            Arr::set($settings, 'misc.fallback_connection', '');
+        }
+
+        fluentMailSetSettings($settings);
+
+        (new ConnectionHealth())->forget($key);
+
+        return $settings;
+    }
+
+    public function getDefaults()
+    {
+        $url = str_replace(
+            ['http://', 'http://www.', 'www.'],
+            '',
+            get_bloginfo('wpurl')
+        );
+
+        return [
+            'sender_name'  => $url,
+            'sender_email' => get_option('admin_email')
+        ];
+    }
+
+    public function getVerifiedEmails()
+    {
+        $optionName = FLUENTMAIL . '-ses-verified-emails';
+
+        return get_option($optionName, []);
+    }
+
+    public function saveVerifiedEmails($verifiedEmails)
+    {
+        $optionName = FLUENTMAIL . '-ses-verified-emails';
+        $emails = get_option($optionName, []);
+        update_option($optionName, array_unique(array_merge(
+            $emails, $verifiedEmails
+        )));
+    }
+
+    public function getConnections($settings = null)
+    {
+        $settings = $settings ?: $this->getSettings();
+
+        return Arr::get($settings, 'connections', []);
+    }
+
+    public function getMappings($settings = null)
+    {
+        $settings = $settings ?: $this->getSettings();
+
+        return Arr::get($settings, 'mappings', []);
+    }
+
+    /**
+     * The misc settings, filled out with the defaults for anything never saved.
+     *
+     * Responses carrying this are installed straight into the app's `settings.misc`,
+     * where the General Settings form binds a control to each key. A key that is
+     * missing - or stored as null by an older release - reaches a switch as undefined
+     * and Element Plus refuses to render it, so the shape has to be complete here
+     * rather than patched up in the screen that happens to read it.
+     *
+     * @param array|null $settings
+     * @return array
+     */
+    public function getMisc($settings = null)
+    {
+        $settings = $settings ?: $this->getSettings();
+
+        $stored = array_filter(Arr::get($settings, 'misc', []), function ($value) {
+            return !is_null($value);
+        });
+
+        $defaults = fluentMail(Manager::class)->getConfig('misc', []);
+
+        return array_merge($defaults, $stored);
+    }
+
+    public function getConnection($email)
+    {
+        $settings = $this->getSettings();
+        $connections = $this->getConnections($settings);
+        $key = static::findMappingKey($this->getMappings($settings), $email);
+
+        if ($key && isset($connections[$key])) {
+            return $connections[$key];
+        }
+
+        return [];
+    }
+
+    /**
+     * The connection key an address is mapped to, or null.
+     *
+     * Mappings are keyed by the address exactly as it was saved, but the local
+     * part and domain a plugin hands wp_mail() may differ from it in case
+     * (`Support@example.com`). Missing the mapping is not harmless: the mail
+     * goes out through the default connection and, when that forces its sender,
+     * from the wrong address. The exact key wins; otherwise the first mapping
+     * that matches ignoring case.
+     *
+     * @param array $mappings
+     * @param string $email
+     * @return string|null
+     */
+    public static function findMappingKey($mappings, $email)
+    {
+        if (!$mappings || !is_string($email) || $email === '') {
+            return null;
+        }
+
+        if (isset($mappings[$email])) {
+            return $mappings[$email];
+        }
+
+        foreach ($mappings as $mappedEmail => $key) {
+            if (strcasecmp((string)$mappedEmail, $email) === 0) {
+                return $key;
+            }
+        }
+
+        return null;
+    }
+
+    public function updateMiscSettings($misc)
+    {
+        $settings = $this->get();
+        $settings['misc'] = $misc;
+        $this->saveGlobalSettings($settings);
+    }
+
+    /**
+     * Update an existing connection in place.
+     *
+     * Every caller is a token-refresh path persisting a renewed OAuth token,
+     * so an absent key means the connection was deleted - either while the
+     * refresh was in flight, or before a scheduled renewal fired. Writing it
+     * back used to recreate it, which resurrected a connection the admin had
+     * removed and left it to be checked, reported on, and routed to. Nothing
+     * here is allowed to create a connection.
+     *
+     * @param string $fromEmail
+     * @param array $connection
+     * @return bool whether the connection existed and was updated
+     */
+    public function updateConnection($fromEmail, $connection)
+    {
+        $key = $this->generateUniqueKey($fromEmail);
+        $settings = $this->getSettings();
+
+        if (!isset($settings['connections'][$key])) {
+            return false;
+        }
+
+        $settings['connections'][$key]['provider_settings'] = $connection;
+        $this->saveGlobalSettings($settings);
+
+        return true;
+    }
+
+    public function notificationSettings()
+    {
+        $defaults = [
+            'enabled'        => 'no',
+            'notify_email'   => '{site_admin}',
+            'notify_days'    => ['Mon'],
+            'active_channel' => [],
+            'telegram'       => [
+                'status' => 'no',
+                'token'  => ''
+            ],
+            'slack'          => [
+                'status'      => 'no',
+                'token'       => '',
+                'webhook_url' => ''
+            ],
+            'discord'        => [
+                'status'       => 'no',
+                'channel_name' => '',
+                'webhook_url'  => ''
+            ],
+        ];
+
+        $settings = get_option('_fluent_smtp_notify_settings', []);
+
+        $settings = wp_parse_args($settings, $defaults);
+
+        if (!is_array($settings['active_channel'])) {
+            $settings['active_channel'] = array_filter([$settings['active_channel']]);
+        }
+
+        return $settings;
+    }
+
+    public function getAvailableNotificationChannels()
+    {
+        $manager = new \FluentMail\App\Services\Notification\Manager();
+        return $manager->getAllChannels();
+    }
+}
