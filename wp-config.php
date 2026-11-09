@@ -20,7 +20,7 @@
 
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'wordpresscanada' );
+define( 'DB_NAME', 'wordpress_blank' ); // fresh blank site (2026-11-09). Previous Taramide build: 'wordpresscanada'
 
 /** Database username */
 define( 'DB_USER', 'root' );
@@ -88,7 +88,6 @@ $table_prefix = 'wp_';
 define( 'WP_DEBUG', false );
 
 /* Add any custom values between this line and the "stop editing" line. */
-define( 'WP_CACHE', true ); // Taramide page cache: wp-content/advanced-cache.php + mu-plugins/taramide-performance.php
 
 
 /* That's all, stop editing! Happy publishing. */
