@@ -1349,4 +1349,159 @@ body.xg .elementor:not(#_) .xform .elementor-field-type-html .form-hint{margin-t
 @media(max-width:768px){body.xg .elementor:not(#_) .xform .elementor-field-group.elementor-col-50{width:100%}}
 @media(max-width:768px){body.xg .elementor:not(#_) .xform .elementor-field-group.elementor-col-50:has(+ .elementor-col-50){margin-bottom:36px}}
 
-/* inline styles of original images *//* End custom CSS */
+/* inline styles of original images */
+
+/* ================================================================
+   XtremeHD — REDESIGN LAYER v2 (same content, same colours; icons keep
+   their original style). body.xg .elementor:not(#_) = page scope prefix, http://localhost/wordpress/wp-content/uploads/2026/11/xtremehd-background.svg?v=1794247395 = background SVG url
+   ================================================================ */
+:root{--rd-grad:linear-gradient(135deg,#3BA0E0 0%,#2B8FD1 48%,#14608F 100%);--rd-line:rgba(43,143,209,.14);--rd-card:#FFFFFF;--rd-shadow:0 1px 2px rgba(12,30,46,.04),0 14px 34px -18px rgba(20,96,143,.30);--rd-shadow-h:0 2px 4px rgba(12,30,46,.05),0 28px 56px -24px rgba(20,96,143,.42)}
+
+/* ---------- background: one fixed SVG behind the whole site */
+body.xg{background-color:#D6ECFA}
+body.xg::before{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;background:#D6ECFA url("http://localhost/wordpress/wp-content/uploads/2026/11/xtremehd-background.svg?v=1794247395") center/cover no-repeat}
+body.xg .elementor:not(#_) .hero,body.xg .elementor:not(#_) .pg-header,body.xg .elementor:not(#_) .sec,body.xg .elementor:not(#_) .cta-sec,body.xg .elementor:not(#_) .reseller-hero,body.xg .elementor:not(#_) .reseller-sec,body.xg .elementor:not(#_) .reseller-features,body.xg .elementor:not(#_) .reseller-cta,body.xg .elementor:not(#_) .checkout-wrap{background:transparent!important}
+body.xg .elementor:not(#_) .compat-slider::before,body.xg .elementor:not(#_) .compat-slider::after,body.xg .elementor:not(#_) .test-slider::before,body.xg .elementor:not(#_) .test-slider::after{display:none}
+body.xg .elementor:not(#_) .compat-slider,body.xg .elementor:not(#_) .test-slider{-webkit-mask-image:linear-gradient(90deg,transparent,#000 6%,#000 94%,transparent);mask-image:linear-gradient(90deg,transparent,#000 6%,#000 94%,transparent);padding:12px 0 20px}
+
+/* ---------- sections: alternate "floating panels" with open sections */
+body.xg .elementor:not(#_) .feat-sec,body.xg .elementor:not(#_) .price-sec,body.xg .elementor:not(#_) .sec[style*="sky-mid"],body.xg .elementor:not(#_) .test-sec,body.xg .elementor:not(#_) .app-sec,body.xg .elementor:not(#_) .pg-header ~ .sec:not(.ch-feat-sec),body.xg .elementor:not(#_) .reseller-features,body.xg .elementor:not(#_) .reseller-sec.alt{position:relative;width:calc(100% - 40px);max-width:1400px;margin:28px auto;border-radius:44px;background:linear-gradient(180deg,rgba(255,255,255,.78) 0%,rgba(255,255,255,.58) 100%)!important;border:1px solid rgba(255,255,255,.95);box-shadow:0 1px 0 #fff inset,0 40px 90px -50px rgba(20,96,143,.45);overflow:hidden;isolation:isolate}
+/* corner light + fine top rule inside every panel */
+body.xg .elementor:not(#_) .feat-sec::after,body.xg .elementor:not(#_) .price-sec::after,body.xg .elementor:not(#_) .sec[style*="sky-mid"]::after,body.xg .elementor:not(#_) .test-sec::after,body.xg .elementor:not(#_) .app-sec::after,body.xg .elementor:not(#_) .pg-header ~ .sec:not(.ch-feat-sec)::after,body.xg .elementor:not(#_) .reseller-features::after,body.xg .elementor:not(#_) .reseller-sec.alt::after{content:"";position:absolute;z-index:-1;top:-160px;right:-140px;width:420px;height:420px;border-radius:50%;background:radial-gradient(circle,rgba(124,192,237,.38),rgba(124,192,237,0) 68%);pointer-events:none}
+body.xg .elementor:not(#_) .feat-sec::before,body.xg .elementor:not(#_) .price-sec::before,body.xg .elementor:not(#_) .sec[style*="sky-mid"]::before,body.xg .elementor:not(#_) .test-sec::before,body.xg .elementor:not(#_) .app-sec::before,body.xg .elementor:not(#_) .pg-header ~ .sec:not(.ch-feat-sec)::before,body.xg .elementor:not(#_) .reseller-features::before,body.xg .elementor:not(#_) .reseller-sec.alt::before{content:"";position:absolute;z-index:-1;top:0;left:12%;right:12%;height:1px;background:linear-gradient(90deg,transparent,rgba(43,143,209,.45),transparent);pointer-events:none}
+body.xg .elementor:not(#_) .price-sec{overflow:visible}
+
+/* ---------- section headers */
+body.xg .elementor:not(#_) .sec-chip{background:transparent;border:1px solid rgba(20,96,143,.28);box-shadow:none;padding:5px 14px 5px 12px;letter-spacing:1.8px;gap:8px}
+body.xg .elementor:not(#_) .sec-chip::before{content:"";width:14px;height:2px;border-radius:2px;background:var(--rd-grad);flex-shrink:0}
+body.xg .elementor:not(#_) .sec-title{letter-spacing:-.02em}
+body.xg .elementor:not(#_) .sec-title::after{content:"";display:block;width:90px;height:10px;margin:14px 0 2px;background:radial-gradient(circle,#2B8FD1 0 3px,transparent 3.5px) center/10px 10px no-repeat,linear-gradient(90deg,transparent,rgba(43,143,209,.55) 30%,rgba(43,143,209,.55) 70%,transparent) center/100% 1.5px no-repeat}
+body.xg .elementor:not(#_) .sec-header .sec-title::after,body.xg .elementor:not(#_) .sec-title[style*="center"]::after,body.xg .elementor:not(#_) .cta-sec .sec-title::after,body.xg .elementor:not(#_) .price-sec .sec-title::after{margin:14px auto 2px}
+body.xg .elementor:not(#_) .hero :is(h1:not(.xb>*),.xt-h1),body.xg .elementor:not(#_) .pg-header :is(h1:not(.xb>*),.xt-h1),body.xg .elementor:not(#_) .reseller-hero :is(h1:not(.xb>*),.xt-h1){letter-spacing:-.025em}
+body.xg .elementor:not(#_) .pg-header{position:relative}
+body.xg .elementor:not(#_) .breadcrumb{display:inline-flex;align-items:center;gap:6px;background:rgba(255,255,255,.7);border:1px solid var(--rd-line);padding:5px 14px;border-radius:9999px}
+
+/* ---------- navigation: floating bar */
+body.xg .elementor:not(#_) .nav{top:12px;left:16px;right:16px;margin:0 auto;max-width:1240px;border-radius:18px;background:rgba(255,255,255,.72);border:1px solid rgba(255,255,255,.9);box-shadow:0 12px 32px -18px rgba(20,96,143,.45);-webkit-backdrop-filter:blur(18px) saturate(1.4);backdrop-filter:blur(18px) saturate(1.4)}
+body.xg .elementor:not(#_) .nav.scrolled{background:rgba(255,255,255,.88)}
+body.xg .elementor:not(#_) .nav-links a{position:relative;padding:6px 10px;border-radius:9999px;transition:background .2s,color .2s}
+body.xg .elementor:not(#_) .nav-links{gap:6px}
+body.xg .elementor:not(#_) .nav-links a:hover,body.xg .elementor:not(#_) .nav-links a.active{background:rgba(43,143,209,.10)}
+body.xg .elementor:not(#_) .mobile-overlay{background:rgba(234,244,252,.97)}
+
+/* ---------- buttons (same colours, refined) */
+body.xg .elementor:not(#_) .btn-p,body.xg .elementor:not(#_) .cta-btn,body.xg .elementor:not(#_) .btn-primary,body.xg .elementor:not(#_) .nav-cta{box-shadow:0 12px 24px -12px rgba(20,96,143,.8),inset 0 1px 0 rgba(255,255,255,.25)}
+body.xg .elementor:not(#_) .btn-p:hover,body.xg .elementor:not(#_) .cta-btn:hover,body.xg .elementor:not(#_) .btn-primary:hover{transform:translateY(-2px)}
+body.xg .elementor:not(#_) .btn-w,body.xg .elementor:not(#_) .btn-o,body.xg .elementor:not(#_) .btn-outline{background:rgba(255,255,255,.85);border:1.5px solid var(--rd-line)}
+
+/* ---------- cards: clean white, hairline border, accent line on hover */
+body.xg .elementor:not(#_) .feat-card,body.xg .elementor:not(#_) .dev-card,body.xg .elementor:not(#_) .tcard,body.xg .elementor:not(#_) .compat-card,body.xg .elementor:not(#_) .wcard,body.xg .elementor:not(#_) .blog-card,body.xg .elementor:not(#_) .info-box,body.xg .elementor:not(#_) .rf-card,body.xg .elementor:not(#_) .credit-card,body.xg .elementor:not(#_) .step-card,body.xg .elementor:not(#_) .co-card,body.xg .elementor:not(#_) .form-card,body.xg .elementor:not(#_) .pcard{background:var(--rd-card);border:1px solid var(--rd-line);box-shadow:var(--rd-shadow)}
+body.xg .elementor:not(#_) .feat-card,body.xg .elementor:not(#_) .dev-card,body.xg .elementor:not(#_) .tcard,body.xg .elementor:not(#_) .blog-card,body.xg .elementor:not(#_) .rf-card,body.xg .elementor:not(#_) .credit-card,body.xg .elementor:not(#_) .step-card,body.xg .elementor:not(#_) .info-box{border-radius:22px;position:relative}
+body.xg .elementor:not(#_) .feat-card:hover,body.xg .elementor:not(#_) .dev-card:hover,body.xg .elementor:not(#_) .tcard:hover,body.xg .elementor:not(#_) .compat-card:hover,body.xg .elementor:not(#_) .blog-card:hover,body.xg .elementor:not(#_) .rf-card:hover,body.xg .elementor:not(#_) .step-card:hover,body.xg .elementor:not(#_) .info-box:hover{box-shadow:var(--rd-shadow-h);border-color:rgba(43,143,209,.35)}
+body.xg .elementor:not(#_) .feat-card::before{top:auto;bottom:0;left:24px;right:24px;width:auto;height:3px;border-radius:3px 3px 0 0;background:var(--rd-grad);transform:scaleX(0);transition:transform .4s cubic-bezier(.22,1,.36,1)}
+body.xg .elementor:not(#_) .feat-card:hover::before{height:3px;transform:scaleX(1)}
+body.xg .elementor:not(#_) .dev-card::after,body.xg .elementor:not(#_) .rf-card::after,body.xg .elementor:not(#_) .step-card::after,body.xg .elementor:not(#_) .blog-card::after{content:"";position:absolute;left:24px;right:24px;bottom:0;height:3px;border-radius:3px 3px 0 0;background:var(--rd-grad);transform:scaleX(0);transition:transform .4s cubic-bezier(.22,1,.36,1)}
+body.xg .elementor:not(#_) .dev-card:hover::after,body.xg .elementor:not(#_) .rf-card:hover::after,body.xg .elementor:not(#_) .step-card:hover::after,body.xg .elementor:not(#_) .blog-card:hover::after{transform:scaleX(1)}
+body.xg .elementor:not(#_) .blog-card{overflow:hidden;display:block}
+body.xg .elementor:not(#_) .compat-card{border-radius:20px}
+body.xg .elementor:not(#_) .tcard::before{content:"\201C";position:absolute;top:4px;right:18px;font-family:'Sora',sans-serif;font-size:4rem;line-height:1;font-weight:800;color:#2B8FD1;opacity:.12;pointer-events:none}
+
+/* ---------- pricing */
+body.xg .elementor:not(#_) .price-tabs{background:#fff;border:1px solid var(--rd-line);box-shadow:var(--rd-shadow)}
+body.xg .elementor:not(#_) .pcard{border-radius:24px}
+body.xg .elementor:not(#_) .pcard.pop{border:2px solid #2B8FD1;box-shadow:0 30px 64px -26px rgba(20,96,143,.55)}
+body.xg .elementor:not(#_) .pcard-btn{border:1.5px solid var(--rd-line)}
+
+/* ---------- FAQ (home): separated rows inside the panel */
+body.xg .elementor:not(#_) .faq-sec .faq-item{background:#fff;border:1px solid var(--rd-line);border-radius:16px;padding:0 20px;margin-bottom:10px;box-shadow:0 8px 20px -16px rgba(20,96,143,.4);transition:border-color .3s,box-shadow .3s}
+body.xg .elementor:not(#_) .faq-sec .faq-item.open{border-color:rgba(43,143,209,.4);box-shadow:var(--rd-shadow-h)}
+
+/* ---------- hero */
+body.xg .elementor:not(#_) .hero-ticker{border-radius:26px;box-shadow:0 34px 70px -28px rgba(20,96,143,.5),0 0 0 8px rgba(255,255,255,.4)}
+body.xg .elementor:not(#_) .htag{background:rgba(255,255,255,.88);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px)}
+body.xg .elementor:not(#_) .live-video{border-radius:26px;border:1px solid var(--rd-line)}
+body.xg .elementor:not(#_) .coverage-img,body.xg .elementor:not(#_) .coverage-img img{border-radius:26px}
+
+/* ---------- call to action: gradient panel with rings */
+body.xg .elementor:not(#_) .cta-sec{border-top:0;padding:72px 24px}
+body.xg .elementor:not(#_) .cta-sec::before{display:none}
+body.xg .elementor:not(#_) .cta-sec>.e-con{max-width:1120px;margin:0 auto;padding:64px 32px;border-radius:36px;background:linear-gradient(135deg,#14608F 0%,#2B8FD1 55%,#3BA0E0 100%);overflow:hidden;box-shadow:0 34px 70px -30px rgba(20,96,143,.75)}
+body.xg .elementor:not(#_) .cta-sec>.e-con::before{all:unset;content:"";position:absolute;inset:0;pointer-events:none;background:radial-gradient(circle at 100% 0,transparent 120px,rgba(255,255,255,.14) 121px,rgba(255,255,255,.14) 122px,transparent 123px,transparent 200px,rgba(255,255,255,.10) 201px,rgba(255,255,255,.10) 202px,transparent 203px),radial-gradient(circle at 0 100%,transparent 90px,rgba(255,255,255,.12) 91px,rgba(255,255,255,.12) 92px,transparent 93px),radial-gradient(circle at 15% 15%,rgba(255,255,255,.18),transparent 40%)}
+body.xg .elementor:not(#_) .cta-sec .sec-chip{color:#fff!important;border-color:rgba(255,255,255,.45)!important;background:rgba(255,255,255,.1)!important}
+body.xg .elementor:not(#_) .cta-sec .sec-chip::before{background:#fff}
+body.xg .elementor:not(#_) .cta-sec .sec-title{color:#fff;position:relative}
+body.xg .elementor:not(#_) .cta-sec .sec-title::after{background:radial-gradient(circle,#fff 0 3px,transparent 3.5px) center/10px 10px no-repeat,linear-gradient(90deg,transparent,rgba(255,255,255,.7) 30%,rgba(255,255,255,.7) 70%,transparent) center/100% 1.5px no-repeat}
+body.xg .elementor:not(#_) .cta-sec .sec-desc{color:rgba(255,255,255,.9);position:relative}
+body.xg .elementor:not(#_) .cta-sec .cta-btn{background:#fff!important;color:#14608F!important;filter:none}
+
+/* ---------- footer */
+body.xg .elementor:not(#_) footer{position:relative;background:rgba(255,255,255,.75)!important;-webkit-backdrop-filter:blur(14px);backdrop-filter:blur(14px)}
+body.xg .elementor:not(#_) footer::before{content:"";position:absolute;top:0;left:10%;right:10%;height:1px;background:linear-gradient(90deg,transparent,rgba(43,143,209,.5),transparent)}
+
+/* ---------- forms */
+body.xg .elementor:not(#_) .xform .elementor-field-textual,body.xg .elementor:not(#_) .form-input,body.xg .elementor:not(#_) .auth-input{background:#fff;border-color:var(--rd-line)}
+
+/* ---------- small screens */
+@media(max-width:768px){
+  body.xg .elementor:not(#_) .nav{top:8px;left:8px;right:8px;border-radius:16px}
+  body.xg .elementor:not(#_) .feat-sec,body.xg .elementor:not(#_) .price-sec,body.xg .elementor:not(#_) .sec[style*="sky-mid"],body.xg .elementor:not(#_) .test-sec,body.xg .elementor:not(#_) .app-sec,body.xg .elementor:not(#_) .pg-header ~ .sec:not(.ch-feat-sec),body.xg .elementor:not(#_) .reseller-features,body.xg .elementor:not(#_) .reseller-sec.alt{width:calc(100% - 16px);margin:14px auto;border-radius:26px}
+  body.xg .elementor:not(#_) .cta-sec{padding:40px 12px}
+  body.xg .elementor:not(#_) .cta-sec>.e-con{padding:44px 20px;border-radius:26px}
+  body.xg .elementor:not(#_) .faq-sec .faq-item{padding:0 14px}
+}
+@media(prefers-reduced-motion:reduce){body.xg .elementor:not(#_) *{transition:none!important}}
+
+/* ---------- "Premium Events & Football Matches" slider on phones / small tablets: fit inside the panel */
+@media(max-width:768px){
+  body.xg .elementor:not(#_) .sec[style*="sky-mid"] .container{padding-left:6px;padding-right:6px}
+  body.xg .elementor:not(#_) .live-broadcast{width:100%;margin-left:0;margin-right:0}
+  body.xg .elementor:not(#_) .live-video{border-radius:22px}
+  body.xg .elementor:not(#_) .live-match-slide{gap:.6rem;padding:0 14px 26px}
+  body.xg .elementor:not(#_) .live-match-team{min-width:0;flex:1 1 0;gap:.5rem}
+  body.xg .elementor:not(#_) .live-match-team img{width:60px;height:60px}
+  body.xg .elementor:not(#_) .live-match-team-name{max-width:100%;font-size:.85rem}
+  body.xg .elementor:not(#_) .live-match-center{flex:0 0 auto;min-width:0;max-width:44%;gap:.35rem}
+  body.xg .elementor:not(#_) .live-match-status{font-size:.7rem;padding:4px 9px;white-space:nowrap}
+  body.xg .elementor:not(#_) .live-match-league{font-size:.68rem;line-height:1.3}
+  body.xg .elementor:not(#_) .live-badge-tag{top:10px;font-size:.62rem;padding:3px 10px}
+  body.xg .elementor:not(#_) .live-overlay-tag{bottom:10px;font-size:.7rem;max-width:88%;padding:4px 12px}
+}
+@media(max-width:400px){
+  body.xg .elementor:not(#_) .live-match-slide{gap:.4rem;padding:0 10px 24px}
+  body.xg .elementor:not(#_) .live-match-team img{width:48px;height:48px}
+  body.xg .elementor:not(#_) .live-match-team-name{font-size:.78rem}
+  body.xg .elementor:not(#_) .live-match-vs,body.xg .elementor:not(#_) .live-match-score{font-size:1.15rem}
+  body.xg .elementor:not(#_) .live-match-status{font-size:.64rem;padding:3px 7px}
+  body.xg .elementor:not(#_) .live-match-league{font-size:.62rem}
+  body.xg .elementor:not(#_) .live-video{aspect-ratio:1/1}
+}
+@media(min-width:769px) and (max-width:1199px){
+  body.xg .elementor:not(#_) .live-match-slide{gap:1rem;padding:0 18px}
+  body.xg .elementor:not(#_) .live-match-team{min-width:0;flex:1 1 0}
+  body.xg .elementor:not(#_) .live-match-team img{width:72px;height:72px}
+  body.xg .elementor:not(#_) .live-match-team-name{max-width:100%}
+  body.xg .elementor:not(#_) .live-match-center{flex:0 0 auto;max-width:42%}
+  body.xg .elementor:not(#_) .live-match-status{white-space:nowrap}
+}
+
+/* ---------- matches card shadows: soft blue like the rest of the site, never clipped */
+body.xg .elementor:not(#_) .live-broadcast{overflow:visible;border-radius:26px}
+body.xg .elementor:not(#_) .live-video{box-shadow:0 1px 2px rgba(12,30,46,.04),0 22px 44px -24px rgba(20,96,143,.42);border:1px solid var(--rd-line)}
+body.xg .elementor:not(#_) .live-video:hover{box-shadow:0 2px 4px rgba(12,30,46,.05),0 30px 56px -26px rgba(20,96,143,.5);transform:translateY(-3px)}
+body.xg .elementor:not(#_) .live-match-team img{filter:drop-shadow(0 6px 10px rgba(20,96,143,.22))}
+body.xg .elementor:not(#_) .hero-slide-team img{filter:drop-shadow(0 4px 8px rgba(20,96,143,.18))}
+body.xg .elementor:not(#_) .live-badge-tag{box-shadow:0 6px 14px -6px rgba(220,38,38,.55)}
+body.xg .elementor:not(#_) .live-overlay-tag{box-shadow:0 8px 18px -10px rgba(20,96,143,.8)}
+@media(max-width:768px){
+  body.xg .elementor:not(#_) .live-video{box-shadow:0 1px 2px rgba(12,30,46,.04),0 16px 32px -20px rgba(20,96,143,.4)}
+  body.xg .elementor:not(#_) .live-video:hover{transform:none}
+}
+
+/* ---------- hero on phones / small tablets: clear the floating menu bar and center the content on screen */
+@media(max-width:768px){
+  body.xg .elementor:not(#_) .hero{min-height:100vh;min-height:100svh;display:flex;flex-direction:column;justify-content:center;padding:104px 16px 40px}
+  body.xg .elementor:not(#_) .hero-grid{width:100%}
+}
+@media(max-width:768px) and (max-height:640px){
+  body.xg .elementor:not(#_) .hero{min-height:0;padding-top:100px}
+}/* End custom CSS */

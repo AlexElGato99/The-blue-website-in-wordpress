@@ -80,7 +80,7 @@ final class XHD_Live {
 			$msg = is_array( $body ) && ! empty( $body['message'] ) ? $body['message'] : 'HTTP ' . $http;
 			return self::log( new WP_Error( 'api', $msg ), $source );
 		}
-		$comp = $body['competition'] ?? array(); $season = $body['filters']['season'] ?? ( $body['matches'][0]['season']['startDate'] ?? '' );
+		$comp = $body['competition'] ?? array(); $season = $body['matches'][0]['season'] ?? ( $body['filters']['season'] ?? '' ); // {startDate, endDate, currentMatchday}
 		$matches = array();
 		foreach ( $body['matches'] as $m ) {
 			$matches[] = array(
@@ -221,7 +221,7 @@ final class XHD_Live {
 					<div class="live-match-team"><?php echo self::crest( $m['home']['crest'], $m['home']['name'], 88 ); ?><span class="live-match-team-name"><?php echo esc_html( $m['home']['name'] ); ?></span></div>
 					<div class="live-match-center">
 						<?php if ( $score && 'upcoming' !== $st ) : ?><span class="live-match-score"><?php echo esc_html( $score ); ?></span><?php else : ?><span class="live-match-vs">VS</span><?php endif; ?>
-						<span class="live-match-status m-<?php echo esc_attr( $st ); ?>"><?php echo esc_html( 'upcoming' === $st ? wp_date( 'D j M · H:i', strtotime( $m['utc'] ) ) : $label ); ?></span>
+						<span class="live-match-status m-<?php echo esc_attr( $st ); ?>" style="white-space:nowrap"><?php echo esc_html( 'upcoming' === $st ? wp_date( 'j M · H:i', strtotime( $m['utc'] ) ) : $label ); ?></span>
 						<span class="live-match-league"><?php echo esc_html( $m['league'] ); ?></span>
 					</div>
 					<div class="live-match-team"><?php echo self::crest( $m['away']['crest'], $m['away']['name'], 88 ); ?><span class="live-match-team-name"><?php echo esc_html( $m['away']['name'] ); ?></span></div>

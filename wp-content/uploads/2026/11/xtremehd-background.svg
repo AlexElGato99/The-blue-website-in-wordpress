@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="base" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#EAF4FC"/>
+      <stop offset=".55" stop-color="#D6ECFA"/>
+      <stop offset="1" stop-color="#C9E5F8"/>
+    </linearGradient>
+    <linearGradient id="ribA" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#A8D4F2" stop-opacity="0"/>
+      <stop offset=".35" stop-color="#7CC0ED" stop-opacity=".45"/>
+      <stop offset=".7" stop-color="#BFE0F7" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="ribB" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset=".4" stop-color="#FFFFFF" stop-opacity=".8"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="ribC" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#3BA0E0" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#3BA0E0" stop-opacity=".22"/>
+      <stop offset="1" stop-color="#3BA0E0" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="soft" x="-20%" y="-50%" width="140%" height="200%"><feGaussianBlur stdDeviation="38"/></filter>
+    <pattern id="diag" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M-6 6 L6 -6 M0 24 L24 0 M18 30 L30 18" stroke="#2B8FD1" stroke-opacity=".05" stroke-width="1.2"/></pattern>
+    <radialGradient id="vig" cx="50%" cy="40%" r="75%">
+      <stop offset=".55" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="1" stop-color="#A8D4F2" stop-opacity=".35"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1600" height="1000" fill="url(#base)"/>
+  <rect width="1600" height="1000" fill="url(#diag)"/>
+
+  <!-- aurora ribbons -->
+  <g filter="url(#soft)">
+    <path d="M-100 330 C 260 180, 560 420, 900 300 S 1460 140, 1720 260 L 1720 420 C 1400 330, 1180 520, 860 470 S 220 360, -100 500Z" fill="url(#ribA)"/>
+    <path d="M-100 640 C 300 560, 640 760, 1000 660 S 1500 560, 1720 640 L 1720 730 C 1460 680, 1160 800, 900 760 S 260 680, -100 760Z" fill="url(#ribB)"/>
+    <path d="M200 80 C 520 20, 820 170, 1140 90 S 1560 30, 1700 80 L 1700 150 C 1420 130, 1220 220, 960 190 S 420 100, 200 170Z" fill="url(#ribC)"/>
+  </g>
+
+  <!-- large arcs -->
+  <g fill="none" stroke="#2B8FD1" stroke-linecap="round">
+    <path d="M1600 1000 m-560 0 a560 560 0 0 1 560 -560" stroke-opacity=".10" stroke-width="1.5"/>
+    <path d="M1600 1000 m-430 0 a430 430 0 0 1 430 -430" stroke-opacity=".08" stroke-width="1.5" stroke-dasharray="3 12"/>
+    <path d="M1600 1000 m-300 0 a300 300 0 0 1 300 -300" stroke-opacity=".12" stroke-width="1.5"/>
+    <path d="M0 0 m380 0 a380 380 0 0 1 -380 380" stroke-opacity=".09" stroke-width="1.5"/>
+    <path d="M0 0 m250 0 a250 250 0 0 1 -250 250" stroke-opacity=".07" stroke-width="1.5" stroke-dasharray="2 10"/>
+  </g>
+
+  <!-- network of connected points (streaming) -->
+  <g fill="none" stroke="#2B8FD1" stroke-opacity=".22" stroke-width="1.2">
+    <path d="M1180 170 L1290 120 L1400 190 L1330 290 L1180 170 M1290 120 L1330 290 M1400 190 L1500 150"/>
+    <path d="M150 640 L260 590 L340 680 L230 760 L150 640 M260 590 L230 760"/>
+  </g>
+  <g fill="#2B8FD1" fill-opacity=".35">
+    <circle cx="1180" cy="170" r="4"/><circle cx="1290" cy="120" r="5"/><circle cx="1400" cy="190" r="4"/><circle cx="1330" cy="290" r="3.5"/><circle cx="1500" cy="150" r="3"/>
+    <circle cx="150" cy="640" r="4"/><circle cx="260" cy="590" r="5"/><circle cx="340" cy="680" r="3.5"/><circle cx="230" cy="760" r="4"/>
+  </g>
+  <circle cx="1290" cy="120" r="12" fill="none" stroke="#2B8FD1" stroke-opacity=".2"/>
+  <circle cx="260" cy="590" r="12" fill="none" stroke="#2B8FD1" stroke-opacity=".2"/>
+
+  <!-- tiny accents -->
+  <g fill="#3BA0E0" fill-opacity=".4">
+    <circle cx="620" cy="140" r="2.5"/><circle cx="880" cy="880" r="3"/><circle cx="1060" cy="560" r="2"/><circle cx="460" cy="430" r="2"/><circle cx="1520" cy="520" r="2.5"/>
+  </g>
+  <g fill="#F59E0B" fill-opacity=".45"><circle cx="980" cy="120" r="3"/><circle cx="420" cy="880" r="2.5"/></g>
+
+  <rect width="1600" height="1000" fill="url(#vig)"/>
+</svg>
