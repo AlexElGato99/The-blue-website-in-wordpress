@@ -1504,4 +1504,84 @@ body.xg .elementor:not(#_) .live-overlay-tag{box-shadow:0 8px 18px -10px rgba(20
 }
 @media(max-width:768px) and (max-height:640px){
   body.xg .elementor:not(#_) .hero{min-height:0;padding-top:100px}
-}/* End custom CSS */
+}
+
+/* ---------- hero reviews badge image (Image widget under the two buttons) */
+body.xg .elementor:not(#_) .hero .hero-left > img.e-image-base,body.xg .elementor:not(#_) .hero .hero-left > .elementor-widget-image img,body.xg .elementor:not(#_) .hero .hero-left > .e-image-base img{display:block;width:240px;max-width:80%;height:auto;margin:16px 0 0;object-fit:contain;filter:drop-shadow(0 6px 12px rgba(20,96,143,.16))}
+@media(max-width:1024px){
+  body.xg .elementor:not(#_) .hero .hero-left > img.e-image-base,body.xg .elementor:not(#_) .hero .hero-left > .elementor-widget-image img,body.xg .elementor:not(#_) .hero .hero-left > .e-image-base img{margin:20px auto 0}
+}
+@media(max-width:768px){
+  /* on phones the hero children are re-ordered (title 1, text 2, matches 3, buttons 5) → badge goes last, under the buttons */
+  body.xg .elementor:not(#_) .hero .hero-left > img.e-image-base,body.xg .elementor:not(#_) .hero .hero-left > .elementor-widget-image,body.xg .elementor:not(#_) .hero .hero-left > .e-image-base{order:6}
+  body.xg .elementor:not(#_) .hero .hero-left > img.e-image-base,body.xg .elementor:not(#_) .hero .hero-left > .elementor-widget-image img,body.xg .elementor:not(#_) .hero .hero-left > .e-image-base img{width:220px;margin:0 auto}
+}
+
+/* ---------- hero: tighter spacing between title, text, buttons and reviews badge */
+body.xg .elementor:not(#_) .hero h1{margin-bottom:12px}
+body.xg .elementor:not(#_) .hero-desc{margin-bottom:20px}
+body.xg .elementor:not(#_) .hero-btns{margin-bottom:0}
+@media(max-width:1024px){ body.xg .elementor:not(#_) .hero-desc{margin:0 auto 20px} }
+@media(max-width:768px){
+  body.xg .elementor:not(#_) .hero-grid{gap:10px}
+  body.xg .elementor:not(#_) .hero-desc{margin:0}
+  body.xg .elementor:not(#_) .hero-btns{margin-top:4px}
+}
+
+/* ---------- ONE button style for the whole site (the hero "Contact Us" look):
+   pill, thin hairline border, no shadow, colour change on hover, no lift / no scale.
+   Primary buttons = same shape filled with the site blue #2B8FD1. */
+body.xg .elementor:not(#_) :is(.btn,.btn-p,.btn-w,.btn-o,.btn-outline,.btn-primary,.cta-btn,.nav-cta,.pcard-btn,.credit-card-btn,.auth-btn,.submit-btn,.form-submit,.msg-open-btn,.error-btn,.mobile-overlay a.btn),body.xg .elementor:not(#_) .xform .elementor-button{border-radius:9999px!important;border:1.5px solid rgba(43,143,209,.18)!important;box-shadow:none!important;filter:none!important;transform:none!important;transition:background-color .25s,border-color .25s,color .25s!important;font-weight:700;letter-spacing:.1px}
+body.xg .elementor:not(#_) :is(.btn,.btn-p,.btn-w,.btn-o,.btn-outline,.btn-primary,.cta-btn,.nav-cta,.pcard-btn,.credit-card-btn,.auth-btn,.submit-btn,.form-submit,.msg-open-btn,.error-btn):hover,body.xg .elementor:not(#_) .xform .elementor-button:hover{transform:none!important;box-shadow:none!important;filter:none!important}
+/* secondary (white) */
+body.xg .elementor:not(#_) :is(.btn-w,.btn-o,.btn-outline,.pcard-btn,.cta-sec .cta-btn){background:rgba(255,255,255,.88)!important;color:#0C1E2E!important}
+body.xg .elementor:not(#_) :is(.btn-w,.btn-o,.btn-outline,.pcard-btn,.cta-sec .cta-btn):hover{border-color:#2B8FD1!important;color:#2B8FD1!important;background:#fff!important}
+/* primary (site blue) */
+body.xg .elementor:not(#_) :is(.btn-p,.btn-primary,.nav-cta,.cta-btn,.credit-card-btn,.auth-btn,.submit-btn,.form-submit,.msg-open-btn,.error-btn,.pcard.pop .pcard-btn,.mobile-overlay a.btn),body.xg .elementor:not(#_) .xform .elementor-button{background:#2B8FD1!important;border-color:#2B8FD1!important;color:#fff!important}
+body.xg .elementor:not(#_) :is(.btn-p,.btn-primary,.nav-cta,.cta-btn,.credit-card-btn,.auth-btn,.submit-btn,.form-submit,.msg-open-btn,.error-btn,.pcard.pop .pcard-btn,.mobile-overlay a.btn):hover,body.xg .elementor:not(#_) .xform .elementor-button:hover{background:#14608F!important;border-color:#14608F!important;color:#fff!important}
+/* the CTA panel is blue → its button stays white (secondary style above) */
+body.xg .elementor:not(#_) .cta-sec .cta-btn.cta-btn.cta-btn{background:#fff!important;border-color:#fff!important;color:#14608F!important}
+body.xg .elementor:not(#_) .cta-sec .cta-btn.cta-btn.cta-btn:hover{background:#EAF4FC!important;border-color:#EAF4FC!important;color:#0C1E2E!important}
+/* WhatsApp order button keeps WhatsApp green */
+body.xg .elementor:not(#_) .msg-open-btn.wa{background:#22C55E!important;border-color:#22C55E!important}
+body.xg .elementor:not(#_) .msg-open-btn.wa:hover{background:#16a34a!important;border-color:#16a34a!important}
+/* a little bigger */
+body.xg .elementor:not(#_) :is(.btn,.btn-p,.btn-w,.btn-primary,.btn-outline,.btn-o){padding:15px 32px;font-size:.95rem}
+body.xg .elementor:not(#_) .nav-cta{padding:11px 26px;font-size:.88rem}
+body.xg .elementor:not(#_) .cta-btn{padding:17px 44px;font-size:.95rem}
+body.xg .elementor:not(#_) .pcard-btn{padding:14px;font-size:.9rem}
+body.xg .elementor:not(#_) :is(.form-submit,.submit-btn,.auth-btn),body.xg .elementor:not(#_) .xform .elementor-button{padding:15px;font-size:.95rem}
+@media(max-width:768px){ body.xg .elementor:not(#_) :is(.btn,.btn-p,.btn-w){padding:14px 28px;font-size:.92rem} }
+
+/* ---------- Compatibility section: "one plan, all devices" layout (header row + device card grid) */
+body.xg .elementor:not(#_) .compat2{padding-top:72px;padding-bottom:72px;overflow:visible;position:relative}
+body.xg .elementor:not(#_) .compat2 .container{max-width:1200px;padding:0 24px}
+body.xg .elementor:not(#_) .compat2-head{display:flex;align-items:flex-end;justify-content:space-between;gap:32px;margin-bottom:36px}
+body.xg .elementor:not(#_) .compat2-head-text{max-width:640px;text-align:left}
+body.xg .elementor:not(#_) .compat2-head .sec-chip{margin:0 0 14px}
+body.xg .elementor:not(#_) .compat2-head .sec-title{text-align:left;margin:0 0 10px}
+body.xg .elementor:not(#_) .compat2-head .sec-title::after{margin:14px 0 4px}
+body.xg .elementor:not(#_) .compat2-head .sec-desc{max-width:600px;margin:0;text-align:left}
+body.xg .elementor:not(#_) .compat2-btn{flex-shrink:0;white-space:nowrap;margin-bottom:6px}
+body.xg .elementor:not(#_) .compat2-grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:16px}
+body.xg .elementor:not(#_) .compat2-card{display:flex;align-items:center;gap:14px;padding:18px;background:#fff;border:1px solid var(--rd-line);border-radius:18px;box-shadow:0 1px 2px rgba(12,30,46,.04),0 12px 26px -20px rgba(20,96,143,.45);transition:border-color .25s,box-shadow .25s,background-color .25s;min-width:0}
+body.xg .elementor:not(#_) .compat2-card:hover{border-color:rgba(43,143,209,.45);background:#FAFDFF;box-shadow:0 2px 4px rgba(12,30,46,.05),0 18px 34px -22px rgba(20,96,143,.55)}
+body.xg .elementor:not(#_) .compat2-ico{flex:0 0 48px;width:48px;height:48px;border-radius:13px;background:#EAF4FC;border:1px solid rgba(43,143,209,.12);display:flex;align-items:center;justify-content:center;padding:8px}
+body.xg .elementor:not(#_) .compat2-logo{width:100%;height:100%;max-width:100%;object-fit:contain;display:block}
+body.xg .elementor:not(#_) .compat2-txt{min-width:0;display:flex;flex-direction:column;gap:2px}
+body.xg .elementor:not(#_) .compat2-name{font-family:'Sora',sans-serif;font-weight:800;font-size:.95rem;line-height:1.25;color:var(--text);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+body.xg .elementor:not(#_) .compat2-sub{font-size:.76rem;line-height:1.35;color:var(--text-3)}
+@media(max-width:1199px){ body.xg .elementor:not(#_) .compat2-grid{grid-template-columns:repeat(4,minmax(0,1fr))} }
+@media(max-width:1024px){ body.xg .elementor:not(#_) .compat2-grid{grid-template-columns:repeat(3,minmax(0,1fr))} }
+@media(max-width:768px){
+  body.xg .elementor:not(#_) .compat2{padding:44px 16px}
+  body.xg .elementor:not(#_) .compat2 .container{padding:0}
+  body.xg .elementor:not(#_) .compat2-head{flex-direction:column;align-items:flex-start;gap:18px;margin-bottom:24px}
+  body.xg .elementor:not(#_) .compat2-btn{margin:0}
+  body.xg .elementor:not(#_) .compat2-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+  body.xg .elementor:not(#_) .compat2-card{padding:12px;gap:10px;border-radius:14px}
+  body.xg .elementor:not(#_) .compat2-ico{flex-basis:38px;width:38px;height:38px;border-radius:10px;padding:6px}
+  body.xg .elementor:not(#_) .compat2-name{font-size:.82rem}
+  body.xg .elementor:not(#_) .compat2-sub{font-size:.68rem}
+}
+@media(max-width:340px){ body.xg .elementor:not(#_) .compat2-grid{grid-template-columns:1fr} }/* End custom CSS */
