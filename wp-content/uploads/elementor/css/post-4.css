@@ -1566,13 +1566,13 @@ body.xg .elementor:not(#_) .compat2-btn{flex-shrink:0;white-space:nowrap;margin-
 body.xg .elementor:not(#_) .compat2-grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:16px}
 body.xg .elementor:not(#_) .compat2-card{display:flex;align-items:center;gap:14px;padding:18px;background:#fff;border:1px solid var(--rd-line);border-radius:18px;box-shadow:0 1px 2px rgba(12,30,46,.04),0 12px 26px -20px rgba(20,96,143,.45);transition:border-color .25s,box-shadow .25s,background-color .25s;min-width:0}
 body.xg .elementor:not(#_) .compat2-card:hover{border-color:rgba(43,143,209,.45);background:#FAFDFF;box-shadow:0 2px 4px rgba(12,30,46,.05),0 18px 34px -22px rgba(20,96,143,.55)}
-body.xg .elementor:not(#_) .compat2-ico{flex:0 0 48px;width:48px;height:48px;border-radius:13px;background:#EAF4FC;border:1px solid rgba(43,143,209,.12);display:flex;align-items:center;justify-content:center;padding:8px}
+body.xg .elementor:not(#_) .compat2-ico{flex:0 0 48px;width:48px;height:48px;border-radius:13px;background:#EAF4FC;border:1px solid rgba(43,143,209,.12);display:flex;align-items:center;justify-content:center;padding:5px}
 body.xg .elementor:not(#_) .compat2-logo{width:100%;height:100%;max-width:100%;object-fit:contain;display:block}
 body.xg .elementor:not(#_) .compat2-txt{min-width:0;display:flex;flex-direction:column;gap:2px}
-body.xg .elementor:not(#_) .compat2-name{font-family:'Sora',sans-serif;font-weight:800;font-size:.95rem;line-height:1.25;color:var(--text);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+body.xg .elementor:not(#_) .compat2-name{font-family:'Sora',sans-serif;font-weight:800;font-size:.95rem;line-height:1.25;color:var(--text);overflow-wrap:anywhere}
 body.xg .elementor:not(#_) .compat2-sub{font-size:.76rem;line-height:1.35;color:var(--text-3)}
-@media(max-width:1199px){ body.xg .elementor:not(#_) .compat2-grid{grid-template-columns:repeat(4,minmax(0,1fr))} }
-@media(max-width:1024px){ body.xg .elementor:not(#_) .compat2-grid{grid-template-columns:repeat(3,minmax(0,1fr))} }
+@media(max-width:1199px){ body.xg .elementor:not(#_) .compat2-grid{gap:12px} body.xg .elementor:not(#_) .compat2-card{padding:14px;gap:12px} body.xg .elementor:not(#_) .compat2-ico{flex-basis:42px;width:42px;height:42px} body.xg .elementor:not(#_) .compat2-name{font-size:.88rem} }
+@media(max-width:999px){ body.xg .elementor:not(#_) .compat2-grid{grid-template-columns:repeat(2,minmax(0,1fr))} }
 @media(max-width:768px){
   body.xg .elementor:not(#_) .compat2{padding:44px 16px}
   body.xg .elementor:not(#_) .compat2 .container{padding:0}
@@ -1580,7 +1580,7 @@ body.xg .elementor:not(#_) .compat2-sub{font-size:.76rem;line-height:1.35;color:
   body.xg .elementor:not(#_) .compat2-btn{margin:0}
   body.xg .elementor:not(#_) .compat2-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
   body.xg .elementor:not(#_) .compat2-card{padding:12px;gap:10px;border-radius:14px}
-  body.xg .elementor:not(#_) .compat2-ico{flex-basis:38px;width:38px;height:38px;border-radius:10px;padding:6px}
+  body.xg .elementor:not(#_) .compat2-ico{flex-basis:38px;width:38px;height:38px;border-radius:10px;padding:4px}
   body.xg .elementor:not(#_) .compat2-name{font-size:.82rem}
   body.xg .elementor:not(#_) .compat2-sub{font-size:.68rem}
 }
