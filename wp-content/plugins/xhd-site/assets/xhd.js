@@ -19,6 +19,20 @@
 		revealEls.forEach(function (el) { io.observe(el); });
 	}
 
+	/* Stats band: count up from 0 when it scrolls into view ([data-to] = target, [data-suffix] = "+", "/5" …) */
+	var counters = $all('[data-to]');
+	function countUp(el) {
+		var to = parseFloat(el.getAttribute('data-to')), suf = el.getAttribute('data-suffix') || '', dec = (String(el.getAttribute('data-to')).split('.')[1] || '').length;
+		var out = el.querySelector('.elementor-heading-title') || el, t0 = null, dur = 1600;
+		function fmt(v) { return (dec ? v.toFixed(dec) : Math.round(v).toLocaleString('en-US')) + suf; }
+		function step(ts) { if (!t0) t0 = ts; var p = Math.min(1, (ts - t0) / dur), e = 1 - Math.pow(1 - p, 3); out.textContent = fmt(to * e); if (p < 1) requestAnimationFrame(step); }
+		requestAnimationFrame(step);
+	}
+	if (counters.length && !inEditor && 'IntersectionObserver' in window) {
+		var cio = new IntersectionObserver(function (entries) { entries.forEach(function (e) { if (e.isIntersecting) { countUp(e.target); cio.unobserve(e.target); } }); }, { threshold: 0.4 });
+		counters.forEach(function (el) { cio.observe(el); });
+	}
+
 	/* Mobile menu (full-screen overlay) */
 	var overlay = d.querySelector('.mobile-overlay');
 	function setMenu(open) {

@@ -1584,4 +1584,297 @@ body.xg .elementor:not(#_) .compat2-sub{font-size:.76rem;line-height:1.35;color:
   body.xg .elementor:not(#_) .compat2-name{font-size:.82rem}
   body.xg .elementor:not(#_) .compat2-sub{font-size:.68rem}
 }
-@media(max-width:340px){ body.xg .elementor:not(#_) .compat2-grid{grid-template-columns:1fr} }/* End custom CSS */
+@media(max-width:340px){ body.xg .elementor:not(#_) .compat2-grid{grid-template-columns:1fr} }
+
+/* ================================================================
+   HOME SECTIONS v3 — streamvision.store layouts, XtremeHD colours/theme
+   ================================================================ */
+body.xg .elementor:not(#_) .sv-panel{position:relative;width:calc(100% - 40px);max-width:1400px;margin:28px auto;border-radius:44px;background:linear-gradient(180deg,rgba(255,255,255,.78) 0%,rgba(255,255,255,.58) 100%)!important;border:1px solid rgba(255,255,255,.95);box-shadow:0 1px 0 #fff inset,0 40px 90px -50px rgba(20,96,143,.45);overflow:hidden;isolation:isolate}
+body.xg .elementor:not(#_) .sv-panel::after{content:"";position:absolute;z-index:-1;top:-160px;right:-140px;width:420px;height:420px;border-radius:50%;background:radial-gradient(circle,rgba(124,192,237,.38),rgba(124,192,237,0) 68%);pointer-events:none}
+body.xg .elementor:not(#_) :is(.sv-info,.sv-stats,.sv-reasons,.sv-content,.sv-why,.sv-reviews,.sv-steps,.sv-faq,.sv-cta){padding:84px 24px}
+body.xg .elementor:not(#_) :is(.sv-info,.sv-stats,.sv-reasons,.sv-content,.sv-why,.sv-reviews,.sv-steps,.sv-faq,.sv-cta) > .container{max-width:1200px;margin:0 auto}
+/* section header (centered, like the reference) */
+body.xg .elementor:not(#_) .sv-head{text-align:center;max-width:760px;margin:0 auto 44px}
+body.xg .elementor:not(#_) .sv-head .sec-chip{margin:0 auto 14px}
+body.xg .elementor:not(#_) .sv-head .sec-title{text-align:center}
+body.xg .elementor:not(#_) .sv-head .sec-title::after{margin:14px auto 4px}
+body.xg .elementor:not(#_) .sv-head .sec-desc{margin:0 auto;max-width:640px;text-align:center}
+/* icon tile (Font Awesome icons from the reference) */
+body.xg .elementor:not(#_) .sv-ico{width:48px;height:48px;border-radius:14px;background:#EAF4FC;border:1px solid rgba(43,143,209,.14);display:flex;align-items:center;justify-content:center;flex-shrink:0}
+body.xg .elementor:not(#_) .sv-ico .elementor-icon-wrapper,body.xg .elementor:not(#_) .sv-ico .elementor-icon{display:flex;line-height:0;font-size:0}
+body.xg .elementor:not(#_) .sv-ico svg{width:22px;height:22px;fill:#2B8FD1}
+/* cards */
+body.xg .elementor:not(#_) .sv-grid-3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
+body.xg .elementor:not(#_) .sv-card,body.xg .elementor:not(#_) .sv-step{position:relative;background:#fff;border:1px solid var(--rd-line);border-radius:22px;padding:26px;box-shadow:0 1px 2px rgba(12,30,46,.04),0 14px 34px -22px rgba(20,96,143,.4);transition:border-color .25s,box-shadow .25s}
+body.xg .elementor:not(#_) .sv-card:hover,body.xg .elementor:not(#_) .sv-step:hover{border-color:rgba(43,143,209,.4);box-shadow:0 2px 4px rgba(12,30,46,.05),0 24px 48px -26px rgba(20,96,143,.5)}
+body.xg .elementor:not(#_) .sv-card-t{font-family:'Sora',sans-serif;font-weight:800;font-size:1.08rem;line-height:1.3;color:var(--text);margin:18px 0 8px}
+body.xg .elementor:not(#_) .sv-card-p{font-size:.9rem;line-height:1.65;color:var(--text-2);margin:0}
+body.xg .elementor:not(#_) .sv-info-card .sv-card-t::after{content:"";display:block;width:34px;height:3px;border-radius:3px;background:#2B8FD1;margin-top:12px}
+body.xg .elementor:not(#_) .sv-mini{display:grid;grid-template-columns:48px 1fr;column-gap:16px;align-items:start;padding:22px}
+body.xg .elementor:not(#_) .sv-mini .sv-ico{grid-row:1/3}
+body.xg .elementor:not(#_) .sv-mini .sv-card-t{margin:2px 0 6px;font-size:1rem}
+body.xg .elementor:not(#_) .sv-mini .sv-card-p{font-size:.86rem}
+/* 1. info cards overlap the hero */
+body.xg .elementor:not(#_) .sv-info{padding-top:0;padding-bottom:40px;position:relative;z-index:3}
+body.xg .elementor:not(#_) .sv-info > .container{margin-top:-64px}
+body.xg .elementor:not(#_) .hero{padding-bottom:130px}
+/* 2. stats band */
+body.xg .elementor:not(#_) .sv-stats{padding-top:24px;padding-bottom:40px}
+body.xg .elementor:not(#_) .sv-stats-band{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px;padding:34px 28px;border-radius:28px;background:linear-gradient(120deg,#14608F 0%,#2B8FD1 55%,#3BA0E0 100%);box-shadow:0 30px 60px -30px rgba(20,96,143,.7);position:relative;overflow:hidden}
+body.xg .elementor:not(#_) .sv-stats-band::before{content:"";position:absolute;inset:0;pointer-events:none;background:radial-gradient(circle at 90% -20%,rgba(255,255,255,.22),transparent 45%),radial-gradient(circle at 5% 120%,rgba(255,255,255,.16),transparent 40%)}
+body.xg .elementor:not(#_) .sv-stat{text-align:center;position:relative;display:flex;flex-direction:column}
+body.xg .elementor:not(#_) .sv-stat + .sv-stat::before{content:"";position:absolute;left:-8px;top:12%;bottom:12%;width:1px;background:rgba(255,255,255,.25)}
+body.xg .elementor:not(#_) .sv-stat-l{font-size:.74rem;font-weight:700;letter-spacing:1.4px;text-transform:uppercase;color:rgba(255,255,255,.85);order:-1;margin-bottom:6px}
+body.xg .elementor:not(#_) .sv-stat-num{font-family:'Sora',sans-serif;font-weight:800;font-size:2.5rem;line-height:1.1;color:#fff;font-variant-numeric:tabular-nums}
+/* 3. alternating rows */
+body.xg .elementor:not(#_) .sv-row{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:center;margin-top:56px}
+body.xg .elementor:not(#_) .sv-row-rev .sv-row-media{order:2}
+body.xg .elementor:not(#_) .sv-row-img{width:100%;height:auto;border-radius:26px;display:block;box-shadow:0 30px 60px -32px rgba(20,96,143,.55)}
+body.xg .elementor:not(#_) .sv-row-app{box-shadow:none;max-width:480px;margin:0 auto;filter:drop-shadow(0 20px 36px rgba(20,96,143,.25))}
+body.xg .elementor:not(#_) .sv-row-text .sec-chip{margin:0 0 14px}
+body.xg .elementor:not(#_) .sv-row-t{font-family:'Sora',sans-serif;font-weight:800;font-size:clamp(1.6rem,2.6vw,2.2rem);line-height:1.15;letter-spacing:-.02em;color:var(--text);margin:0 0 12px}
+body.xg .elementor:not(#_) .sv-row-p{font-size:1rem;line-height:1.75;color:var(--text-2);margin:0 0 20px}
+body.xg .elementor:not(#_) .sv-checks{display:flex;flex-direction:column;gap:12px;margin-bottom:26px}
+body.xg .elementor:not(#_) .sv-check{display:flex;align-items:center;gap:12px}
+body.xg .elementor:not(#_) .sv-check .sv-ico{width:26px;height:26px;border-radius:50%;background:transparent;border:0}
+body.xg .elementor:not(#_) .sv-check .sv-ico svg{width:20px;height:20px}
+body.xg .elementor:not(#_) .sv-check-t{font-size:.95rem;font-weight:600;color:var(--text)}
+body.xg .elementor:not(#_) .sv-btns{display:flex;flex-wrap:wrap;gap:12px;align-items:center}
+body.xg .elementor:not(#_) .sv-center{justify-content:center}
+body.xg .elementor:not(#_) .sv-btns .app-badge-img{height:50px;width:auto}
+/* 6. reviews */
+body.xg .elementor:not(#_) .sv-rating{display:grid;grid-template-columns:1fr 1.7fr;border-radius:26px;overflow:hidden;border:1px solid var(--rd-line);background:#fff;box-shadow:0 20px 44px -30px rgba(20,96,143,.5);margin-bottom:28px}
+body.xg .elementor:not(#_) .sv-rating-score{padding:34px;background:linear-gradient(135deg,#14608F,#2B8FD1 60%,#3BA0E0);color:#fff;display:flex;flex-direction:column;justify-content:center}
+body.xg .elementor:not(#_) .sv-rating-big{display:flex;align-items:baseline;gap:8px}
+body.xg .elementor:not(#_) .sv-rating-num{font-family:'Sora',sans-serif;font-weight:800;font-size:4.2rem;line-height:1}
+body.xg .elementor:not(#_) .sv-rating-of{font-size:1.3rem;font-weight:700;opacity:.85}
+body.xg .elementor:not(#_) .sv-rating-stars{color:#FCD34D;font-size:1.45rem;letter-spacing:3px;margin:10px 0 6px}
+body.xg .elementor:not(#_) .sv-rating-cap{font-size:.9rem;font-weight:600;opacity:.92}
+body.xg .elementor:not(#_) .sv-rating-dist{padding:30px 34px}
+body.xg .elementor:not(#_) .sv-rating-h{font-size:.72rem;font-weight:800;letter-spacing:1.5px;text-transform:uppercase;color:#14608F;margin-bottom:16px}
+body.xg .elementor:not(#_) .sv-bars{display:flex;flex-direction:column;gap:10px}
+body.xg .elementor:not(#_) .sv-bar{display:grid;grid-template-columns:34px 1fr 44px;align-items:center;gap:12px}
+body.xg .elementor:not(#_) .sv-bar-l{font-size:.85rem;font-weight:700;color:var(--text)}
+body.xg .elementor:not(#_) .sv-bar-track{height:8px;border-radius:8px;background:#EAF4FC;overflow:hidden}
+body.xg .elementor:not(#_) .sv-bar-fill{height:100%;border-radius:8px;background:linear-gradient(90deg,#3BA0E0,#2B8FD1)}
+body.xg .elementor:not(#_) .sv-bar-v{font-size:.82rem;font-weight:600;color:var(--text-3);text-align:right}
+body.xg .elementor:not(#_) .sv-rating-note{font-size:.78rem;color:var(--text-3);margin-top:14px}
+body.xg .elementor:not(#_) .sv-reviews-grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:16px}
+body.xg .elementor:not(#_) .sv-review{background:#fff;border:1px solid var(--rd-line);border-radius:20px;padding:20px;box-shadow:0 12px 28px -22px rgba(20,96,143,.45)}
+body.xg .elementor:not(#_) .sv-review-top{display:flex;align-items:center;gap:10px;margin-bottom:12px}
+body.xg .elementor:not(#_) .sv-review-av{width:38px;height:38px;border-radius:50%;background:#EAF4FC;color:#14608F;font-weight:800;display:flex;align-items:center;justify-content:center;flex-shrink:0}
+body.xg .elementor:not(#_) .sv-review-n{font-weight:800;font-size:.9rem;color:var(--text)}
+body.xg .elementor:not(#_) .sv-review-s{color:var(--amber);font-size:.82rem;letter-spacing:2px}
+body.xg .elementor:not(#_) .sv-review-p{font-size:.86rem;line-height:1.6;color:var(--text-2);margin:0}
+/* 7. steps */
+body.xg .elementor:not(#_) .sv-step-n{display:inline-flex;align-items:center;justify-content:center;min-width:52px;height:36px;padding:0 14px;border-radius:9999px;background:#EAF4FC;color:#14608F;font-family:'Sora',sans-serif;font-weight:800;font-size:.95rem}
+body.xg .elementor:not(#_) .sv-step .sv-card-t{margin-top:18px}
+/* 8. FAQ */
+body.xg .elementor:not(#_) .sv-faq-list{max-width:860px;margin:0 auto 30px;display:flex;flex-direction:column;gap:12px}
+body.xg .elementor:not(#_) .sv-faq-item{background:#fff;border:1px solid var(--rd-line);border-radius:16px;padding:0 22px;transition:border-color .25s,box-shadow .25s}
+body.xg .elementor:not(#_) .sv-faq-item.open{border-color:rgba(43,143,209,.45);box-shadow:0 18px 36px -26px rgba(20,96,143,.5)}
+body.xg .elementor:not(#_) .sv-faq .faq-q{padding:19px 0;font-size:.98rem}
+body.xg .elementor:not(#_) .sv-faq .faq-arr{position:relative;width:30px;height:30px;border-radius:50%;background:#EAF4FC;border:1px solid rgba(43,143,209,.15);box-shadow:none}
+body.xg .elementor:not(#_) .sv-faq .faq-arr::before,body.xg .elementor:not(#_) .sv-faq .faq-arr::after{content:"";position:absolute;left:50%;top:50%;width:12px;height:2px;border-radius:2px;background:#2B8FD1;transform:translate(-50%,-50%);transition:transform .3s}
+body.xg .elementor:not(#_) .sv-faq .faq-arr::after{transform:translate(-50%,-50%) rotate(90deg)}
+body.xg .elementor:not(#_) .sv-faq .faq-item.open .faq-arr{transform:none;background:#2B8FD1;border-color:#2B8FD1}
+body.xg .elementor:not(#_) .sv-faq .faq-item.open .faq-arr::before,body.xg .elementor:not(#_) .sv-faq .faq-item.open .faq-arr::after{background:#fff}
+body.xg .elementor:not(#_) .sv-faq .faq-item.open .faq-arr::after{transform:translate(-50%,-50%) rotate(0deg)}
+/* 9. CTA card */
+body.xg .elementor:not(#_) .sv-cta-card{text-align:center;padding:64px 32px;border-radius:32px;background:linear-gradient(180deg,rgba(255,255,255,.9),rgba(255,255,255,.72));border:1px solid rgba(255,255,255,.95);box-shadow:0 1px 0 #fff inset,0 34px 70px -36px rgba(20,96,143,.5);position:relative;overflow:hidden}
+body.xg .elementor:not(#_) .sv-cta-card::before{content:"";position:absolute;inset:0;pointer-events:none;background:radial-gradient(circle at 0 0,rgba(124,192,237,.35),transparent 40%),radial-gradient(circle at 100% 100%,rgba(124,192,237,.3),transparent 42%)}
+body.xg .elementor:not(#_) .sv-cta-card .sec-chip{margin:0 auto 16px;position:relative}
+body.xg .elementor:not(#_) .sv-cta-card .sec-chip::before{display:none}
+body.xg .elementor:not(#_) .sv-cta-card .sec-title{text-align:center;position:relative}
+body.xg .elementor:not(#_) .sv-cta-card .sec-title::after{margin:14px auto 4px}
+body.xg .elementor:not(#_) .sv-cta-card .sec-desc{margin:0 auto 28px;max-width:620px;text-align:center;position:relative}
+body.xg .elementor:not(#_) .sv-cta-card .sv-btns{position:relative}
+/* responsive */
+@media(max-width:1199px){ body.xg .elementor:not(#_) .sv-reviews-grid{grid-template-columns:repeat(3,minmax(0,1fr))} }
+@media(max-width:1024px){
+  body.xg .elementor:not(#_) .sv-grid-3{grid-template-columns:repeat(2,minmax(0,1fr))}
+  body.xg .elementor:not(#_) .sv-row{gap:36px}
+  body.xg .elementor:not(#_) .sv-stats-band{grid-template-columns:repeat(2,minmax(0,1fr));row-gap:26px}
+  body.xg .elementor:not(#_) .sv-stat:nth-child(3)::before{display:none}
+}
+@media(max-width:768px){
+  body.xg .elementor:not(#_) .sv-panel{width:calc(100% - 16px);margin:14px auto;border-radius:26px}
+  body.xg .elementor:not(#_) :is(.sv-info,.sv-stats,.sv-reasons,.sv-content,.sv-why,.sv-reviews,.sv-steps,.sv-faq,.sv-cta){padding:48px 16px}
+  body.xg .elementor:not(#_) .sv-info{padding-top:0;padding-bottom:24px}
+  body.xg .elementor:not(#_) .sv-info > .container{margin-top:0}
+  body.xg .elementor:not(#_) .hero{padding-bottom:40px}
+  body.xg .elementor:not(#_) .sv-stats{padding-top:8px;padding-bottom:24px}
+  body.xg .elementor:not(#_) .sv-head{margin-bottom:30px}
+  body.xg .elementor:not(#_) .sv-grid-3{grid-template-columns:1fr;gap:14px}
+  body.xg .elementor:not(#_) .sv-card,body.xg .elementor:not(#_) .sv-step{padding:20px}
+  body.xg .elementor:not(#_) .sv-row{grid-template-columns:1fr;gap:24px;margin-top:40px}
+  body.xg .elementor:not(#_) .sv-row-rev .sv-row-media{order:0}
+  body.xg .elementor:not(#_) .sv-stat-num{font-size:1.9rem}
+  body.xg .elementor:not(#_) .sv-rating{grid-template-columns:1fr}
+  body.xg .elementor:not(#_) .sv-rating-score{padding:26px;align-items:center;text-align:center}
+  body.xg .elementor:not(#_) .sv-rating-dist{padding:22px}
+  body.xg .elementor:not(#_) .sv-reviews-grid{grid-template-columns:none;grid-auto-flow:column;grid-auto-columns:82%;overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:8px;-webkit-overflow-scrolling:touch;scrollbar-width:none}
+  body.xg .elementor:not(#_) .sv-reviews-grid::-webkit-scrollbar{display:none}
+  body.xg .elementor:not(#_) .sv-review{scroll-snap-align:start}
+  body.xg .elementor:not(#_) .sv-faq-item{padding:0 16px}
+  body.xg .elementor:not(#_) .sv-cta-card{padding:44px 20px;border-radius:24px}
+}
+@media(min-width:769px) and (max-width:1024px){ body.xg .elementor:not(#_) .sv-info .sv-grid-3,body.xg .elementor:not(#_) .sv-steps .sv-grid-3{grid-template-columns:repeat(3,minmax(0,1fr));gap:14px} body.xg .elementor:not(#_) .sv-info .sv-card,body.xg .elementor:not(#_) .sv-steps .sv-step{padding:20px} }
+
+/* ================================================================
+   ONE CARD SYSTEM for the home page (consistent radius, border, padding, shadow, hover)
+   ================================================================ */
+:root{--card-r:20px;--card-b:1px solid rgba(43,143,209,.14);--card-sh:0 1px 2px rgba(12,30,46,.04),0 14px 32px -22px rgba(20,96,143,.42);--card-sh-h:0 2px 4px rgba(12,30,46,.05),0 24px 46px -26px rgba(20,96,143,.55);--card-b-h:rgba(43,143,209,.42)}
+body.xg .elementor:not(#_) :is(.sv-card,.sv-step,.sv-review,.compat2-card,.pcard,.sv-faq-item){background:#fff;border:var(--card-b);border-radius:var(--card-r);box-shadow:var(--card-sh);transition:border-color .25s,box-shadow .25s!important;transform:none!important}
+body.xg .elementor:not(#_) :is(.sv-card,.sv-step,.sv-review,.compat2-card,.pcard):hover{border-color:var(--card-b-h);box-shadow:var(--card-sh-h);transform:none!important}
+body.xg .elementor:not(#_) :is(.sv-card,.sv-step){padding:24px}
+body.xg .elementor:not(#_) .sv-review{padding:22px}
+body.xg .elementor:not(#_) .sv-faq-item{box-shadow:0 8px 20px -18px rgba(20,96,143,.45)}
+body.xg .elementor:not(#_) :is(.sv-rating,.live-video,.sv-row-img){border-radius:24px}
+body.xg .elementor:not(#_) .sv-cta-card{border-radius:28px}
+/* pricing: same card style, Best Seller marked by its blue border + badge only (no scaling / lifting) */
+body.xg .elementor:not(#_) .pcard{padding:30px 24px}
+body.xg .elementor:not(#_) .pcard.pop{border:2px solid #2B8FD1;box-shadow:0 24px 50px -26px rgba(20,96,143,.6)}
+body.xg .elementor:not(#_) .pcard.pop:hover{border-color:#14608F}
+/* card titles / text: one scale everywhere */
+body.xg .elementor:not(#_) :is(.sv-card,.sv-step) .sv-card-t{font-size:1.05rem}
+body.xg .elementor:not(#_) .sv-mini .sv-card-t{font-size:1rem}
+body.xg .elementor:not(#_) :is(.sv-card,.sv-step,.sv-review) :is(.sv-card-p,.sv-review-p){font-size:.9rem;line-height:1.65;color:var(--text-2)}
+/* icon tiles: same size in every card */
+body.xg .elementor:not(#_) .sv-card .sv-ico{width:50px;height:50px;border-radius:14px}
+body.xg .elementor:not(#_) .sv-mini{grid-template-columns:50px 1fr}
+/* Compatibility: logos without the tile background */
+body.xg .elementor:not(#_) .compat2-ico{background:transparent!important;border:0!important;padding:0!important;box-shadow:none!important;border-radius:0}
+body.xg .elementor:not(#_) .compat2-logo{width:100%;height:100%;object-fit:contain}
+/* phones: panels already inset the content, so do not double the side padding */
+@media(max-width:768px){
+  body.xg .elementor:not(#_) .sv-panel{padding-left:14px!important;padding-right:14px!important}
+  body.xg .elementor:not(#_) :is(.sv-card,.sv-step){padding:20px}
+  body.xg .elementor:not(#_) .sv-mini{grid-template-columns:44px 1fr;column-gap:14px;padding:18px}
+  body.xg .elementor:not(#_) .sv-card .sv-ico{width:44px;height:44px;border-radius:12px}
+  body.xg .elementor:not(#_) .pcard{padding:26px 20px}
+}
+@media(max-width:768px){ body.xg .elementor:not(#_) :is(.sv-info,.sv-stats,.sv-reasons,.sv-content,.sv-why,.sv-reviews,.sv-steps,.sv-faq,.sv-cta) > .container{padding-left:0;padding-right:0} }
+/* info cards overlap the hero: this section must not clip what is drawn outside its box */
+body.xg .elementor:not(#_) .sv-info{content-visibility:visible!important;contain:none!important;overflow:visible!important}
+
+/* ---------- home tweaks (2026-11-10): 4 centered reviews, icons without tiles, coverage image without frame */
+body.xg .elementor:not(#_) .sv-reviews-grid{grid-template-columns:repeat(4,minmax(0,280px));justify-content:center}
+@media(max-width:1199px){ body.xg .elementor:not(#_) .sv-reviews-grid{grid-template-columns:repeat(2,minmax(0,340px))} }
+@media(max-width:768px){ body.xg .elementor:not(#_) .sv-reviews-grid{grid-template-columns:minmax(0,420px);grid-auto-flow:row;grid-auto-columns:auto;overflow:visible;padding-bottom:0;justify-content:center} }
+/* card icons: just the icon, no tile background */
+body.xg .elementor:not(#_) .sv-ico,body.xg .elementor:not(#_) .sv-card .sv-ico{background:transparent!important;border:0!important;border-radius:0;width:auto;height:auto;justify-content:flex-start}
+body.xg .elementor:not(#_) .sv-ico svg{width:30px;height:30px}
+body.xg .elementor:not(#_) .sv-mini{grid-template-columns:34px 1fr;column-gap:14px}
+body.xg .elementor:not(#_) .sv-mini .sv-ico{padding-top:2px}
+body.xg .elementor:not(#_) .sv-check .sv-ico svg{width:20px;height:20px}
+@media(max-width:768px){ body.xg .elementor:not(#_) .sv-mini{grid-template-columns:30px 1fr} body.xg .elementor:not(#_) .sv-ico svg{width:26px;height:26px} }
+/* coverage image: no frame, no shadow, no rounded box */
+body.xg .elementor:not(#_) .sv-row-img:not(.sv-row-app){border-radius:0!important;box-shadow:none!important;background:transparent!important}
+/* stats band: soft site-style shadow, never clipped by its section */
+body.xg .elementor:not(#_) .sv-stats{content-visibility:visible!important;contain:none!important;overflow:visible!important}
+body.xg .elementor:not(#_) .sv-stats-band{box-shadow:0 1px 2px rgba(12,30,46,.05),0 18px 36px -22px rgba(20,96,143,.45)!important}
+/* menu button never wraps; a bit more compact on small laptops / tablets */
+body.xg .elementor:not(#_) .nav-cta{white-space:nowrap}
+@media(min-width:769px) and (max-width:1100px){ body.xg .elementor:not(#_) .nav-cta{padding:10px 18px;font-size:.84rem} body.xg .elementor:not(#_) .nav-links{gap:2px} body.xg .elementor:not(#_) .nav-links a{padding:6px 8px} }
+@media(max-width:900px){ body.xg .elementor:not(#_) .nav-links,body.xg .elementor:not(#_) .nav-cta{display:none!important} body.xg .elementor:not(#_) .nav-mobile-toggle{display:flex!important} }
+
+/* ---------- Key Features row 2: Reseller Program with a dashboard card (replaces "Our App") */
+body.xg .elementor:not(#_) .sv-dash{position:relative;max-width:500px;margin:0 auto;background:#fff;border:var(--card-b);border-radius:var(--card-r);box-shadow:0 1px 2px rgba(12,30,46,.05),0 30px 60px -34px rgba(20,96,143,.55);overflow:visible}
+body.xg .elementor:not(#_) .sv-dash-bar{display:flex;align-items:center;gap:12px;padding:14px 18px;border-bottom:1px solid rgba(43,143,209,.12);background:linear-gradient(135deg,#0F2840,#1A4A6E);border-radius:var(--card-r) var(--card-r) 0 0}
+body.xg .elementor:not(#_) .sv-dash-dots{display:flex;gap:6px}
+body.xg .elementor:not(#_) .sv-dot{width:10px;height:10px;border-radius:50%}
+body.xg .elementor:not(#_) .sv-dot.r{background:#F87171}body.xg .elementor:not(#_) .sv-dot.y{background:#FBBF24}body.xg .elementor:not(#_) .sv-dot.g{background:#34D399}
+body.xg .elementor:not(#_) .sv-dash-title{flex:1;color:#fff;font-weight:700;font-size:.88rem}
+body.xg .elementor:not(#_) .sv-dash-live{display:inline-flex;align-items:center;gap:6px;font-size:.7rem;font-weight:800;letter-spacing:.8px;text-transform:uppercase;color:#fff;background:rgba(255,255,255,.14);padding:4px 10px;border-radius:9999px}
+body.xg .elementor:not(#_) .sv-dash-live::before{content:"";width:6px;height:6px;border-radius:50%;background:#34D399;animation:blink 1.4s infinite}
+body.xg .elementor:not(#_) .sv-dash-stats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;padding:18px}
+body.xg .elementor:not(#_) .sv-dash-stat{background:#F5FAFE;border:1px solid rgba(43,143,209,.12);border-radius:14px;padding:14px 12px;text-align:center;display:flex;flex-direction:column;align-items:center;gap:4px}
+body.xg .elementor:not(#_) .sv-dash-stat .sv-ico{justify-content:center}
+body.xg .elementor:not(#_) .sv-dash-stat .sv-ico svg{width:20px;height:20px}
+body.xg .elementor:not(#_) .sv-dash-num{font-family:'Sora',sans-serif;font-weight:800;font-size:1.35rem;color:var(--text);line-height:1.1}
+body.xg .elementor:not(#_) .sv-dash-lbl{font-size:.74rem;color:var(--text-3);font-weight:600}
+body.xg .elementor:not(#_) .sv-dash-rows{display:flex;flex-direction:column;padding:0 18px 20px;gap:10px}
+body.xg .elementor:not(#_) .sv-dash-row{display:flex;align-items:center;gap:12px;padding:10px 12px;border:1px solid rgba(43,143,209,.1);border-radius:12px}
+body.xg .elementor:not(#_) .sv-dash-av{width:34px;height:34px;border-radius:50%;background:#EAF4FC;color:#14608F;font-weight:800;font-size:.85rem;display:flex;align-items:center;justify-content:center;flex-shrink:0}
+body.xg .elementor:not(#_) .sv-dash-who{flex:1;min-width:0}
+body.xg .elementor:not(#_) .sv-dash-name{font-weight:700;font-size:.86rem;color:var(--text)}
+body.xg .elementor:not(#_) .sv-dash-plan{font-size:.74rem;color:var(--text-3)}
+body.xg .elementor:not(#_) .sv-dash-badge{font-size:.7rem;font-weight:700;color:#16a34a;background:rgba(22,163,74,.1);padding:4px 10px;border-radius:9999px}
+body.xg .elementor:not(#_) .sv-dash-tag{position:absolute;right:-14px;bottom:-18px;display:flex;align-items:baseline;gap:5px;background:#2B8FD1;color:#fff;padding:10px 16px;border-radius:14px;box-shadow:0 14px 28px -14px rgba(20,96,143,.8)}
+body.xg .elementor:not(#_) .sv-dash-tag-s{font-size:.72rem;font-weight:600;opacity:.9}
+body.xg .elementor:not(#_) .sv-dash-tag-n{font-family:'Sora',sans-serif;font-weight:800;font-size:1.2rem}
+@media(max-width:768px){
+  body.xg .elementor:not(#_) .sv-dash-stats{gap:8px;padding:14px}
+  body.xg .elementor:not(#_) .sv-dash-stat{padding:10px 6px}
+  body.xg .elementor:not(#_) .sv-dash-num{font-size:1.1rem}
+  body.xg .elementor:not(#_) .sv-dash-rows{padding:0 14px 26px}
+  body.xg .elementor:not(#_) .sv-dash-tag{right:10px;bottom:-16px;padding:8px 14px}
+}
+
+/* ---------- Reseller row: 2x2 compact feature cards (replaces the dashboard panel) */
+body.xg .elementor:not(#_) .sv-rfeat-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;align-content:center}
+body.xg .elementor:not(#_) .sv-rfeat{display:flex;align-items:flex-start;gap:14px;padding:20px;background:#fff;border:var(--card-b);border-radius:16px;box-shadow:var(--card-sh);transition:border-color .25s,box-shadow .25s}
+body.xg .elementor:not(#_) .sv-rfeat:hover{border-color:var(--card-b-h);box-shadow:var(--card-sh-h)}
+body.xg .elementor:not(#_) .sv-rfeat .sv-ico{padding-top:2px}
+body.xg .elementor:not(#_) .sv-rfeat .sv-ico svg{width:24px;height:24px}
+body.xg .elementor:not(#_) .sv-rfeat-txt{min-width:0}
+body.xg .elementor:not(#_) .sv-rfeat-t{font-family:'Sora',sans-serif;font-weight:800;font-size:.98rem;line-height:1.3;color:var(--text);margin:0 0 6px}
+body.xg .elementor:not(#_) .sv-rfeat-p{font-size:.85rem;line-height:1.55;color:var(--text-2);margin:0}
+@media(max-width:600px){ body.xg .elementor:not(#_) .sv-rfeat-grid{grid-template-columns:1fr;gap:12px} body.xg .elementor:not(#_) .sv-rfeat{padding:16px} }
+@media(min-width:769px) and (max-width:1199px){ body.xg .elementor:not(#_) .sv-rfeat-grid{grid-template-columns:1fr;gap:12px} body.xg .elementor:not(#_) .sv-rfeat{padding:16px 18px} }
+
+/* Coverage row buttons run right-to-left (mirror of the Reseller row below): View Plans on the far right, Free Trial to its left */
+@media(min-width:769px){ body.xg .elementor:not(#_) .sv-btns-rtl{flex-direction:row-reverse;justify-content:flex-start} }
+
+/* bold theme-blue line leading into the button pairs (Coverage: from the left, Reseller: from the right) */
+@media(min-width:769px){
+  body.xg .elementor:not(#_) :is(.sv-btns-rtl,.sv-btns-ltr){flex-wrap:nowrap;align-items:center}
+  body.xg .elementor:not(#_) :is(.sv-btns-rtl,.sv-btns-ltr)::after{content:"";flex:1 1 auto;min-width:32px;height:4px;border-radius:4px;align-self:center}
+  body.xg .elementor:not(#_) .sv-btns-rtl::after{margin-right:6px;background:linear-gradient(90deg,rgba(43,143,209,0) 0%,#3BA0E0 45%,#2B8FD1 100%)}
+  body.xg .elementor:not(#_) .sv-btns-ltr::after{margin-left:6px;background:linear-gradient(90deg,#2B8FD1 0%,#3BA0E0 55%,rgba(43,143,209,0) 100%)}
+}
+@media(min-width:769px){ body.xg .elementor:not(#_) :is(.sv-btns-rtl,.sv-btns-ltr) > .btn{flex-shrink:0;white-space:nowrap} }
+
+/* no floating-panel background for Pricing, Entertainment and Reviews (user request) */
+body.xg .elementor:not(#_) :is(.price-sec,.sv-content,.sv-reviews){background:transparent!important;border:0!important;box-shadow:none!important;border-radius:0!important;width:auto!important;max-width:none!important;margin:0!important;overflow:visible!important;isolation:auto}
+body.xg .elementor:not(#_) :is(.price-sec,.sv-content,.sv-reviews)::before,body.xg .elementor:not(#_) :is(.price-sec,.sv-content,.sv-reviews)::after{display:none!important;content:none!important}
+/* hero right column: no white halo / heavy shadow around the matches ticker, just the normal card shadow */
+body.xg .elementor:not(#_) .hero-right .hero-ticker{box-shadow:var(--card-sh)!important;border:var(--card-b)!important}
+
+/* NO floating-panel backgrounds anywhere on the site (user request): every section sits on the site background */
+body.xg .elementor:not(#_) :is(.sv-panel,.feat-sec,.price-sec,.sec[style*="sky-mid"],.test-sec,.app-sec,.pg-header ~ .sec,.reseller-features,.reseller-sec.alt,.sv-content,.sv-reviews,.sv-faq){background:transparent!important;border:0!important;box-shadow:none!important;border-radius:0!important;width:auto!important;max-width:none!important;margin:0!important;isolation:auto}
+body.xg .elementor:not(#_) :is(.sv-panel,.feat-sec,.price-sec,.sec[style*="sky-mid"],.test-sec,.app-sec,.pg-header ~ .sec,.reseller-features,.reseller-sec.alt,.sv-content,.sv-reviews,.sv-faq)::after{display:none!important;content:none!important}
+body.xg .elementor:not(#_) :is(.sv-panel,.feat-sec,.price-sec,.sec[style*="sky-mid"],.test-sec,.app-sec,.pg-header ~ .sec:not(.ch-feat-sec),.reseller-features,.reseller-sec.alt,.sv-content,.sv-reviews,.sv-faq)::before{display:none!important;content:none!important}
+body.xg .elementor:not(#_) .pg-header ~ .sec.sec:not(.no-panel),body.xg .elementor:not(#_) .reseller-sec.alt.alt:not(.no-panel),body.xg .elementor:not(#_) .sec.sec[style*="sky-mid"]:not(.no-panel){background:transparent!important;border:0!important;box-shadow:none!important;border-radius:0!important;width:auto!important;max-width:none!important;margin:0!important}
+
+/* ---------- bold theme-blue lead-in line for every left/right-aligned button group
+   (same line as Coverage / Reseller): buttons on the left → line runs out to the right;
+   buttons on the right → line comes in from the left. Only where buttons sit beside free space. */
+/* Premium Events & Football Matches: buttons left */
+@media(min-width:769px){
+  body.xg .elementor:not(#_) .live-btns{display:flex;flex-wrap:nowrap;align-items:center}
+  body.xg .elementor:not(#_) .live-btns > .btn{flex-shrink:0;white-space:nowrap}
+  body.xg .elementor:not(#_) .live-btns::after{content:"";flex:1 1 auto;min-width:32px;height:4px;border-radius:4px;margin-left:6px;background:linear-gradient(90deg,#2B8FD1 0%,#3BA0E0 55%,rgba(43,143,209,0) 100%)}
+}
+/* Hero: buttons left (two-column hero only, above 1024px) */
+@media(min-width:1025px){
+  body.xg .elementor:not(#_) .hero-btns{flex-wrap:nowrap;align-items:center}
+  body.xg .elementor:not(#_) .hero-btns > .btn{flex-shrink:0;white-space:nowrap}
+  body.xg .elementor:not(#_) .hero-btns::after{content:"";flex:1 1 auto;min-width:32px;height:4px;border-radius:4px;margin-left:6px;background:linear-gradient(90deg,#2B8FD1 0%,#3BA0E0 55%,rgba(43,143,209,0) 100%)}
+}
+/* Compatibility: Setup Guide button on the right, line comes in from the left (between the text and the button) */
+@media(min-width:769px){
+  body.xg .elementor:not(#_) .compat2-head{gap:0}
+  body.xg .elementor:not(#_) .compat2-head-text{flex:0 1 640px;margin-right:24px}
+  body.xg .elementor:not(#_) .compat2-head::after{content:"";order:1;flex:1 1 auto;min-width:32px;height:4px;border-radius:4px;align-self:flex-end;margin:0 6px 29px 0;background:linear-gradient(90deg,rgba(43,143,209,0) 0%,#3BA0E0 45%,#2B8FD1 100%)}
+  body.xg .elementor:not(#_) .compat2-btn{order:2}
+}
+
+/* large screens: the hero fills the whole screen and shows only its own content (info cards no longer overlap it) */
+@media(min-width:1025px){
+  body.xg .elementor:not(#_) .hero{min-height:100vh;min-height:100svh;display:flex;flex-direction:column;justify-content:center;padding-top:110px;padding-bottom:30px}
+  body.xg .elementor:not(#_) .hero-grid{width:100%;align-items:center}
+  body.xg .elementor:not(#_) .sv-info > .container{margin-top:0}
+  body.xg .elementor:not(#_) .sv-info{padding-top:72px}
+}/* End custom CSS */
